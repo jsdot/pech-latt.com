@@ -1,0 +1,112 @@
+# o2switch pagespeed start / DO NOT REMOVE OR EDIT
+<IfModule pagespeed_module>
+ModPagespeed on
+ModPagespeedRewriteLevel PassThrough
+ModPagespeedEnableFilters add_head,canonicalize_javascript_libraries,collapse_whitespace,combine_css,combine_heads,elide_attributes,extend_cache,recompress_images,flatten_css_imports,hint_preload_subresources,lazyload_images,rewrite_javascript,move_css_above_scripts,move_css_to_head,insert_dns_prefetch,remove_comments,remove_quotes,rewrite_images,strip_image_meta_data,sprite_images
+</IfModule>
+# o2switch pagespeed end / DO NOT REMOVE OR EDIT
+
+# o2s WpTiger Begin - Dont edit - Ne pas modifier - commentSpam
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_METHOD} POST
+    RewriteCond %{REQUEST_URI} .wp-comments-post\.php*
+    RewriteCond %{HTTP_REFERER} !.pech-latt.com.* [OR]
+    RewriteCond %{HTTP_USER_AGENT} ^$
+    RewriteRule .* - [F,L]
+</IfModule>
+# o2s WpTiger End - Dont edit - Ne pas modifier - commentSpam
+# o2s WpTiger Begin - Dont edit - Ne pas modifier - blockXmlrpc
+<Files xmlrpc.php>
+    order deny,allow
+    deny from all
+</Files>
+# o2s WpTiger End - Dont edit - Ne pas modifier - blockXmlrpc
+# o2s WpTiger Begin - Dont edit - Ne pas modifier - blockReadmeFiles
+<Files "readme.html|license.txt">
+    Deny from all
+</Files>
+# o2s WpTiger End - Dont edit - Ne pas modifier - blockReadmeFiles
+# o2s WpTiger Begin - Dont edit - Ne pas modifier - authorLink
+<IfModule mod_rewrite.c>
+    RewriteCond %{QUERY_STRING} ^author=([0-9]*)
+    RewriteRule .* - [F,L]
+</IfModule>
+# o2s WpTiger End - Dont edit - Ne pas modifier - authorLink
+# o2s WpTiger Begin - Dont edit - Ne pas modifier - blockErrorLogFiles
+<Files ~ "error_log">
+    Deny from all
+</Files>
+# o2s WpTiger End - Dont edit - Ne pas modifier - blockErrorLogFiles
+# o2s WpTiger Begin - Dont edit - Ne pas modifier - blockSqlDownload
+<Files ~ "\.(sql\.gz|sql\.zip|sql)$">
+    Deny from all
+</Files>
+# o2s WpTiger End - Dont edit - Ne pas modifier - blockSqlDownload
+# o2s WpTiger Begin - Dont edit - Ne pas modifier - forceHttps
+RewriteEngine On
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteCond %{HTTPS} !on
+RewriteRule ^(.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+# o2s WpTiger End - Dont edit - Ne pas modifier - forceHttps
+# o2s WpTiger Begin - Dont edit - Ne pas modifier - directoryListing
+Options All -Indexes
+# o2s WpTiger End - Dont edit - Ne pas modifier - directoryListing
+
+## WP Defender - Prevent information disclosure ##
+
+<FilesMatch "\.(md|exe|sh|bak|inc|pot|po|mo|log|sql)$">
+	Order allow,deny
+	Deny from all
+</FilesMatch>
+
+<Files robots.txt>
+	Allow from all
+</Files>
+
+<Files ads.txt>
+	Allow from all
+</Files>
+
+## WP Defender - End ##
+
+# Wordfence WAF
+<Files ".user.ini">
+	<IfModule mod_authz_core.c>
+		Require all denied
+	</IfModule>
+	<IfModule !mod_authz_core.c>
+		Order deny,allow
+		Deny from all
+	</IfModule>
+</Files>
+
+# END Wordfence WAF
+
+# BEGIN WPSuperCache
+# Les directives (lignes) entre « BEGIN WPSuperCache » et « END WPSuperCache » sont générées
+# dynamiquement, et doivent être modifiées uniquement via les filtres WordPress.
+# Toute modification des directives situées entre ces marqueurs sera surchargée.
+# END WPSuperCache
+
+# BEGIN WordPress
+# Les directives (lignes) entre « BEGIN WordPress » et « END WordPress » sont générées
+# dynamiquement, et doivent être modifiées uniquement via les filtres WordPress.
+# Toute modification des directives situées entre ces marqueurs sera surchargée.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+
+
+
+
+

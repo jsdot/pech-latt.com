@@ -1,0 +1,3 @@
+/wp-content/plugins/translatepress-multilingual/assets/js/trp-frontend-compatibility.js
+/wp-content/cache/asset-cleanup/js/item/translatepress-multilingual__assets__js__trp-frontend-compatibility-js-v1794b9b2d7f3b16cfbbf6712e2a46a8b0f1b4b50.js
+1770201394

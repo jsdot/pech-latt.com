@@ -1,0 +1,11 @@
+.tc-final-price-total.active {
+	border-top: 1px dotted;
+	margin-top: 1em;
+	padding-bottom: 1em;
+	padding-top: 1em;
+}
+
+.tc-final-price-totals .amount.final {
+	font-size: 1.5em;
+	font-weight: bold;
+}

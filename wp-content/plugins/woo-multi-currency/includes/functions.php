@@ -1,0 +1,522 @@
+<?php
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
+/**
+ * Function include all files in folder
+ *
+ * @param $path   Directory address
+ * @param $ext    array file extension what will include
+ * @param $prefix string Class prefix
+ */
+if ( ! function_exists( 'vi_include_folder' ) ) {
+	function vi_include_folder( $path, $prefix = '', $ext = array( 'php' ) ) {
+
+		/*Include all files in payment folder*/
+		if ( ! is_array( $ext ) ) {
+			$ext = explode( ',', $ext );
+			$ext = array_map( 'trim', $ext );
+		}
+		$sfiles = scandir( $path );
+		if ( ! is_array( $sfiles ) ) {
+			return;
+		}
+		foreach ( $sfiles as $sfile ) {
+			if ( $sfile != '.' && $sfile != '..' ) {
+				if ( is_file( $path . "/" . $sfile ) ) {
+					$ext_file  = pathinfo( $path . "/" . $sfile );
+					$file_name = $ext_file['filename'];
+					if ( isset( $ext_file['extension'] ) && $ext_file['extension'] ) {
+						if ( in_array( $ext_file['extension'], $ext ) ) {
+							$class = preg_replace( '/\W/i', '_', $prefix . ucfirst( $file_name ) );
+
+							if ( ! class_exists( $class ) ) {
+								require_once $path . $sfile;
+								if ( class_exists( $class ) ) {
+									new $class;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+if ( ! function_exists( 'wmc_get_template' ) ) {
+	/**
+	 * Load template. It can override in theme
+	 *
+	 * @param        $template_name
+	 * @param array $args
+	 * @param string $template_path
+	 * @param string $default_path
+	 */
+	function wmc_get_template( $template_name, $args = array(), $template_path = '', $default_path = '' ) {
+		if ( $args && is_array( $args ) ) {
+			extract( $args );
+		}
+
+		$located = wmc_locate_template( $template_name, $template_path, $default_path );
+
+		if ( ! file_exists( $located ) ) {
+			_doing_it_wrong( __FUNCTION__, sprintf( '<code>%s</code> does not exist.', esc_url( $located ) ), '2.1' );
+
+			return;
+		}
+
+		// Allow 3rd party plugin filter template file from their plugin.
+		$located = apply_filters( 'wmc_get_template', $located, $template_name, $args, $template_path, $default_path );
+		do_action( 'wmc_before_template_part', $template_name, $template_path, $located, $args );
+		include( $located );
+		do_action( 'wmc_template_part', $template_name, $template_path, $located, $args );
+	}
+}
+if ( ! function_exists( 'wmc_locate_template' ) ) {
+	/**
+	 * Get path of template
+	 *
+	 * @param        $template_name
+	 * @param string $template_path
+	 * @param string $default_path
+	 *
+	 * @return mixed
+	 */
+
+	function wmc_locate_template( $template_name, $template_path = '', $default_path = '' ) {
+		if ( ! $template_path ) {
+			$template_path = '/woo-multi-currency/';
+		}
+		if ( ! $default_path ) {
+			$default_path = WOOMULTI_CURRENCY_F_TEMPLATES;
+		}
+		// Look within passed path within the theme - this is priority.
+		$template = locate_template( array( trailingslashit( $template_path ) . $template_name, $template_name ) );
+
+		// Get default template/
+		if ( ! $template ) {
+			$template = $default_path . $template_name;
+		}
+
+		// Return what we found.
+		return apply_filters( 'wmc_locate_template', $template, $template_name, $template_path );
+	}
+}
+if ( ! function_exists( 'wmc_is_checkout_payment_context' ) ) {
+	/**
+	 * Checkout payment / totals request where multi-pay OFF must use the default currency.
+	 * Detects classic WC AJAX before WOOCOMMERCE_CHECKOUT exists (defined on template_redirect).
+	 *
+	 * @return bool
+	 */
+	function wmc_is_checkout_payment_context() {
+		// phpcs:disable WordPress.Security.NonceVerification.Recommended -- WooCommerce checkout AJAX; no plugin nonce on wc-ajax.
+		if ( isset( $_REQUEST['wc-ajax'] ) ) {
+			$wc_ajax = sanitize_text_field( wp_unslash( $_REQUEST['wc-ajax'] ) );
+			if ( in_array( $wc_ajax, array( 'checkout', 'update_order_review' ), true ) ) {
+				return true;
+			}
+		}
+		// phpcs:enable WordPress.Security.NonceVerification.Recommended
+
+		if ( function_exists( 'is_checkout' ) && is_checkout() ) {
+			return true;
+		}
+
+		if ( class_exists( '\Automattic\Jetpack\Constants' ) && \Automattic\Jetpack\Constants::is_defined( 'WOOCOMMERCE_CHECKOUT' ) ) {
+			return true;
+		}
+
+		return defined( 'WOOCOMMERCE_CHECKOUT' ) && WOOCOMMERCE_CHECKOUT;
+	}
+}
+if ( ! function_exists( 'wmc_get_price' ) ) {
+	function wmc_get_price( $price, $currency_code = false, $is_shipping = false, $match_decimals = false ) {
+
+		if ( is_admin() && ! wp_doing_ajax() ) {
+			return $price;
+		}
+
+		$setting             = WOOMULTI_CURRENCY_F_Data::get_ins();
+		$allow_multi_pay     = $setting->get_enable_multi_payment();
+		$equivalent_currency = $setting->get_param( 'equivalent_currency' );
+
+		if ( isset( $price ) ) {
+			$price = (float) str_replace( ',', '.', $price );
+		}
+
+		if ( ! $allow_multi_pay && ! $equivalent_currency && wmc_is_checkout_payment_context() ) {
+			$default_currency = $setting->get_default_currency();
+			if ( $setting->get_current_currency() !== $default_currency ) {
+				$setting->set_current_currency( $default_currency, false );
+			}
+
+			return $price;
+		}
+		$match_decimals = apply_filters( 'wmc_convert_price_matching_decimals', $match_decimals, $currency_code, $is_shipping );
+		/*Check currency*/
+		$selected_currencies = $setting->get_list_currencies();
+		$current_currency    = $setting->get_current_currency();
+
+		if ( ! $current_currency ) {
+			return $price;
+		}
+		if ( $price ) {
+			if ( $currency_code && isset( $selected_currencies[ $currency_code ] ) ) {
+				$price = $price * (float) $selected_currencies[ $currency_code ]['rate'];
+				if ( $match_decimals ) {
+					$price = WOOMULTI_CURRENCY_F_Data::convert_price_to_float( $price, array( 'decimals' => absint( $selected_currencies[ $currency_code ]['decimals'] ) ) );
+				}
+				$price = $is_shipping ? $price : apply_filters( 'wmc_get_price', $price, $currency_code );
+				$price = WOOMULTI_CURRENCY_F_Frontend_Price::settle_price( $price, $currency_code );
+//				$price = apply_filters( 'wmc_get_price', $price, $currency_code );
+			} elseif ( isset( $selected_currencies[ $current_currency ] ) ) {
+				$price = $price * (float) $selected_currencies[ $current_currency ]['rate'];
+				if ( $match_decimals ) {
+					$price = WOOMULTI_CURRENCY_F_Data::convert_price_to_float( $price, array( 'decimals' => absint( $selected_currencies[ $current_currency ]['decimals'] ) ) );
+				}
+				$price = $is_shipping ? $price : apply_filters( 'wmc_get_price', $price, $current_currency );
+				$price = WOOMULTI_CURRENCY_F_Frontend_Price::settle_price( $price, $current_currency );
+//				$price = apply_filters( 'wmc_get_price', $price, $current_currency );
+			}
+		}
+
+		return (float) $price; //(float)
+	}
+}
+if ( ! function_exists( 'wmc_get_exchange_rate' ) ) {
+	function wmc_get_exchange_rate( $currency_code = '' ) {
+		if ( ! $currency_code ) {
+			return 1;
+		}
+
+		$setting             = WOOMULTI_CURRENCY_F_Data::get_ins();
+		$selected_currencies = $setting->get_list_currencies();
+		$rate                = 0.0;
+		if ( ( is_string( $currency_code ) || is_int( $currency_code ) ) && is_array( $selected_currencies ) && isset( $selected_currencies[ $currency_code ] ) && is_array( $selected_currencies[ $currency_code ] ) && isset( $selected_currencies[ $currency_code ]['rate'] ) ) {
+			$rate = (float) $selected_currencies[ $currency_code ]['rate'];
+		}
+
+		return $rate;
+	}
+}
+
+if ( ! function_exists( 'wmc_revert_price' ) ) {
+	function wmc_revert_price( $price, $currency_code = '' ) {
+		if ( '' === $price || null === $price || ! is_numeric( $price ) ) {
+			return false;
+		}
+		$setting          = WOOMULTI_CURRENCY_F_Data::get_ins();
+		$current_currency = $setting->get_current_currency();
+		$currency         = $currency_code ? $currency_code : $current_currency;
+		$rate             = wmc_get_exchange_rate( $currency );
+
+		return $rate ? (float)WOOMULTI_CURRENCY_F_Frontend_Price::settle_price( $price / $rate, $currency, false ) : '';
+	}
+}
+
+if ( ! function_exists( 'wmc_adjust_fixed_price' ) ) {
+	/**
+	 * @param $fixed_price
+	 *  replace decimal separator with '.' to process data or to save to database
+	 *
+	 * @return array
+	 */
+	function wmc_adjust_fixed_price( $fixed_price ) {
+		global $wmc_decimal_separator;
+		if ( ! $wmc_decimal_separator ) {
+			$wmc_decimal_separator = stripslashes( get_option( 'woocommerce_price_decimal_sep', '.' ) );
+		}
+		if ( $wmc_decimal_separator !== '.' && is_array( $fixed_price ) && count( $fixed_price ) ) {
+			foreach ( $fixed_price as $key => $value ) {
+				if ( is_array( $value ) ) {
+					$fixed_price[ $key ] = str_replace( $wmc_decimal_separator, '.', $value );
+				} else {
+					$fixed_price[ $key ] = str_replace( $wmc_decimal_separator, '.', (string) $value );
+				}
+			}
+		}
+
+		return $fixed_price;
+	}
+}
+if ( ! function_exists( 'villatheme_remove_object_filter' ) ) {
+	/**
+	 * Remove an object filter.
+	 *
+	 * @param string $tag Hook name.
+	 * @param string $class Class name. Use 'Closure' for anonymous functions.
+	 * @param string|void $method Method name. Leave empty for anonymous functions.
+	 * @param string|int|void $priority Priority
+	 *
+	 * @return void
+	 */
+	function villatheme_remove_object_filter( $tag, $class, $method = null, $priority = null ) {
+		global $wp_filter;
+		$filters = $wp_filter[ $tag ] ?? '';
+		if ( empty ( $filters ) ) {
+			return;
+		}
+		foreach ( $filters as $p => $filter ) {
+
+			if ( ! is_null( $priority ) && ( (int) $priority !== (int) $p ) ) {
+				continue;
+			}
+			$remove = false;
+			foreach ( $filter as $identifier => $function ) {
+				$function = $function['function'];
+				if (
+					is_array( $function )
+					&& (
+						is_a( $function[0], $class )
+						|| ( is_array( $function ) && $function[0] === $class )
+					)
+				) {
+					$remove = ( $method && ( $method === $function[1] ) );
+				} elseif ( $function instanceof Closure && $class === 'Closure' ) {
+					$remove = true;
+				}
+				if ( $remove ) {
+					$temp = $wp_filter[ $tag ][ $p ];
+					unset( $temp[ $identifier ] );
+					$wp_filter[ $tag ][ $p ] = $temp;
+				}
+			}
+		}
+	}
+}
+if ( ! function_exists( 'villatheme_woocommerce_version_check' ) ) {
+	function villatheme_woocommerce_version_check( $version = '3.0' ) {
+		global $woocommerce;
+
+		if ( version_compare( $woocommerce->version, $version, ">=" ) ) {
+			return true;
+		}
+
+		return false;
+	}
+}
+
+if ( ! function_exists( 'wmc_evaluate_conditional_tags' ) ) {
+	/**
+	 * Evaluate allowlisted WordPress/WooCommerce conditional tags without eval().
+	 * Empty or invalid expressions return true (no display restriction).
+	 *
+	 * @param string $expr Boolean expression of allowlisted is_*() calls.
+	 * @return bool
+	 */
+	function wmc_evaluate_conditional_tags( $expr ) {
+		$expr = trim( (string) $expr );
+		if ( '' === $expr ) {
+			return true;
+		}
+		if ( preg_match( '/[^a-zA-Z0-9()_\'"\s!|&,\[\]]/', $expr ) ) {
+			return true;
+		}
+
+		return wmc_eval_conditional_expression( $expr );
+	}
+}
+
+if ( ! function_exists( 'wmc_eval_conditional_expression' ) ) {
+	/**
+	 * @param string $expr Expression.
+	 * @return bool
+	 */
+	function wmc_eval_conditional_expression( $expr ) {
+		$expr = trim( (string) $expr );
+		if ( '' === $expr ) {
+			return true;
+		}
+
+		while ( '(' === $expr[0] && ')' === substr( $expr, - 1 ) && wmc_conditional_parens_wrap( $expr ) ) {
+			$expr = trim( substr( $expr, 1, - 1 ) );
+			if ( '' === $expr ) {
+				return true;
+			}
+		}
+
+		$or_parts = wmc_split_boolean_expression( $expr, '||' );
+		if ( count( $or_parts ) > 1 ) {
+			foreach ( $or_parts as $part ) {
+				if ( wmc_eval_conditional_expression( $part ) ) {
+					return true;
+				}
+			}
+
+			return false;
+		}
+
+		$and_parts = wmc_split_boolean_expression( $expr, '&&' );
+		if ( count( $and_parts ) > 1 ) {
+			foreach ( $and_parts as $part ) {
+				if ( ! wmc_eval_conditional_expression( $part ) ) {
+					return false;
+				}
+			}
+
+			return true;
+		}
+
+		if ( '!' === $expr[0] ) {
+			return ! wmc_eval_conditional_expression( substr( $expr, 1 ) );
+		}
+
+		return wmc_call_allowed_conditional( $expr );
+	}
+}
+
+if ( ! function_exists( 'wmc_conditional_parens_wrap' ) ) {
+	/**
+	 * @param string $expr Expression including wrapping parentheses.
+	 * @return bool
+	 */
+	function wmc_conditional_parens_wrap( $expr ) {
+		$depth  = 0;
+		$length = strlen( $expr );
+		for ( $i = 0; $i < $length; $i ++ ) {
+			if ( '(' === $expr[ $i ] ) {
+				++ $depth;
+			} elseif ( ')' === $expr[ $i ] ) {
+				-- $depth;
+				if ( 0 === $depth && $i < $length - 1 ) {
+					return false;
+				}
+			}
+		}
+
+		return 0 === $depth;
+	}
+}
+
+if ( ! function_exists( 'wmc_split_boolean_expression' ) ) {
+	/**
+	 * @param string $expr Expression.
+	 * @param string $op   '||' or '&&'.
+	 * @return array
+	 */
+	function wmc_split_boolean_expression( $expr, $op ) {
+		$parts  = array();
+		$buf    = '';
+		$depth  = 0;
+		$length = strlen( $expr );
+		$op_len = strlen( $op );
+		for ( $i = 0; $i < $length; $i ++ ) {
+			$ch = $expr[ $i ];
+			if ( '(' === $ch ) {
+				++ $depth;
+			} elseif ( ')' === $ch ) {
+				-- $depth;
+			}
+			if ( 0 === $depth && $op === substr( $expr, $i, $op_len ) ) {
+				$parts[] = trim( $buf );
+				$buf     = '';
+				$i      += $op_len - 1;
+				continue;
+			}
+			$buf .= $ch;
+		}
+		$parts[] = trim( $buf );
+
+		return $parts;
+	}
+}
+
+if ( ! function_exists( 'wmc_call_allowed_conditional' ) ) {
+	/**
+	 * @param string $call Function call string.
+	 * @return bool
+	 */
+	function wmc_call_allowed_conditional( $call ) {
+		$call = trim( $call );
+		if ( ! preg_match( '/^([a-zA-Z_][a-zA-Z0-9_]*)\s*\((.*)\)\s*$/s', $call, $match ) ) {
+			return false;
+		}
+		$func       = $match[1];
+		$args       = trim( $match[2] );
+		$allow_func = array(
+			'is_home',
+			'is_front_page',
+			'is_single',
+			'is_page',
+			'is_attachment',
+			'is_singular',
+			'is_archive',
+			'is_category',
+			'is_tag',
+			'is_author',
+			'is_date',
+			'is_year',
+			'is_month',
+			'is_day',
+			'is_search',
+			'is_404',
+			'is_post_type_archive',
+			'is_admin',
+			'is_user_logged_in',
+			'is_active_sidebar',
+			'is_woocommerce',
+			'is_shop',
+			'is_product',
+			'is_product_category',
+			'is_product_tag',
+			'is_product_taxonomy',
+			'is_account_page',
+			'is_cart',
+			'is_checkout',
+			'is_order_received_page',
+		);
+		if ( ! in_array( $func, $allow_func, true ) || ! function_exists( $func ) ) {
+			return false;
+		}
+		if ( '' === $args ) {
+			return (bool) call_user_func( $func );
+		}
+		if ( preg_match( '/^([\'"])(.*)\1$/', $args, $str ) ) {
+			return (bool) call_user_func( $func, $str[2] );
+		}
+		if ( is_numeric( $args ) ) {
+			return (bool) call_user_func( $func, 0 + $args );
+		}
+		if ( preg_match( '/^array\s*\((.*)\)\s*$/is', $args, $arr ) ) {
+			$items = wmc_parse_conditional_array_args( $arr[1] );
+			if ( null === $items ) {
+				return false;
+			}
+
+			return (bool) call_user_func( $func, $items );
+		}
+
+		return false;
+	}
+}
+
+if ( ! function_exists( 'wmc_parse_conditional_array_args' ) ) {
+	/**
+	 * Parse array('a','b') / array(1, 2) argument lists for conditional tags.
+	 *
+	 * @param string $inner Inner contents of array().
+	 * @return array|null
+	 */
+	function wmc_parse_conditional_array_args( $inner ) {
+		$inner = trim( $inner );
+		if ( '' === $inner ) {
+			return array();
+		}
+		$items = array();
+		if ( ! preg_match_all( '/([\'"])((?:\\\\.|(?!\1).)*)\1|(-?\d+(?:\.\d+)?)/', $inner, $matches, PREG_SET_ORDER ) ) {
+			return null;
+		}
+		foreach ( $matches as $match ) {
+			if ( isset( $match[1] ) && '' !== $match[1] ) {
+				$items[] = isset( $match[2] ) ? stripcslashes( $match[2] ) : '';
+			} elseif ( isset( $match[3] ) && '' !== $match[3] ) {
+				$items[] = 0 + $match[3];
+			}
+		}
+
+		return $items;
+	}
+}
+

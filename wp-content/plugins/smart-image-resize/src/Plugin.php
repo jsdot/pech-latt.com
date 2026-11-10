@@ -1,0 +1,297 @@
+<?php
+
+namespace WP_Smart_Image_Resize;
+
+use WP_Smart_Image_Resize\Utilities\Env;
+
+/*
+ * Class WP_Smart_Image_Resize\Plugin
+ *
+ * @package WP_Smart_Image_Resize\Inc
+ */
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit();
+}
+
+if ( ! class_exists( '\WP_Smart_Image_Resize\Plugin' ) ) :
+	class Plugin {
+		protected static $instance = null;
+
+		/**
+		 * @return Plugin
+		 */
+		public static function get_instance() {
+			if ( is_null( static::$instance ) ) {
+				static::$instance = new Plugin();
+			}
+
+			return static::$instance;
+		}
+
+		/**
+		 * Run plugin.
+		 */
+		public function run() {
+			$this->define_hooks();
+			$this->load_dependencies();
+			$this->maybe_upgrade();
+			if ( Env::browser_supposts_webp() ) {
+				@setcookie( '_http_accept:image/webp', '1', 0, '/');
+			}
+		}
+
+		function maybe_upgrade() {
+
+			// Keep track of previous version.
+			update_option( 'wp_sir_prev_plugin_version', get_option( 'wp_sir_plugin_version' ) );
+
+			// Update the plugin version.
+			update_option( 'wp_sir_plugin_version', WP_SIR_VERSION );
+
+			// Create / upgrade bulk processor DB tables if needed.
+			Bulk_Processor::install();
+		}
+
+		/**
+		 * Load js scripts.
+		 *
+		 * @return void
+		 */
+		public function enqueue_scripts() {
+			if ( ! $this->can_enqueue_scripts() ) {
+				return;
+			}
+
+			wp_enqueue_media();
+
+			wp_enqueue_script( 'wp-color-picker' );
+			wp_enqueue_script( 'jquery-ui-progressbar' );
+			$script_deps = [ 'wp-color-picker', 'jquery-ui-progressbar' ];
+			if ( wp_sir_is_woocommerce_activated() ) {
+				$script_deps[] = 'jquery-tiptip';
+			}
+			wp_enqueue_script(
+				WP_SIR_NAME,
+				WP_SIR_URL . 'js/scripts.js',
+				$script_deps,
+				$this->get_main_build_version( 'js/scripts.js' ),
+				true
+			);
+
+			wp_localize_script( 'wp-smart-image-resize', 'wp_sir_object', [
+				'ajax_url'                 => admin_url( 'admin-ajax.php' ),
+				'nonce'                    => wp_create_nonce( 'wp-sir-ajax' ),
+				'restore_nonce'            => wp_create_nonce( 'wp_sir_bulk_restore' ),
+				'removebg_nonce'           => wp_create_nonce( 'wp_sir_removebg_check_credits' ),
+				'process_ml_upload_cookie' => Process_Media_Library_Upload::COOKIE_NAME,
+				'bg_removal_active'        => ( function() {
+					$s = \wp_sir_get_settings();
+					return ! empty( $s['enable_remove_bg'] ) && ! empty( $s['removebg_api_key'] ) ? 1 : 0;
+				} )(),
+				'bulk' => [
+					'action_start'   => Bulk_Processor::AJAX_START,
+					'action_process' => Bulk_Processor::AJAX_PROCESS,
+					'action_pause'   => Bulk_Processor::AJAX_PAUSE,
+					'action_reset'   => Bulk_Processor::AJAX_RESET,
+					'action_status'  => Bulk_Processor::AJAX_STATUS,
+					'action_count'   => Bulk_Processor::AJAX_COUNT,
+				],
+				'i18n' => [
+					'no_processed_images' => __( 'No processed images found', 'wp-smart-image-resize' ),
+					'restore_confirm'     => __( 'This will restore all images to their original state before the plugin processed them. This cannot be undone for images without a backup. Continue?', 'wp-smart-image-resize' ),
+					'removebg_checking'   => __( 'Checking…', 'wp-smart-image-resize' ),
+				],
+			] );
+		}
+
+		/**
+		 * Load css.
+		 *
+		 * @return void
+		 */
+		public function enqueue_styles() {
+			if ( ! $this->can_enqueue_scripts() ) {
+				return;
+			}
+
+			wp_enqueue_style( 'wp-color-picker' );
+
+			$wp_scripts = wp_scripts();
+
+			wp_enqueue_style(
+				'jquery-ui-theme-smoothness',
+				sprintf(
+					'//ajax.googleapis.com/ajax/libs/jqueryui/%s/themes/smoothness/jquery-ui.css',
+					$wp_scripts->registered[ 'jquery-ui-core' ]->ver
+				)
+			);
+
+			wp_enqueue_style(
+				WP_SIR_NAME,
+				WP_SIR_URL . 'css/style.css',
+				[ 'wp-color-picker' ],
+				$this->get_main_build_version( 'css/style.css' )
+			);
+		}
+
+		private function get_main_build_version( $file ) {
+			return defined( 'WP_DEBUG' ) && WP_DEBUG ? filemtime( WP_SIR_DIR . $file ) : WP_SIR_VERSION;
+		}
+
+		public function can_enqueue_scripts() {
+			if ( ! is_admin() ) {
+				return false;
+			}
+
+			require_once( ABSPATH . 'wp-admin/includes/screen.php' );
+
+			if ( ! function_exists( 'get_current_screen' ) ) {
+				return false;
+			}
+
+			$screen = get_current_screen();
+
+			if ( ! $screen || ! is_object( $screen ) ) {
+				return false;
+			}
+			if (
+				strpos( $screen->id, 'smart-image-resize' ) !== false
+				|| in_array( $screen->id, [ 'media', 'upload' ] )
+			) {
+				return true;
+			}
+
+			return false;
+		}
+
+		/**
+		 * Load plugin dependencies.
+		 *
+		 * @return void
+		 */
+		public function load_dependencies() {
+			include_once WP_SIR_DIR . 'src/Exceptions/Invalid_Image_Meta_Exception.php';
+			include_once WP_SIR_DIR . 'src/helpers.php';
+
+			// TODO: Clean and merge Helper.php file into helpers.php
+			include_once WP_SIR_DIR . 'src/Helper.php';
+
+			// Editor classes (extend WP_Image_Editor_GD / WP_Image_Editor_Imagick).
+			include_once WP_SIR_DIR . 'src/editor/trait-safe-save.php';
+			include_once WP_SIR_DIR . 'src/editor/class-editor-gd.php';
+			include_once WP_SIR_DIR . 'src/editor/class-editor-imagick.php';
+			include_once WP_SIR_DIR . 'src/editor/class-editor-factory.php';
+
+			// Tools.
+			include_once WP_SIR_DIR . 'src/tools/interface-tool.php';
+			include_once WP_SIR_DIR . 'src/tools/class-trim-tool.php';
+			include_once WP_SIR_DIR . 'src/tools/class-thumbnail-tool.php';
+			include_once WP_SIR_DIR . 'src/tools/class-watermark-tool.php';
+			include_once WP_SIR_DIR . 'src/tools/class-webp-tool.php';
+			include_once WP_SIR_DIR . 'src/tools/class-pad-tool.php';
+			include_once WP_SIR_DIR . 'src/tools/class-remove-background-tool.php';
+
+			include_once WP_SIR_DIR . 'src/Utilities/Request.php';
+			include_once WP_SIR_DIR . 'src/Utilities/Env.php';
+			include_once WP_SIR_DIR . 'src/Utilities/File.php';
+			include_once WP_SIR_DIR . 'src/Utilities/Remove_Bg_Client.php';
+			include_once WP_SIR_DIR . 'src/functions.php';
+			include_once WP_SIR_DIR . 'src/Image_Meta.php';
+			include_once WP_SIR_DIR . 'src/Processable_Trait.php';
+			include_once WP_SIR_DIR . 'src/Singleton_Trait.php';
+			include_once WP_SIR_DIR . 'src/Runtime_Config_Trait.php';
+			include_once WP_SIR_DIR . 'src/Process_Tracker.php';
+			include_once WP_SIR_DIR . 'src/Events/Event_Subscriber.php';
+			include_once WP_SIR_DIR . 'src/Filters/Filter_Subscriber.php';
+			include_once WP_SIR_DIR . 'src/Image_Editor.php';
+			include_once WP_SIR_DIR . 'src/Process_Media_Library_Upload.php';
+			include_once WP_SIR_DIR . 'src/Utilities/Backup.php';
+			include_once WP_SIR_DIR . 'src/Admin.php';
+			include_once WP_SIR_DIR . 'src/Media_Library.php';
+			include_once WP_SIR_DIR . 'src/Background_Process_On_Post_Save.php';
+			include_once WP_SIR_DIR . 'src/Bulk_Processor.php';
+			include_once WP_SIR_DIR . 'src/plugin-support/index.php';
+			include_once WP_SIR_DIR . 'src/theme-support/index.php';
+			
+			
+			include_once WP_SIR_DIR . 'src/class-plugin-review-request-notice.php';
+			
+
+			include_once WP_SIR_DIR . 'src/class-get-started-notice.php';
+
+			Image_Editor::get_instance()->run();
+
+			Admin::get_instance()->init();
+			Bulk_Processor::instance()->init();
+		}
+
+		/**
+		 * Load plugin text domain.
+		 *
+		 * @return void
+		 */
+		public function set_locale() {
+			load_plugin_textdomain( 'wp-smart-image-resize', false, WP_SIR_DIR . '/languages/' );
+		}
+
+		/**
+		 * Define run hooks.
+		 *
+		 * @return void
+		 */
+		public function define_hooks() {
+			add_action( 'plugins_loaded', [ $this, 'set_locale' ] );
+			add_action( 'admin_enqueue_scripts', [ $this, 'enqueue_scripts' ] );
+			add_action( 'admin_enqueue_scripts', [ $this, 'enqueue_styles' ] );
+			add_action( 'admin_head-tools_page_regenerate-thumbnails', function () {
+				if ( ! apply_filters( 'wp_sir_enable_rt_custom_page', true ) ) {
+					return;
+				}
+				?>
+                <style type="text/css">
+                    #regenerate-thumbnails-app > div h2[class="title"],
+                    #regenerate-thumbnails-app > div h2[class="title"] + p,
+                    #regenerate-thumbnails-app > div h2[class="title"] + p + ul,
+                    #regenerate-thumbnails-app > div p[class="submit"] + p,
+                    #regenerate-thumbnails-app > div p[class="submit"] + p + ul,
+                    #regenerate-thumbnails-app > div p[class="submit"] + div > p,
+                    #regenerate-thumbnails-app > div p[class="submit"] + div > p + ul,
+                    #regenerate-thumbnails-app > div p[class="submit"] + p + ul + div > p,
+                    #regenerate-thumbnails-app > div p[class="submit"] + p + ul + div > p + ul,
+                    #regenerate-thumbnails-app > div[settings] > p:last-child,
+                    #regenerate-thumbnails-app > div[settings] > p:first-child {
+                        display: none;
+                    }
+                </style>
+
+                <script>
+
+                    var __waitDomID = setInterval( function () {
+                        var __cb1 = document.getElementById( 'regenthumbs-regenopt-deleteoldthumbnails' ),
+                            __cb2 = document.getElementById( 'regenthumbs-regenopt-onlymissing' );
+
+                        if ( __cb1
+                            && __cb1.parentElement && __cb1.parentElement.tagName === 'LABEL'
+                            && __cb1.parentElement.parentElement && __cb1.parentElement.parentElement.tagName === 'P'
+                        ) {
+                            clearInterval( __waitDomID );
+                            __cb1.parentElement.parentElement.style.display = 'none';
+                        }
+
+                        if ( __cb2
+                            && __cb2.parentElement && __cb2.parentElement.tagName === 'LABEL'
+                            && __cb2.parentElement.parentElement && __cb2.parentElement.parentElement.tagName === 'P'
+                        ) {
+                            clearInterval( __waitDomID );
+                            __cb2.parentElement.parentElement.style.display = 'none';
+                        }
+                    }, 100 );
+
+
+                </script>
+				<?php
+			} );
+		}
+	}
+endif;

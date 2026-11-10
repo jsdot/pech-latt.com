@@ -1,0 +1,330 @@
+2023-12-05 01:09:19 +00:00 [info] Une sauvegarde a été lancée.
+
+2023-12-05 01:09:21 +00:00 [info] L'API a demandé la liste de fichiers pour la sauvegarde en cours d'exécution.
+
+2023-12-05 01:09:22 +00:00 [info] Snapshot a terminé de renvoyer la liste de fichiers à l'API, nous sommes donc prêts à commencer la sauvegarde réelle des fichiers.
+
+2023-12-05 01:09:37 +00:00 [info] L'API a demandé la sauvegarde des fichiers.
+
+2023-12-05 01:09:37 +00:00 [info] L'extension a terminé la sauvegarde de tous les fichiers demandés.
+
+2023-12-05 01:09:50 +00:00 [info] L'API a demandé la liste des tableaux de base de données pour la sauvegarde en cours d'exécution.
+
+2023-12-05 01:09:51 +00:00 [info] Snapshot a terminé de renvoyer la liste des tables de base de données à l'API, nous sommes donc prêts à commencer la sauvegarde réelle des tables.
+
+2023-12-05 01:09:52 +00:00 [info] L'API a demandé la sauvegarde d'une table de base de données.
+
+2023-12-05 01:09:52 +00:00 [info] La table à sauvegarder: wp_defender_scan, à partir de la ligne: 0.
+
+2023-12-05 01:09:52 +00:00 [info] L'extension a terminé la sauvegarde de la table wp_defender_scan.
+
+2023-12-05 01:09:55 +00:00 [info] L'API a demandé la sauvegarde d'une table de base de données.
+
+2023-12-05 01:09:55 +00:00 [info] La table à sauvegarder: wp_defender_email_log, à partir de la ligne: 0.
+
+2023-12-05 01:09:55 +00:00 [info] L'extension a terminé la sauvegarde de la table wp_defender_email_log.
+
+2023-12-05 01:09:57 +00:00 [info] L'API a demandé la sauvegarde d'une table de base de données.
+
+2023-12-05 01:09:57 +00:00 [info] La table à sauvegarder: wp_posts, à partir de la ligne: 0.
+
+2023-12-05 01:09:58 +00:00 [info] L'extension a sauvegardé la table wp_posts jusqu'à la ligne #1000 .
+
+2023-12-05 01:10:01 +00:00 [info] L'API a demandé la sauvegarde d'une table de base de données.
+
+2023-12-05 01:10:01 +00:00 [info] La table à sauvegarder: wp_posts, à partir de la ligne: 1000.
+
+2023-12-05 01:10:01 +00:00 [info] L'extension a terminé la sauvegarde de la table wp_posts.
+
+2023-12-05 01:10:05 +00:00 [info] L'API a demandé la sauvegarde d'une table de base de données.
+
+2023-12-05 01:10:05 +00:00 [info] La table à sauvegarder: wp_wc_admin_note_actions, à partir de la ligne: 0.
+
+2023-12-05 01:10:05 +00:00 [info] L'extension a terminé la sauvegarde de la table wp_wc_admin_note_actions.
+
+2023-12-05 01:10:07 +00:00 [info] L'API a demandé la sauvegarde d'une table de base de données.
+
+2023-12-05 01:10:07 +00:00 [info] La table à sauvegarder: wp_postmeta, à partir de la ligne: 0.
+
+2023-12-05 01:10:07 +00:00 [info] L'extension a sauvegardé la table wp_postmeta jusqu'à la ligne #1000 .
+
+2023-12-05 01:10:09 +00:00 [info] L'API a demandé la sauvegarde d'une table de base de données.
+
+2023-12-05 01:10:09 +00:00 [info] La table à sauvegarder: wp_postmeta, à partir de la ligne: 1000.
+
+2023-12-05 01:10:09 +00:00 [info] L'extension a sauvegardé la table wp_postmeta jusqu'à la ligne #2000 .
+
+2023-12-05 01:10:11 +00:00 [info] L'API a demandé la sauvegarde d'une table de base de données.
+
+2023-12-05 01:10:11 +00:00 [info] La table à sauvegarder: wp_postmeta, à partir de la ligne: 2000.
+
+2023-12-05 01:10:11 +00:00 [info] L'extension a sauvegardé la table wp_postmeta jusqu'à la ligne #3000 .
+
+2023-12-05 01:10:13 +00:00 [info] L'API a demandé la sauvegarde d'une table de base de données.
+
+2023-12-05 01:10:13 +00:00 [info] La table à sauvegarder: wp_postmeta, à partir de la ligne: 3000.
+
+2023-12-05 01:10:13 +00:00 [info] L'extension a sauvegardé la table wp_postmeta jusqu'à la ligne #4000 .
+
+2023-12-05 01:10:14 +00:00 [info] L'API a demandé la sauvegarde d'une table de base de données.
+
+2023-12-05 01:10:14 +00:00 [info] La table à sauvegarder: wp_postmeta, à partir de la ligne: 4000.
+
+2023-12-05 01:10:14 +00:00 [info] L'extension a sauvegardé la table wp_postmeta jusqu'à la ligne #5000 .
+
+2023-12-05 01:10:16 +00:00 [info] L'API a demandé la sauvegarde d'une table de base de données.
+
+2023-12-05 01:10:16 +00:00 [info] La table à sauvegarder: wp_postmeta, à partir de la ligne: 5000.
+
+2023-12-05 01:10:16 +00:00 [info] L'extension a sauvegardé la table wp_postmeta jusqu'à la ligne #6000 .
+
+2023-12-05 01:10:18 +00:00 [info] L'API a demandé la sauvegarde d'une table de base de données.
+
+2023-12-05 01:10:18 +00:00 [info] La table à sauvegarder: wp_postmeta, à partir de la ligne: 6000.
+
+2023-12-05 01:10:18 +00:00 [info] L'extension a sauvegardé la table wp_postmeta jusqu'à la ligne #7000 .
+
+2023-12-05 01:10:20 +00:00 [info] L'API a demandé la sauvegarde d'une table de base de données.
+
+2023-12-05 01:10:20 +00:00 [info] La table à sauvegarder: wp_postmeta, à partir de la ligne: 7000.
+
+2023-12-05 01:10:20 +00:00 [info] L'extension a sauvegardé la table wp_postmeta jusqu'à la ligne #8000 .
+
+2023-12-05 01:10:21 +00:00 [info] L'API a demandé la sauvegarde d'une table de base de données.
+
+2023-12-05 01:10:21 +00:00 [info] La table à sauvegarder: wp_postmeta, à partir de la ligne: 8000.
+
+2023-12-05 01:10:22 +00:00 [info] L'extension a sauvegardé la table wp_postmeta jusqu'à la ligne #9000 .
+
+2023-12-05 01:10:24 +00:00 [info] L'API a demandé la sauvegarde d'une table de base de données.
+
+2023-12-05 01:10:24 +00:00 [info] La table à sauvegarder: wp_postmeta, à partir de la ligne: 9000.
+
+2023-12-05 01:10:25 +00:00 [info] L'extension a sauvegardé la table wp_postmeta jusqu'à la ligne #10000 .
+
+2023-12-05 01:10:28 +00:00 [info] L'API a demandé la sauvegarde d'une table de base de données.
+
+2023-12-05 01:10:28 +00:00 [info] La table à sauvegarder: wp_postmeta, à partir de la ligne: 10000.
+
+2023-12-05 01:10:28 +00:00 [info] L'extension a sauvegardé la table wp_postmeta jusqu'à la ligne #11000 .
+
+2023-12-05 01:10:31 +00:00 [info] L'API a demandé la sauvegarde d'une table de base de données.
+
+2023-12-05 01:10:31 +00:00 [info] La table à sauvegarder: wp_postmeta, à partir de la ligne: 11000.
+
+2023-12-05 01:10:31 +00:00 [info] L'extension a sauvegardé la table wp_postmeta jusqu'à la ligne #12000 .
+
+2023-12-05 01:10:33 +00:00 [info] L'API a demandé la sauvegarde d'une table de base de données.
+
+2023-12-05 01:10:33 +00:00 [info] La table à sauvegarder: wp_postmeta, à partir de la ligne: 12000.
+
+2023-12-05 01:10:33 +00:00 [info] L'extension a sauvegardé la table wp_postmeta jusqu'à la ligne #13000 .
+
+2023-12-05 01:10:36 +00:00 [info] L'API a demandé la sauvegarde d'une table de base de données.
+
+2023-12-05 01:10:36 +00:00 [info] La table à sauvegarder: wp_postmeta, à partir de la ligne: 13000.
+
+2023-12-05 01:10:36 +00:00 [info] L'extension a sauvegardé la table wp_postmeta jusqu'à la ligne #14000 .
+
+2023-12-05 01:10:38 +00:00 [info] L'API a demandé la sauvegarde d'une table de base de données.
+
+2023-12-05 01:10:38 +00:00 [info] La table à sauvegarder: wp_postmeta, à partir de la ligne: 14000.
+
+2023-12-05 01:10:38 +00:00 [info] L'extension a terminé la sauvegarde de la table wp_postmeta.
+
+2023-12-05 01:10:43 +00:00 [info] L'API a demandé la sauvegarde d'une table de base de données.
+
+2023-12-05 01:10:43 +00:00 [info] La table à sauvegarder: wp_defender_audit_log, à partir de la ligne: 0.
+
+2023-12-05 01:10:43 +00:00 [info] L'extension a sauvegardé la table wp_defender_audit_log jusqu'à la ligne #1000 .
+
+2023-12-05 01:10:44 +00:00 [info] L'API a demandé la sauvegarde d'une table de base de données.
+
+2023-12-05 01:10:44 +00:00 [info] La table à sauvegarder: wp_defender_audit_log, à partir de la ligne: 1000.
+
+2023-12-05 01:10:44 +00:00 [info] L'extension a sauvegardé la table wp_defender_audit_log jusqu'à la ligne #2000 .
+
+2023-12-05 01:10:46 +00:00 [info] L'API a demandé la sauvegarde d'une table de base de données.
+
+2023-12-05 01:10:46 +00:00 [info] La table à sauvegarder: wp_defender_audit_log, à partir de la ligne: 2000.
+
+2023-12-05 01:10:46 +00:00 [info] L'extension a sauvegardé la table wp_defender_audit_log jusqu'à la ligne #3000 .
+
+2023-12-05 01:10:48 +00:00 [info] L'API a demandé la sauvegarde d'une table de base de données.
+
+2023-12-05 01:10:48 +00:00 [info] La table à sauvegarder: wp_defender_audit_log, à partir de la ligne: 3000.
+
+2023-12-05 01:10:48 +00:00 [info] L'extension a sauvegardé la table wp_defender_audit_log jusqu'à la ligne #4000 .
+
+2023-12-05 01:10:49 +00:00 [info] L'API a demandé la sauvegarde d'une table de base de données.
+
+2023-12-05 01:10:49 +00:00 [info] La table à sauvegarder: wp_defender_audit_log, à partir de la ligne: 4000.
+
+2023-12-05 01:10:49 +00:00 [info] L'extension a sauvegardé la table wp_defender_audit_log jusqu'à la ligne #5000 .
+
+2023-12-05 01:10:51 +00:00 [info] L'API a demandé la sauvegarde d'une table de base de données.
+
+2023-12-05 01:10:51 +00:00 [info] La table à sauvegarder: wp_defender_audit_log, à partir de la ligne: 5000.
+
+2023-12-05 01:10:51 +00:00 [info] L'extension a sauvegardé la table wp_defender_audit_log jusqu'à la ligne #6000 .
+
+2023-12-05 01:10:52 +00:00 [info] L'API a demandé la sauvegarde d'une table de base de données.
+
+2023-12-05 01:10:52 +00:00 [info] La table à sauvegarder: wp_defender_audit_log, à partir de la ligne: 6000.
+
+2023-12-05 01:10:52 +00:00 [info] L'extension a sauvegardé la table wp_defender_audit_log jusqu'à la ligne #7000 .
+
+2023-12-05 01:10:54 +00:00 [info] L'API a demandé la sauvegarde d'une table de base de données.
+
+2023-12-05 01:10:54 +00:00 [info] La table à sauvegarder: wp_defender_audit_log, à partir de la ligne: 7000.
+
+2023-12-05 01:10:54 +00:00 [info] L'extension a sauvegardé la table wp_defender_audit_log jusqu'à la ligne #8000 .
+
+2023-12-05 01:10:56 +00:00 [info] L'API a demandé la sauvegarde d'une table de base de données.
+
+2023-12-05 01:10:56 +00:00 [info] La table à sauvegarder: wp_defender_audit_log, à partir de la ligne: 8000.
+
+2023-12-05 01:10:56 +00:00 [info] L'extension a sauvegardé la table wp_defender_audit_log jusqu'à la ligne #9000 .
+
+2023-12-05 01:10:57 +00:00 [info] L'API a demandé la sauvegarde d'une table de base de données.
+
+2023-12-05 01:10:57 +00:00 [info] La table à sauvegarder: wp_defender_audit_log, à partir de la ligne: 9000.
+
+2023-12-05 01:10:57 +00:00 [info] L'extension a terminé la sauvegarde de la table wp_defender_audit_log.
+
+2023-12-05 01:11:00 +00:00 [info] L'API a demandé la sauvegarde d'une table de base de données.
+
+2023-12-05 01:11:00 +00:00 [info] La table à sauvegarder: wp_defender_scan_item, à partir de la ligne: 0.
+
+2023-12-05 01:11:00 +00:00 [info] L'extension a terminé la sauvegarde de la table wp_defender_scan_item.
+
+2023-12-05 01:11:02 +00:00 [info] L'API a demandé la sauvegarde d'une table de base de données.
+
+2023-12-05 01:11:03 +00:00 [info] La table à sauvegarder: wp_actionscheduler_logs, à partir de la ligne: 0.
+
+2023-12-05 01:11:03 +00:00 [info] L'extension a terminé la sauvegarde de la table wp_actionscheduler_logs.
+
+2023-12-05 01:11:05 +00:00 [info] L'API a demandé la sauvegarde d'une table de base de données.
+
+2023-12-05 01:11:05 +00:00 [info] La table à sauvegarder: wp_wpml_mails, à partir de la ligne: 0.
+
+2023-12-05 01:11:05 +00:00 [info] L'extension a sauvegardé la table wp_wpml_mails jusqu'à la ligne #1000 .
+
+2023-12-05 01:11:07 +00:00 [info] L'API a demandé la sauvegarde d'une table de base de données.
+
+2023-12-05 01:11:07 +00:00 [info] La table à sauvegarder: wp_wpml_mails, à partir de la ligne: 1000.
+
+2023-12-05 01:11:07 +00:00 [info] L'extension a sauvegardé la table wp_wpml_mails jusqu'à la ligne #2000 .
+
+2023-12-05 01:11:10 +00:00 [info] L'API a demandé la sauvegarde d'une table de base de données.
+
+2023-12-05 01:11:10 +00:00 [info] La table à sauvegarder: wp_wpml_mails, à partir de la ligne: 2000.
+
+2023-12-05 01:11:10 +00:00 [info] L'extension a sauvegardé la table wp_wpml_mails jusqu'à la ligne #3000 .
+
+2023-12-05 01:11:13 +00:00 [info] L'API a demandé la sauvegarde d'une table de base de données.
+
+2023-12-05 01:11:13 +00:00 [info] La table à sauvegarder: wp_wpml_mails, à partir de la ligne: 3000.
+
+2023-12-05 01:11:13 +00:00 [info] L'extension a terminé la sauvegarde de la table wp_wpml_mails.
+
+2023-12-05 01:11:18 +00:00 [info] L'API a demandé la sauvegarde d'une table de base de données.
+
+2023-12-05 01:11:18 +00:00 [info] La table à sauvegarder: wp_defender_lockout, à partir de la ligne: 0.
+
+2023-12-05 01:11:18 +00:00 [info] L'extension a sauvegardé la table wp_defender_lockout jusqu'à la ligne #1000 .
+
+2023-12-05 01:11:19 +00:00 [info] L'API a demandé la sauvegarde d'une table de base de données.
+
+2023-12-05 01:11:19 +00:00 [info] La table à sauvegarder: wp_defender_lockout, à partir de la ligne: 1000.
+
+2023-12-05 01:11:19 +00:00 [info] L'extension a sauvegardé la table wp_defender_lockout jusqu'à la ligne #2000 .
+
+2023-12-05 01:11:21 +00:00 [info] L'API a demandé la sauvegarde d'une table de base de données.
+
+2023-12-05 01:11:21 +00:00 [info] La table à sauvegarder: wp_defender_lockout, à partir de la ligne: 2000.
+
+2023-12-05 01:11:21 +00:00 [info] L'extension a sauvegardé la table wp_defender_lockout jusqu'à la ligne #3000 .
+
+2023-12-05 01:11:23 +00:00 [info] L'API a demandé la sauvegarde d'une table de base de données.
+
+2023-12-05 01:11:23 +00:00 [info] La table à sauvegarder: wp_defender_lockout, à partir de la ligne: 3000.
+
+2023-12-05 01:11:23 +00:00 [info] L'extension a sauvegardé la table wp_defender_lockout jusqu'à la ligne #4000 .
+
+2023-12-05 01:11:24 +00:00 [info] L'API a demandé la sauvegarde d'une table de base de données.
+
+2023-12-05 01:11:24 +00:00 [info] La table à sauvegarder: wp_defender_lockout, à partir de la ligne: 4000.
+
+2023-12-05 01:11:24 +00:00 [info] L'extension a sauvegardé la table wp_defender_lockout jusqu'à la ligne #5000 .
+
+2023-12-05 01:11:26 +00:00 [info] L'API a demandé la sauvegarde d'une table de base de données.
+
+2023-12-05 01:11:26 +00:00 [info] La table à sauvegarder: wp_defender_lockout, à partir de la ligne: 5000.
+
+2023-12-05 01:11:26 +00:00 [info] L'extension a sauvegardé la table wp_defender_lockout jusqu'à la ligne #6000 .
+
+2023-12-05 01:11:27 +00:00 [info] L'API a demandé la sauvegarde d'une table de base de données.
+
+2023-12-05 01:11:27 +00:00 [info] La table à sauvegarder: wp_defender_lockout, à partir de la ligne: 6000.
+
+2023-12-05 01:11:27 +00:00 [info] L'extension a sauvegardé la table wp_defender_lockout jusqu'à la ligne #7000 .
+
+2023-12-05 01:11:29 +00:00 [info] L'API a demandé la sauvegarde d'une table de base de données.
+
+2023-12-05 01:11:29 +00:00 [info] La table à sauvegarder: wp_defender_lockout, à partir de la ligne: 7000.
+
+2023-12-05 01:11:29 +00:00 [info] L'extension a sauvegardé la table wp_defender_lockout jusqu'à la ligne #8000 .
+
+2023-12-05 01:11:30 +00:00 [info] L'API a demandé la sauvegarde d'une table de base de données.
+
+2023-12-05 01:11:30 +00:00 [info] La table à sauvegarder: wp_defender_lockout, à partir de la ligne: 8000.
+
+2023-12-05 01:11:31 +00:00 [info] L'extension a sauvegardé la table wp_defender_lockout jusqu'à la ligne #9000 .
+
+2023-12-05 01:11:32 +00:00 [info] L'API a demandé la sauvegarde d'une table de base de données.
+
+2023-12-05 01:11:32 +00:00 [info] La table à sauvegarder: wp_defender_lockout, à partir de la ligne: 9000.
+
+2023-12-05 01:11:32 +00:00 [info] L'extension a sauvegardé la table wp_defender_lockout jusqu'à la ligne #10000 .
+
+2023-12-05 01:11:34 +00:00 [info] L'API a demandé la sauvegarde d'une table de base de données.
+
+2023-12-05 01:11:34 +00:00 [info] La table à sauvegarder: wp_defender_lockout, à partir de la ligne: 10000.
+
+2023-12-05 01:11:34 +00:00 [info] L'extension a terminé la sauvegarde de la table wp_defender_lockout.
+
+2023-12-05 01:11:37 +00:00 [info] L'API a demandé la sauvegarde d'une table de base de données.
+
+2023-12-05 01:11:37 +00:00 [info] La table à sauvegarder: wp_options, à partir de la ligne: 0.
+
+2023-12-05 01:11:37 +00:00 [info] L'extension a sauvegardé la table wp_options jusqu'à la ligne #1000 .
+
+2023-12-05 01:11:39 +00:00 [info] L'API a demandé la sauvegarde d'une table de base de données.
+
+2023-12-05 01:11:39 +00:00 [info] La table à sauvegarder: wp_options, à partir de la ligne: 1000.
+
+2023-12-05 01:11:39 +00:00 [info] L'extension a sauvegardé la table wp_options jusqu'à la ligne #2000 .
+
+2023-12-05 01:11:41 +00:00 [info] L'API a demandé la sauvegarde d'une table de base de données.
+
+2023-12-05 01:11:41 +00:00 [info] La table à sauvegarder: wp_options, à partir de la ligne: 2000.
+
+2023-12-05 01:11:41 +00:00 [info] L'extension a terminé la sauvegarde de la table wp_options.
+
+2023-12-05 01:11:43 +00:00 [info] L'API a demandé la sauvegarde d'une table de base de données.
+
+2023-12-05 01:11:43 +00:00 [info] La table à sauvegarder: wp_actionscheduler_actions, à partir de la ligne: 0.
+
+2023-12-05 01:11:44 +00:00 [info] L'extension a terminé la sauvegarde de la table wp_actionscheduler_actions.
+
+2023-12-05 01:12:04 +00:00 [info] La sauvegarde est terminée.
+
+2023-12-05 23:33:41 +00:00 [info] La communication avec l'API de service, afin de retrieve force_retention, a réussi.
+
+2023-12-06 01:08:32 +00:00 [info] L'API a demandé des informations au Hub.
+
+2023-12-06 01:08:33 +00:00 [info] Transmission des informations récupérées du Hub à l'API.
+
+2023-12-06 01:08:39 +00:00 [info] L'API a demandé le lancement de la sauvegarde.
+

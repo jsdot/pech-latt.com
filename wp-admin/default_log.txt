@@ -1,0 +1,60 @@
+2024-12-03 18:00:10 - Le client existe déjà pour l'email : digital@1703factory.com
+2024-12-03 18:00:10 - ERREUR PAS DE SKU sur l'article : 1113095
+2024-12-03 18:00:10 - Référence du produit : SKU_NON_TROUVE
+2024-12-03 18:00:10 - Options primus_url et primus_wsdl_setting récupérées.
+2024-12-03 18:00:10 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-12-03 18:00:10 - Fonction create appelée avec numOrder=1114329 et idClientPrimus=CLI00266
+2024-12-03 18:00:10 - Options SOAP configurées.
+2024-12-03 18:00:11 - Client SOAP initialisé.
+2024-12-03 18:00:11 - Ligne ajoutée : {"line_LineNo":869298674,"line_Type":"Article","line_No":"SKU_NON_TROUVE","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"1","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-12-03 18:00:11 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0.15","service_SurFacture":false,"service_Ventilation":""}
+2024-12-03 18:00:11 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0","service_SurFacture":false,"service_Ventilation":""}
+2024-12-03 18:00:11 - Commande créée avec succès.
+2024-12-04 09:29:54 - Le client existe déjà pour l'email : digital@1703factory.com
+2024-12-04 09:29:54 - ERREUR PAS DE SKU sur l'article : 1113095
+2024-12-04 09:29:54 - Référence du produit : SKU_NON_TROUVE
+2024-12-04 09:29:54 - Options primus_url et primus_wsdl_setting récupérées.
+2024-12-04 09:29:54 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-12-04 09:29:54 - Fonction create appelée avec numOrder=1114329 et idClientPrimus=CLI00266
+2024-12-04 09:29:54 - Options SOAP configurées.
+2024-12-04 09:29:54 - Client SOAP initialisé.
+2024-12-04 09:29:54 - Ligne ajoutée : {"line_LineNo":1514541118,"line_Type":"Article","line_No":"SKU_NON_TROUVE","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"1","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-12-04 09:29:54 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0.15","service_SurFacture":false,"service_Ventilation":""}
+2024-12-04 09:29:54 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0","service_SurFacture":false,"service_Ventilation":""}
+2024-12-04 09:29:55 - Commande créée avec succès.
+2024-12-04 09:30:04 - Le client existe déjà pour l'email : digital@1703factory.com
+2024-12-04 09:30:04 - ERREUR PAS DE SKU sur l'article : 1113095
+2024-12-04 09:30:04 - Référence du produit : SKU_NON_TROUVE
+2024-12-04 09:30:04 - Options primus_url et primus_wsdl_setting récupérées.
+2024-12-04 09:30:04 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-12-04 09:30:04 - Fonction create appelée avec numOrder=1114329 et idClientPrimus=CLI00266
+2024-12-04 09:30:04 - Options SOAP configurées.
+2024-12-04 09:30:04 - Client SOAP initialisé.
+2024-12-04 09:30:04 - Ligne ajoutée : {"line_LineNo":1904028318,"line_Type":"Article","line_No":"SKU_NON_TROUVE","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"1","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-12-04 09:30:04 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0.15","service_SurFacture":false,"service_Ventilation":""}
+2024-12-04 09:30:04 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0","service_SurFacture":false,"service_Ventilation":""}
+2024-12-04 09:30:04 - Commande créée avec succès.
+2024-12-04 09:30:09 - Le client existe déjà pour l'email : digital@1703factory.com
+2024-12-04 09:30:09 - ERREUR PAS DE SKU sur l'article : 1113095
+2024-12-04 09:30:09 - Référence du produit : SKU_NON_TROUVE
+2024-12-04 09:30:09 - Options primus_url et primus_wsdl_setting récupérées.
+2024-12-04 09:30:09 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-12-04 09:30:09 - Fonction create appelée avec numOrder=1114329 et idClientPrimus=CLI00266
+2024-12-04 09:30:09 - Options SOAP configurées.
+2024-12-04 09:30:10 - Client SOAP initialisé.
+2024-12-04 09:30:10 - Ligne ajoutée : {"line_LineNo":2145002373,"line_Type":"Article","line_No":"SKU_NON_TROUVE","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"1","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-12-04 09:30:10 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0.15","service_SurFacture":false,"service_Ventilation":""}
+2024-12-04 09:30:10 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0","service_SurFacture":false,"service_Ventilation":""}
+2024-12-04 09:30:10 - Commande créée avec succès.
+2024-12-04 09:30:59 - Le client existe déjà pour l'email : digital@1703factory.com
+2024-12-04 09:30:59 - ERREUR PAS DE SKU sur l'article : 1113095
+2024-12-04 09:30:59 - Référence du produit : SKU_NON_TROUVE
+2024-12-04 09:30:59 - Options primus_url et primus_wsdl_setting récupérées.
+2024-12-04 09:30:59 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-12-04 09:30:59 - Fonction create appelée avec numOrder=1114329 et idClientPrimus=CLI00266
+2024-12-04 09:30:59 - Options SOAP configurées.
+2024-12-04 09:30:59 - Client SOAP initialisé.
+2024-12-04 09:30:59 - Ligne ajoutée : {"line_LineNo":1045662055,"line_Type":"Article","line_No":"SKU_NON_TROUVE","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"1","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-12-04 09:30:59 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0.15","service_SurFacture":false,"service_Ventilation":""}
+2024-12-04 09:30:59 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0","service_SurFacture":false,"service_Ventilation":""}
+2024-12-04 09:31:00 - Commande créée avec succès.

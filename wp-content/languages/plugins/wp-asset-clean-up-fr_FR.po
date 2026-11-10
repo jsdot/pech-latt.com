@@ -1,0 +1,1225 @@
+# Translation of Plugins - Asset CleanUp: Page Speed Booster - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - Asset CleanUp: Page Speed Booster - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-11-08 09:53:19+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.1.0\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - Asset CleanUp: Page Speed Booster - Stable (latest release)\n"
+
+#: classes/Update.php:158
+msgid "Nonce is missing or has expired"
+msgstr "Le Nonce est manquant ou a expiré"
+
+#: classes/Update.php:72
+msgid "How to fix it?"
+msgstr "Comment corriger ceci ?"
+
+#: classes/Update.php:69
+msgid "The value of <strong>max_input_vars</strong> is <strong>%d</strong>. You might need to increase it to a higher number."
+msgstr "La valeur de <strong>max_input_vars</strong> est <strong>%d</strong>. Vous devrez peut-être l’augmenter à un nombre plus élevé."
+
+#: classes/Update.php:58
+msgid "The changes were not saved because the security nonce has expired (it took over 24 hours since you loaded this page) or it was not sent for verification in the first place because the form was partially submitted due to the input fields being stripped."
+msgstr "Les modifications n’ont pas été enregistrées car le nonce de sécurité a expiré (plus de 24 heures se sont écoulées depuis le chargement de cette page) ou il n’a pas été envoyé pour vérification en premier lieu car le formulaire a été partiellement soumis en raison de la suppression des champs de saisie."
+
+#: classes/Update.php:65
+msgid "The value of <strong>max_input_vars</strong> is <strong>1000</strong> which is the default one in many hosting accounts. Increase it to a higher number, ideally over %d."
+msgstr "La valeur de <strong>max_input_vars</strong> est <strong>1000</strong>, qui est celle par défaut dans de nombreux comptes d’hébergement. Augmentez-le à un nombre supérieur, idéalement supérieur à %d."
+
+#: templates/settings-frontend.php:68
+msgid "You've enabled \"Script Manager\" within \"Options\" -&gt; \"Assets\" from Perfmatters plugin."
+msgstr "Vous avez activé « Gestionnaire de script » dans « Options » -&gt; « Ressources » de l’extension Perfmatters."
+
+#: classes/Update.php:67
+msgid "The value of <strong>max_input_vars</strong> is <strong>%d</strong>. That's below <strong>1000</strong> (the default one in many hosting accounts). Increase it to a higher number, ideally over %d."
+msgstr "La valeur de <strong>max_input_vars</strong> est <strong>%d</strong>. C’est en dessous de <strong>1000</strong> (celui par défaut dans de nombreux comptes d’hébergement). Augmentez-le à un nombre supérieur, idéalement supérieur à %d."
+
+#: templates/meta-box-restricted-page-load.php:70
+#: templates/_admin-pages-assets-manager-manage-css-js/_singular-page.php:98
+msgid "This page's URI is matched by the rule you have in the \"Page Options\", thus %s is not loaded on that page and no CSS/JS are to be managed. If you wish to view the CSS/JS manager, please uncheck the following option shown below: <em>\"Do not load Asset CleanUp Pro on this page (this will disable any functionality of the plugin\"</em>."
+msgstr "L’URI de cette page correspond à la règle que vous avez dans les « Options de page », il n’est donc %s pas chargé sur cette page et aucun CSS/JS ne doit être géré. Si vous souhaitez afficher le gestionnaire CSS/JS, veuillez décocher l’option suivante ci-dessous : <em>« Ne pas charger Asset CleanUp Pro sur cette page (cela désactivera toutes les fonctionnalités de l’extension »</em>."
+
+#: templates/admin-page-overview.php:349
+#: templates/_admin-page-overview-areas/_page-options.php:49
+msgid "Page Options"
+msgstr "Options de la page"
+
+#: templates/meta-box-loaded-assets/_page-options-inner.php:50
+msgid "If you are not sure how these options work, you can %sread more about them%s in the documentation."
+msgstr "Si vous n’êtes pas sûr du fonctionnement de ces options, vous pouvez %sen lire plus à leur propos%s dans la documentation."
+
+#: classes/OwnAssets.php:1605
+msgid "Reloading %s area"
+msgstr "Rechargement de la zone %s"
+
+#: early-triggers.php:1548
+#: templates/_admin-pages-assets-manager-manage-css-js/_homepage.php:103
+msgid "This homepage's URI is matched by the rule you have in the \"Page Options\", thus %s is not loaded on that page and no CSS/JS are to be managed. If you wish to view the CSS/JS manager, please uncheck the option and reload this page."
+msgstr "L’URI de cette page d’accueil correspond à la règle que vous avez dans les « Options de page », donc %s n’est pas chargé sur cette page et aucun CSS/JS ne doit être géré. Si vous souhaitez afficher le gestionnaire CSS/JS, veuillez décocher l’option et recharger cette page."
+
+#: classes/MetaBoxes.php:70
+msgid "CSS &amp; JavaScript Manager / Page Options"
+msgstr "Gestionnaire CSS/JavaScript / Page des options"
+
+#: templates/admin-page-overview.php:650
+#: templates/meta-box-loaded-assets/_asset-single-row/_asset-single-row-hardcoded.php:201
+#: templates/meta-box-loaded-assets/_page-options.php:32
+#: templates/meta-box-loaded-assets/_page-options.php:49
+#: templates/_common/asset-manager/asset-row-hardcoded.php:224
+#: templates/_common/asset-manager/asset-row.php:157
+msgid "Loading"
+msgstr "Chargement"
+
+#: templates/_admin-pages-assets-manager-manage-css-js/_homepage.php:76
+#: templates/_admin-pages-assets-manager-manage-css-js/_singular-page.php:71
+msgid "Homepage URL"
+msgstr "URL de la page d’accueil"
+
+#: classes/Menu.php:338
+msgid "Manage CSS &amp; JS"
+msgstr "Gérer CSS & JS"
+
+#: templates/_common/asset-manager/meta-box-loaded.php:78
+msgid "This page was set to show the latest posts in %s\"Settings\" &#10141; \"Reading\"%s."
+msgstr "Cette page a été configurée pour afficher les derniers messages dans %s\"Paramètres » ➝ « Lecture\"%s."
+
+#: templates/_common/asset-manager/meta-box-loaded.php:74
+msgid "This page was set as the home page in %s\"Settings\" &#10141; \"Reading\"%s."
+msgstr "Cette page a été définie comme page d’accueil dans %s\"Paramètres » ➝ « Lecture\"%s."
+
+#: classes/ObjectCache.php:106
+msgid "Asset CleanUp's object cache is not valid (from method \"[method]\")."
+msgstr "Le cache d’objets d’Asset CleanUp est non valide (de la méthode « [method] »)."
+
+#: templates/_admin-pages-assets-manager-manage-css-js/_common/_is-dashboard-edit-allowed.php:23
+msgid "As \"Manage in the Dashboard?\" is not enabled in %s\"Settings\" &#187; \"Plugin Usage Preferences\"%s, you can not manage the assets from the Dashboard."
+msgstr "Comme « Gérer dans le tableau de bord ? » n’est pas activé dans %s« Réglages » &#187; « Préférences d’utilisation de l’extension »%s, vous ne pouvez pas gérer les ressources à partir du tableau de bord."
+
+#: templates/_admin-pages-assets-manager-manage-css-js/_singular-page.php:90
+msgid "This page's URI is matched by one of the RegEx rules you have in <strong>\"Settings\"</strong> -&gt; <strong>\"Plugin Usage Preferences\"</strong> -&gt; <strong>\"Do not load the plugin on certain pages\"</strong>, thus %s is not loaded on that page and no CSS/JS are to be managed. If you wish to view the CSS/JS manager, please remove the matching RegEx rule and reload this page."
+msgstr "L’URI de cette page correspond à l’une des règles RegEx que vous avez dans « <strong>Paramètres</strong> » -&gt; « Préférences d’utilisation de l’extension » -&gt; <strong>« Ne pas charger l’extension sur certaines pages »,</strong> <strong>n’est</strong> donc %s pas chargé sur cette page et aucun CSS/JS ne doit être géré. Si vous souhaitez afficher le gestionnaire CSS/JS, veuillez supprimer la règle RegEx correspondante et recharger cette page."
+
+#: templates/_admin-pages-assets-manager-manage-css-js/_singular-page-search-form.php:126
+#: templates/_admin-pages-assets-manager-manage-css-js/_singular-page-search-form.php:132
+msgid "You can type a keyword or the ID to search the %s for which you want to manage its CSS/JS (e.g. unloading)"
+msgstr "Vous pouvez saisir un mot clé ou l’ID pour rechercher le %s pour lequel vous souhaitez gérer le CSS/JS (ex. : déchargement)"
+
+#: templates/_common/asset-manager/asset-row-load-exceptions.php:54
+msgid "On all WooCommerce \"Product\" pages"
+msgstr "Sur toutes les pages \"Produit\" de WooCommerce"
+
+#: templates/_common/asset-manager/asset-row-load-exceptions.php:57
+msgid "On all Easy Digital Downloads \"Download\" pages"
+msgstr "Sur toutes les pages de type « Téléchargement » d’Easy Digital Downloads"
+
+#. Author of the plugin
+#: wpacu.php
+msgid "Gabe Livan"
+msgstr "Gabe Livan"
+
+#: templates/admin-page-plugins-manager.php:20
+msgid "Only the administrators listed here can manage plugins: %s\"Settings\" &#10141; \"Plugin Usage Preferences\" &#10141; \"Allow managing assets to:\"%s. If you believe you should have access to managing plugins, you can add yourself to that list."
+msgstr "Seuls les adminis listés ici peuvent gérer les extensions : %s « Réglages » ➝ « Préférences d’utilisation des extensions » ➝ « Autoriser la gestion des actifs à : » %s. Si vous pensez que vous devriez avoir accès à la gestion des extensions, vous pouvez vous ajouter à cette liste."
+
+#: templates/_admin-pages-assets-manager-manage-css-js/_common/_is-dashboard-edit-allowed.php:16
+#: templates/_admin-pages-assets-manager-manage-css-js/_homepage.php:18
+#: templates/_admin-pages-assets-manager-manage-css-js/_media-attachment.php:18
+msgid "Only the administrators listed here can manage CSS/JS assets: %s\"Settings\" &#10141; \"Plugin Usage Preferences\" &#10141; \"Allow managing assets to:\"%s. If you believe you should have access to managing CSS/JS assets, you can add yourself to that list."
+msgstr "Seuls les admins répertoriés ici peuvent gérer les ressources CSS/JS : %s « Réglages » ➝ « Préférences d’utilisation de l’extension » ➝ « Autoriser la gestion des ressources à :\"%s. Si vous pensez que vous devriez avoir accès à la gestion des ressources CSS/JS, vous pouvez vous ajouter à cette liste."
+
+#: templates/_top-area.php:114
+msgid "TEST MODE"
+msgstr "Mode test"
+
+#: wpacu.php:210
+msgid "Thus, the plugin will not trigger on the front-end view to avoid any possible errors."
+msgstr "Ainsi, l’extension ne se déclenchera pas en vue publique pour éviter toute erreur éventuelle."
+
+#: templates/meta-box.php:43
+msgid "Fetching the loaded scripts and styles for <strong>%s</strong>... Please wait..."
+msgstr "Récupération des scripts et styles chargés pour <strong>%s</strong>. Veuillez patienter…"
+
+#: templates/meta-box.php:36
+msgid "Fetch the assets from <strong>%s</strong>"
+msgstr "Récupérer les éléments de <strong>%s</strong>"
+
+#: classes/Admin/SettingsAdmin.php:1225
+msgid "Grouped by having at least one rule &amp; no rules"
+msgstr "Groupés selon qu’ils ont au moins une règle ou aucune"
+
+#: classes/Admin/SettingsAdmin.php:1224
+msgid "Grouped by their size (sorted in descending order)"
+msgstr "Groupés selon leur taille (trié par ordre décroissant)"
+
+#: templates/meta-box-loaded-assets/view-all.php:49
+msgid "Styles (.css files) &amp; Scripts (.js files)"
+msgstr "Styles (fichiers .css) & Scripts (fichiers .js)"
+
+#: classes/Admin/SettingsAdmin.php:1227
+msgid "All enqueues in one list"
+msgstr "Toutes les files d’attente dans une seule liste"
+
+#: classes/Admin/SettingsAdmin.php:1226
+msgid "All enqueued CSS, followed by all enqueued JavaScript"
+msgstr "Tous les CSS mis en file d’attente, suivis de tous les JavaScript mis en file d’attente"
+
+#: classes/Admin/MiscAdmin.php:694
+msgid "The file appears to be empty"
+msgstr "Le fichier semble vide"
+
+#: classes/Admin/Tools.php:1313
+msgid "The cached CSS/JS files were also removed."
+msgstr "Les fichiers CSS/JS mis en cache ont également été supprimés."
+
+#: classes/Admin/Tools.php:1309
+msgid "The license information was also removed."
+msgstr "Les informations de licence ont également été supprimées."
+
+#: templates/_common/asset-manager/asset-row-handle.php:107
+msgid "This CSS handle is already unloaded."
+msgstr "Ce descripteur CSS est déjà déchargé."
+
+#: templates/meta-box-loaded-assets/_asset-single-row/_asset-single-row-source.php:98
+msgid "Source (updated):"
+msgstr "Source (mise à jour) :"
+
+#: templates/_common/asset-manager/asset-row-handle.php:109
+msgid "This JS handle is already unloaded."
+msgstr "Ce descripteur JS est déjà déchargé."
+
+#: templates/admin-page-tools.php:77
+msgid "Also remove any cached CSS/JS files from %s"
+msgstr "Retirer également tous les fichiers CSS/JS mis en cache depuis %s"
+
+#: classes/OwnAssets.php:1664
+msgid "The source might not be reachable"
+msgstr "La source semble ne pas être accessible"
+
+#: classes/OwnAssets.php:1730
+msgid "When accessing this page the server responded with a status of %s404 (Not Found)%s. If this page is meant to return this status, you can ignore this message, otherwise you might have a problem with this page if it is meant to return a standard 200 OK status."
+msgstr "En accédant à cette page, le serveur a répondu avec un état de %s404 (non trouvé)%s. Si cette page est destinée à renvoyer cet état, ignorez ce message, sinon il peut y avoir un problème avec cette page si elle est destinée à renvoyer un état 200 Ok standard."
+
+#: templates/meta-box-loaded-assets/_asset-single-row/_asset-single-row-hardcoded.php:135
+#: templates/_common/asset-manager/asset-row-hardcoded.php:150
+msgid "View more"
+msgstr "Voir plus"
+
+#: templates/meta-box-loaded-assets/_asset-single-row/_asset-single-row-hardcoded.php:104
+#: templates/_common/asset-manager/asset-row-hardcoded.php:108
+msgid "Belongs to"
+msgstr "Appartient à"
+
+#: templates/admin-page-tools.php:22
+msgid "Debugging"
+msgstr "Débogage"
+
+#: classes/Menu.php:130 classes/Menu.php:131
+msgid "CSS/JS Manager"
+msgstr "Gestionnaire CSS/JS"
+
+#: templates/meta-box.php:77
+msgid "As a result, the \"%s\" side meta box is not shown as it is irrelevant in this situation."
+msgstr "Par conséquent, la boîte-méta à côté « %s » n’est pas affichée car elle n’est pas pertinente dans cette situation."
+
+#: classes/Menu.php:139 classes/Menu.php:140
+#: lite/templates/_admin-page-getting-started-areas/_lite-vs-pro.php:176
+#: templates/admin-page-getting-started.php:561 templates/_top-area.php:29
+msgid "Plugins Manager"
+msgstr "Gestionnaire des extensions"
+
+#: early-triggers.php:1540
+msgid "This page's URL is matched by one of the RegEx rules you have in <em>\"Settings\"</em> -&gt; <em>\"Plugin Usage Preferences\"</em> -&gt; <em>\"Do not load the plugin on certain pages\"</em>, thus %s is not loaded on that page and no CSS/JS are to be managed. If you wish to view the CSS/JS manager, please remove the matching RegEx rule and the list of CSS/JS will be fetched."
+msgstr "L’URL de cette page correspond à l’une des règles RegEx que vous avez dans <em>« Réglages »</em> -&gt; <em>« Préférences d’utilisation de l’extension »</em>  -&gt; <em>« Ne chargez pas l’extension sur certaines pages »</em>, ainsi %s n’est pas chargé sur cette page et aucun CSS/JS ne doit être géré. Si vous souhaitez afficher le gestionnaire CSS/JS, veuillez retirer la règle RegEx correspondante et la liste des CSS/JS sera récupérée."
+
+#: templates/meta-box-restricted-page-load.php:58
+msgid "This page's URL is matched by one of the RegEx rules you have in <strong>\"Settings\"</strong> -&gt; <strong>\"Plugin Usage Preferences\"</strong> -&gt; <strong>\"Do not load the plugin on certain pages\"</strong>, thus Asset CleanUp Pro is not loaded on that page and no CSS/JS are to be managed. If you wish to view the CSS/JS manager, please remove the matching RegEx rule and reload this page."
+msgstr "L’URL de cette page correspond à l’une des règles RegEx que vous avez dans <strong>« Réglages »</strong> -&gt; <strong>« Préférences d’utilisation de l’extension »</strong> -&gt; <strong>« Ne chargez pas l’extension sur certaines pages »</strong>, ainsi Asset CleanUp n’est pas chargé sur cette page et aucun CSS/JS ne doit être géré. Si vous souhaitez afficher le gestionnaire CSS/JS, veuillez retirer la règle RegEx correspondante et la liste des CSS/JS sera récupérée."
+
+#: templates/_admin-pages-assets-manager-manage-css-js/_homepage.php:92
+msgid "This homepage's URI is matched by one of the RegEx rules you have in <strong>\"Settings\"</strong> -&gt; <strong>\"Plugin Usage Preferences\"</strong> -&gt; <strong>\"Do not load the plugin on certain pages\"</strong>, thus %s is not loaded on that page and no CSS/JS are to be managed. If you wish to view the CSS/JS manager, please remove the matching RegEx rule and reload this page."
+msgstr "L’URI de cette page d’accueil correspond à l’une des règles RegEx que vous avez dans <strong>« Réglages »</strong> -&gt; <strong>« Préférences d’utilisation de l’extension »</strong> -&gt; <strong>« Ne chargez pas l’extension sur certaines pages »</strong>, ainsi %s n’est pas chargé sur cette page et aucun CSS/JS ne doit être géré. Si vous souhaitez afficher le gestionnaire CSS/JS, veuillez retirer la règle RegEx correspondante et rechargez la page."
+
+#: templates/_admin-page-overview-areas/_scripts.php:16
+msgid "Scripts (.js)"
+msgstr "Scripts (.js)"
+
+#: templates/_admin-page-overview-areas/_styles.php:62
+msgid "There is no data added to (e.g. unload, load exceptions, notes, changing of location, preloading, etc.) to any stylesheet."
+msgstr "Aucune donnée n’est ajoutée (par exemple, déchargement, exceptions de chargement, notes, changement d’emplacement, préchargement, etc.) à une feuille de style."
+
+#: templates/_admin-page-overview-areas/_styles.php:13
+msgid "Stylesheets (.css)"
+msgstr "Feuilles de style (.css)"
+
+#: classes/AdminBar.php:941 classes/Menu.php:162 classes/Menu.php:163
+#: templates/admin-page-getting-started.php:539 templates/_top-area.php:35
+msgid "Overview"
+msgstr "Aperçu"
+
+#: templates/_admin-page-overview-areas/_styles.php:50
+msgid "No unload/load exception rules of any kind are set for this stylesheet file"
+msgstr "Aucune règle d’exception de déchargement/chargement d’aucune sorte n’est définie pour ce fichier de feuille de style"
+
+#: templates/_admin-page-overview-areas/_scripts.php:52
+msgid "No unload/load exception rules of any kind are set for this JavaScript file"
+msgstr "Aucune règle d’exception de déchargement/chargement d’aucune sorte n’est définie pour ce fichier JavaScript"
+
+#: templates/_admin-page-overview-areas/_scripts.php:64
+msgid "There is no data added to (e.g. unload, load exceptions, notes, async/defer attributes, changing of location, preloading, etc.) to any SCRIPT tag."
+msgstr "Aucune donnée n’est ajoutée (par exemple, déchargement, exceptions de chargement, notes, attributs async/defer, changement d’emplacement, préchargement, etc.) à une balise SCRIPT."
+
+#: templates/_common/bulk-changes/page.php:20
+msgid "RegEx Load Exceptions"
+msgstr "Exceptions de chargement RegEx"
+
+#: templates/_common/bulk-changes/page.php:22
+msgid "Defer &amp; Async (site-wide)"
+msgstr "Defer &amp; Async (à l’échelle du site)"
+
+#: templates/_common/bulk-changes/page.php:19
+msgid "RegEx Unloads"
+msgstr "Déchargements de RegEx"
+
+#: templates/_common/bulk-changes/page.php:18
+msgid "Bulk Unloaded (page types)"
+msgstr "Déchargé en masse (types de page)"
+
+#: templates/_common/asset-manager/script-attribute-controls.php:9
+msgid "Pro version"
+msgstr "Version Pro"
+
+#: templates/meta-box-loaded-assets/_asset-single-row/_asset-single-row-extra-inline.php:104
+msgid "Hide"
+msgstr "Masquer"
+
+#: templates/meta-box-loaded-assets/_asset-single-row/_asset-single-row-extra-inline.php:104
+msgid "Show"
+msgstr "Afficher"
+
+#: classes/Admin/SettingsAdmin.php:1249
+msgid "Cache Dynamic Loaded CSS"
+msgstr "CSS dynamique mis en cache"
+
+#: classes/Admin/SettingsAdmin.php:1266
+msgid "Cache Dynamic Loaded JavaScript"
+msgstr "JavaScript dynamique mis en cache"
+
+#: templates/admin-page-settings-plugin.php:138
+#: templates/admin-page-settings-plugin.php:172
+#: templates/_common/settings/optimize-css.php:88
+#: templates/_common/settings/optimize-css.php:188
+#: templates/_common/settings/optimize-js.php:101
+#: templates/_common/settings/optimize-js.php:169
+msgid "Minify"
+msgstr "Minifier"
+
+#: templates/admin-page-settings-plugin.php:29
+msgid "Optimize JavaScript"
+msgstr "Optimisation JavaScript"
+
+#: templates/admin-page-settings-plugin.php:28
+msgid "Optimize CSS"
+msgstr "Optimisation CSS"
+
+#: templates/meta-box.php:78 templates/_common/critical-css/overview.php:33
+msgid "Options"
+msgstr "Options"
+
+#: templates/meta-box-loaded-assets/_asset-single-row/_asset-single-row-handle-deps.php:20
+msgid "\"Child\" of \"parent\" CSS file(s):"
+msgstr "Fichier(s) CSS « enfant » de « parent » :"
+
+#: templates/meta-box-loaded-assets/_asset-single-row/_asset-single-row-handle-deps.php:29
+msgid "\"Child\" of \"parent\" JS file(s):"
+msgstr "Fichier(s) JS « enfant » de « parent » :"
+
+#: templates/admin-page-settings-plugin.php:34
+msgid "Local Fonts"
+msgstr "Fontes locales"
+
+#: templates/admin-page-settings-plugin.php:35
+msgid "Google Fonts"
+msgstr "Polices Google"
+
+#: classes/Admin/SettingsAdmin.php:1221
+msgid "Grouped by preloaded or not-preloaded status"
+msgstr "Groupé par statut préchargé ou non préchargé"
+
+#: templates/meta-box-side-page-options.php:45
+msgid "Do not combine JS files on this page"
+msgstr "Ne combinez pas les fichiers JS sur cette page"
+
+#: templates/_common/bulk-changes/page.php:21
+msgid "Preloaded CSS/JS"
+msgstr "CSS/JS préchargé"
+
+#: classes/Preloads.php:652
+msgid "The preload option was removed for the chosen CSS/JS."
+msgstr "L’option de préchargement a été supprimée pour le fichier CSS/JS choisi."
+
+#: templates/_common/modals/preloaded-assets-info.php:11
+msgid "Preloading CSS/JS site-wide"
+msgstr "Préchargement CSS/JS sur l’ensemble du site"
+
+#: templates/settings-frontend.php:68
+msgid "Try not to use both plugins for the same feature as you could end up with broken functionality on either end."
+msgstr "Essayez de ne pas utiliser deux extensions pour la même fonctionnalité car vous pourriez vous retrouver avec une fonctionnalité cassée."
+
+#: templates/settings-frontend.php:68
+msgid "You're already using Asset CleanUp to manage the CSS/JS."
+msgstr "Vous utilisez déjà Asset CleanUp pour gérer CSS/JS."
+
+#: classes/Admin/CriticalCssAdmin.php:419
+#: templates/admin-page-assets-manager-manage-css-js.php:16
+#: templates/_admin-pages-assets-manager-critical-css/_common/classic/_primary-tabs.php:19
+msgid "Tag"
+msgstr "Étiquette"
+
+#: classes/Admin/CriticalCssAdmin.php:410
+#: templates/admin-page-assets-manager-manage-css-js.php:15
+#: templates/_admin-pages-assets-manager-critical-css/_common/classic/_primary-tabs.php:18
+msgid "Category"
+msgstr "Catégorie"
+
+#: templates/admin-page-assets-manager-manage-css-js.php:14
+#: templates/_admin-pages-assets-manager-critical-css/_common/classic/_primary-tabs.php:17
+msgid "Media"
+msgstr "Média"
+
+#: classes/PluginTracking.php:626
+msgid "No, do not allow"
+msgstr "Non, ne permet pas"
+
+#: classes/PluginTracking.php:618
+msgid "Allow, I'm happy to help"
+msgstr "Autoriser, je suis heureux d’aider"
+
+#: classes/Admin/PluginReview.php:96
+msgid "Don't show this again"
+msgstr "Ne plus afficher"
+
+#: classes/Admin/PluginReview.php:91
+msgid "Nope, maybe later"
+msgstr "Non, peut-être plus tard"
+
+#: classes/Admin/PluginReview.php:86
+msgid "Ok, you deserve it"
+msgstr "Ok, vous le méritez"
+
+#: classes/Admin/PluginReview.php:79
+msgid "Could you please do me a BIG favor and give it a 5-star rating on WordPress to help us spread the word and boost our motivation?"
+msgstr "C’est génial ! Pourriez-vous me faire une faveur et nous donner un avis 5 étoiles sur WordPress pous nous aider à nous faire connaître et récompenser nos efforts ?"
+
+#: classes/Admin/PluginReview.php:77
+msgid "Hey, you have been using Asset CleanUp for some time and already unloaded useless CSS/JS which would give your website a higher page speed score and better user experience."
+msgstr "Vous utilisez Asset CleanUp depuis un certain temps et vous avez déjà déchargé des fichiers CSS/JS inutiles, ce qui donnerait à votre site Web un score plus rapide en vitesse de page et une meilleure expérience utilisateur."
+
+#: classes/Menu.php:358
+msgid "Sorry, you are not allowed to access this page."
+msgstr "Désolé, vous n’avez pas l’autorisation d’accéder à cette page."
+
+#: classes/Menu.php:365
+msgid "Your current role(s): <strong>%s</strong>"
+msgstr "Vos rôles actuels : <strong>%s</strong>"
+
+#: templates/_common/asset-manager/asset-row-handle.php:126
+msgid "Ignore dependency rule and keep the \"children\" loaded"
+msgstr "Ignorer la règle de dépendance et garder chargés les \"enfants\""
+
+#: templates/_admin-page-settings-bulk-changes/_bulk-unloaded.php:270
+msgid "Apply changes"
+msgstr "Appliquer les modifications"
+
+#: templates/_admin-page-settings-bulk-changes/_bulk-unloaded.php:113
+#: templates/_admin-page-settings-bulk-changes/_bulk-unloaded.php:204
+msgid "Scripts (.js) Unloaded"
+msgstr "Scripts (.js) non chargés"
+
+#: templates/_admin-page-settings-bulk-changes/_bulk-unloaded.php:76
+#: templates/_admin-page-settings-bulk-changes/_bulk-unloaded.php:169
+msgid "Stylesheets (.css) Unloaded"
+msgstr "Feuilles de styles (.css) non chargées"
+
+#: classes/Admin/Tools.php:1359
+msgid "The following were imported:"
+msgstr "Les éléments suivants ont été importés :"
+
+#: templates/settings-frontend.php:114
+msgid "Powered by %1$s, version %2$s"
+msgstr "Propulsé par %1$s, version %2$s"
+
+#: classes/OwnAssets.php:2190
+msgid "Please make sure you have a backup (e.g. an exported JSON file) before proceeding."
+msgstr "Assurez-vous de disposer d’une sauvegarde (par exemple, d’un fichier JSON exporté) avant de poursuivre."
+
+#: templates/_top-area.php:97
+msgid "QUICK ACTIONS"
+msgstr "ACTIONS RAPIDES"
+
+#: classes/Admin/Tools.php:1389
+msgid "Posts, Pages &amp; Custom Post Types: Rules &amp; Page Options (Side Meta Box)"
+msgstr "Messages, pages et types de publication personnalisés : Règles et Options de page (Méta boîtes dans la colonne latérale)"
+
+#: classes/Admin/Tools.php:1381
+msgid "Bulk Unloads (e.g. for all pages of `post` post type)"
+msgstr "Déchargements en masse (ex. : pour toutes les pages de type de publication « post »)"
+
+#: classes/OwnAssets.php:2189
+msgid "This process is NOT reversible."
+msgstr "Ce processus n’est pas réversible."
+
+#: classes/Admin/Tools.php:1369
+msgid "Homepage Unload Rules"
+msgstr "Règles de déchargement de la page d’accueil"
+
+#: classes/Admin/Tools.php:1373
+msgid "Homepage Load Exceptions (for site-wide and bulk unloads)"
+msgstr "Exceptions de chargement de la page d’accueil (pour les déchargements en masse et à l’échelle du site)"
+
+#: classes/Admin/Tools.php:1377
+msgid "Site-wide unloads"
+msgstr "Déchargements sur l’ensemble du site"
+
+#: templates/_common/asset-manager/script-attribute-controls.php:35
+msgid "on this page"
+msgstr "sur cette page"
+
+#: templates/_common/asset-manager/script-attribute-controls.php:54
+#: templates/_common/asset-manager/unload-site-wide.php:16
+#: templates/_common/asset-manager/unload-site-wide.php:79
+msgid "everywhere"
+msgstr "partout"
+
+#: templates/_common/asset-manager/unload-site-wide.php:66
+msgid "Remove site-wide rule"
+msgstr "Retirer la règle à l’échelle du site"
+
+#: templates/_admin-page-settings-plugin-areas/_common-files-unload.php:135
+#: templates/_admin-page-settings-plugin-areas/_common-files-unload.php:192
+#: templates/_admin-page-settings-plugin-areas/_common-files-unload.php:218
+#: templates/_common/asset-manager/unload-site-wide.php:16
+#: templates/_common/asset-manager/unload-site-wide.php:79
+msgid "Unload site-wide"
+msgstr "Décharger sur l’ensemble du site"
+
+#: templates/_common/asset-manager/unload-site-wide.php:56
+msgid "Keep site-wide rule"
+msgstr "Garder la règle à l échelle du site"
+
+#: templates/_common/asset-manager/unload-post-type.php:34
+msgid "Unload JS on all WooCommerce \"Product\" pages"
+msgstr "Décharger JS sur toutes les pages \"Produit\" de WooCommerce"
+
+#: templates/_common/asset-manager/unload-post-type.php:154
+msgid "bulk unload"
+msgstr "déchargement en vrac"
+
+#: classes/Admin/SettingsAdmin.php:1222
+msgid "Grouped by dependencies: Parents, Children, Independent"
+msgstr "Regroupés par dépendances : parents, enfants, indépendant"
+
+#: classes/Admin/SettingsAdmin.php:1223
+msgid "Grouped by loaded or unloaded status"
+msgstr "Groupé par état chargé ou déchargé"
+
+#: templates/_common/asset-manager/unload-post-type.php:46
+msgid "Unload CSS on all WooCommerce \"Product\" pages"
+msgstr "Décharger le CSS sur toutes les pages « Produit » de WooCommerce"
+
+#: templates/meta-box-loaded-assets/view-by-loaded-unloaded.php:76
+msgid "The following files were not selected for unload in any way (e.g. per page, site-wide) on this page. The list also includes any load exceptions (e.g. a file can be unloaded site-wide, but loaded on this page)."
+msgstr "Les fichiers suivants n’ont pas été sélectionnés pour le déchargement (par exemple, par page, sur l’ensemble du site) sur cette page. La liste inclut également toutes les exceptions de chargement (par exemple, un fichier peut être déchargé à l’échelle du site, mais chargé sur cette page)."
+
+#: templates/meta-box-loaded-assets/view-by-loaded-unloaded.php:78
+msgid "All the CSS/JS files were chosen to be unloaded on this page"
+msgstr "Tous les fichiers CSS/JS ont été choisis pour être déchargés sur cette page"
+
+#: templates/_common/asset-manager/unload-post-type.php:49
+msgid "Unload CSS on all Easy Digital Downloads \"Download\" pages"
+msgstr "Déchargez le CSS sur toutes les pages « Téléchargement » d’Easy Digital Downloads"
+
+#: templates/_common/asset-manager/unload-post-type.php:37
+msgid "Unload JS on all Easy Digital Downloads \"Download\" pages"
+msgstr "Déchargez JS sur toutes les pages « Téléchargement » d’Easy Digital Download"
+
+#: templates/settings-frontend.php:51
+#: templates/_common/modals/preloaded-assets-info.php:18
+msgid "Important"
+msgstr "Important"
+
+#: templates/settings-frontend.php:51
+msgid "You have enabled \"%s\" in WP Rocket's Cache area."
+msgstr "Vous avez activé « %s » dans la zone du Cache de WP Rocket."
+
+#: templates/settings-frontend.php:53
+msgid "If you experience issues such as unsaved settings or viewing assets from plugins that are disabled, consider using Asset CleanUp only in the Dashboard area (option \"Manage in the Dashboard\" has to be enabled in plugin's settings)."
+msgstr "Si vous rencontrez des problèmes tels que des réglages non enregistrés ou l’affichage des actifs d’extensions désactivés, envisagez d’utiliser Asset CleanUp uniquement dans la zone Tableau de bord (l’option « Gérer dans le tableau de bord » doit être activée dans les paramètres de l’extension)."
+
+#: templates/meta-box-side-page-options.php:62
+msgid "Use the \"Preview\" button if you wish to see how the options above, as well as the load/unload rules will apply before updating anything. It works like the \"Test Mode\" feature for this page only."
+msgstr "Utilisez le bouton « Aperçu » si vous souhaitez voir comment les options ci-dessus, ainsi que les règles de chargement/déchargement s’appliqueront avant toute mise à jour. Cela fonctionne comme la fonctionnalité « Mode test » pour cette page uniquement."
+
+#: templates/_admin-page-tools-storage.php:27
+msgid "Current storage directory"
+msgstr "Répertoire de stockage actuel"
+
+#: classes/Admin/Tools.php:1302
+msgid "Everything except the \"Settings\" was reset (including page &amp; bulk unloads, load exceptions)."
+msgstr "Tout sauf les \"Paramètres\" a été réinitialisé (y compris les déchargements en bloc par page, les exceptions de chargement)."
+
+#: templates/admin-page-tools.php:232
+msgid "The system detected the storage directory as non-writable, thus the minify &amp; combine CSS/JS files feature will not work. Please %smake it writable%s or raise a ticket with your hosting company about this matter."
+msgstr "Le système a détecté le répertoire de stockage comme étant non-inscriptible, ainsi la fonctionnalité minifier et combiner les fichiers CSS/JS ne fonctionnera pas. Veuillez %sle rendre inscriptible%s ou ouvrir un ticket chez votre hébergeur à ce sujet."
+
+#: templates/_admin-page-settings-bulk-changes/_bulk-unloaded.php:27
+#: templates/_common/modals/bulk-unloaded-info.php:17
+msgid "Everywhere"
+msgstr "Partout"
+
+#: templates/admin-page-child-settings-homepage.php:79
+msgid "Update"
+msgstr "Mise à jour"
+
+#: classes/Admin/CriticalCssAdmin.php:366
+#: classes/Admin/CriticalCssAdmin.php:1573
+#: templates/admin-page-assets-manager-manage-css-js.php:11
+#: templates/_admin-pages-assets-manager-critical-css/_common/classic/_primary-tabs.php:14
+#: templates/_admin-pages-assets-manager-critical-css/_common/compact/_context-selector.php:42
+msgid "Posts"
+msgstr "Publications"
+
+#: templates/_admin-pages-assets-manager-manage-css-js/_404-not-found.php:13
+#: templates/_admin-pages-assets-manager-manage-css-js/_category.php:13
+#: templates/_admin-pages-assets-manager-manage-css-js/_custom-post-types.php:22
+#: templates/_admin-pages-assets-manager-manage-css-js/_custom-taxonomy.php:13
+#: templates/_admin-pages-assets-manager-manage-css-js/_media-attachment.php:25
+#: templates/_admin-pages-assets-manager-manage-css-js/_pages.php:13
+#: templates/_admin-pages-assets-manager-manage-css-js/_posts.php:13
+#: templates/_admin-pages-assets-manager-manage-css-js/_tag.php:13
+msgid "read more"
+msgstr "lire la suite"
+
+#: templates/admin-page-assets-manager-manage-css-js.php:13
+#: templates/_admin-pages-assets-manager-critical-css/_common/classic/_primary-tabs.php:16
+#: templates/_admin-pages-assets-manager-critical-css/_common/compact/_context-selector.php:111
+msgid "Custom Post Types"
+msgstr "Type de contenu personnalisé"
+
+#: classes/Admin/CriticalCssAdmin.php:375
+#: classes/Admin/CriticalCssAdmin.php:1579
+#: templates/admin-page-assets-manager-manage-css-js.php:12
+#: templates/_admin-pages-assets-manager-critical-css/_common/classic/_primary-tabs.php:15
+#: templates/_admin-pages-assets-manager-critical-css/_common/compact/_context-selector.php:47
+msgid "Pages"
+msgstr "Pages"
+
+#: classes/Admin/CriticalCssAdmin.php:1716
+#: templates/admin-page-assets-manager-manage-css-js.php:17
+#: templates/_admin-pages-assets-manager-critical-css/_common/classic/_primary-tabs.php:20
+msgid "Custom Taxonomy"
+msgstr "Taxonomie personnalisée"
+
+#: classes/Admin/CriticalCssAdmin.php:451
+#: classes/Admin/CriticalCssAdmin.php:753
+#: classes/Admin/CriticalCssAdmin.php:1018
+#: classes/Admin/CriticalCssAdmin.php:1889
+#: templates/admin-page-assets-manager-manage-css-js.php:19
+#: templates/_admin-pages-assets-manager-critical-css/_common/classic/_primary-tabs.php:22
+msgid "Author"
+msgstr "Auteur"
+
+#: classes/Admin/AssetsManagerAdmin.php:348
+#: classes/Admin/CriticalCssAdmin.php:1621 classes/Admin/OverviewByPage.php:80
+#: templates/admin-page-assets-manager-manage-css-js.php:21
+#: templates/_admin-pages-assets-manager-critical-css/_common/classic/_primary-tabs.php:24
+#: templates/_admin-pages-assets-manager-critical-css/_common/compact/_context-selector.php:88
+msgid "404 Not Found"
+msgstr "Erreur 404"
+
+#: templates/_admin-page-settings-plugin-areas/_plugin-usage-settings/_analytics.php:173
+#: templates/_common/fonts/local.php:79
+msgid "How it works"
+msgstr "Comment ça marche"
+
+#: templates/_common/asset-manager/meta-box-loaded.php:37
+msgid "CODE"
+msgstr "CODE"
+
+#: templates/_common/asset-manager/meta-box-loaded.php:41
+msgid "MESSAGE"
+msgstr "MESSAGE"
+
+#: templates/_common/asset-manager/meta-box-loaded.php:45
+msgid "OUTPUT"
+msgstr "SORTIE"
+
+#: templates/_admin-pages-assets-manager-manage-css-js/_singular-page.php:73
+#: templates/_common/asset-manager/archive-context-header.php:33
+msgid "Page URL"
+msgstr "URL de la page"
+
+#: templates/settings-frontend.php:106
+#: templates/_admin-pages-assets-manager-critical-css/_common/classic/_layout.php:101
+#: templates/_admin-pages-assets-manager-critical-css/_common/compact/_layout.php:90
+msgid "UPDATE"
+msgstr "METTRE À JOUR"
+
+#: classes/OwnAssets.php:2170 classes/OwnAssets.php:2175
+#: classes/OwnAssets.php:2180 classes/OwnAssets.php:2185
+#: classes/OwnAssets.php:2191
+msgid "Please confirm to continue or \"Cancel\" to abort it."
+msgstr "Veuillez confirmer pour continuer ou \"Annuler\" pour abandonner."
+
+#: classes/OwnAssets.php:2159 classes/OwnAssets.php:2164
+#: classes/OwnAssets.php:2179 classes/OwnAssets.php:2184
+msgid "This is an irreversible action."
+msgstr "C’est une action irréversible."
+
+#: classes/Admin/MainAdmin.php:1917
+msgid "\"Test Mode\" is ENABLED. Any settings or unloads will be visible ONLY to you, the logged-in administrator."
+msgstr "Le \"mode test\" est activé. Tous les réglages ou déchargements ne seront visibles que par vous-même, l’administrateur connecté."
+
+#: classes/OwnAssets.php:2146
+msgid "Make sure to properly test your website if you unload the jQuery migration library."
+msgstr "Assurez-vous de tester correctement votre site Web si vous déchargez la bibliothèque de migration jQuery."
+
+#: classes/Admin/Tools.php:1306
+msgid "Everything was reset (including settings, individual &amp; bulk unloads, load exceptions) to the same point it was when you first activated the plugin."
+msgstr "Tout a été réinitialisé (y compris les réglages, les chargement individuels et en groupe, les exceptions de chargement) au même point qu’elle était lorsque vous avez activé l’extension pour la première fois."
+
+#: classes/Update.php:52
+msgid "This page's settings were updated. Please make sure the page's cache is cleared (if you're using a caching plugin or a server-side caching solution) to immediately have the changes applied for every visitor."
+msgstr "Les réglages de cette page ont été mis à jour. Veuillez vous assurer que le cache de la page est effacé (si vous utilisez une extension de mise en cache ou une solution de mise en cache côté serveur) pour voir immédiatement les modifications appliquées pour les visiteurs."
+
+#: templates/_admin-page-settings-bulk-changes/_bulk-unloaded.php:20
+msgid "Available for Pro users"
+msgstr "Disponible pour les utilisateurs Pro"
+
+#: templates/_admin-page-settings-bulk-changes/_bulk-unloaded.php:274
+msgid "Note: As there are no unloaded assets (scripts &amp; styles) to be managed, the button is disabled."
+msgstr "Remarque : en l’absence d’actifs non chargés (scripts et styles) à gérer, le bouton est désactivé."
+
+#: templates/admin-page-child-settings-homepage.php:41
+msgid "Posts page:"
+msgstr "Page des publications :"
+
+#: templates/admin-page-child-settings-homepage.php:66
+#: templates/_admin-pages-assets-manager-manage-css-js/_homepage.php:141
+#: templates/_admin-pages-assets-manager-manage-css-js/_singular-page.php:142
+msgid "Retrieving the loaded scripts and styles for the home page. Please wait..."
+msgstr "Récupération des scripts et des styles chargés pour la page d’accueil. Veuillez patienter…"
+
+#: templates/_common/asset-manager/meta-box-loaded.php:90
+msgid "You are currently viewing the home page."
+msgstr "Vous visualisez actuellement la page d’accueil."
+
+#: templates/_common/asset-manager/meta-box-loaded.php:86
+msgid "You are currently viewing the page that shows your latest posts."
+msgstr "Vous consultez actuellement la page qui affiche vos dernières publications."
+
+#: templates/meta-box-side-page-options.php:17
+msgid "Do not minify CSS files on this page"
+msgstr "Ne pas minifier les CSS sur cette page"
+
+#: templates/meta-box-side-page-options.php:36
+msgid "Do not minify JS files on this page"
+msgstr "Ne pas minifier les JS sur cette page"
+
+#: lite/templates/settings-frontend-locked.php:13
+msgid "To unlock this feature, you can upgrade to the Pro version."
+msgstr "Pour déverrouiller cette fonctionnalité, vous devez passer à la version Pro."
+
+#: lite/templates/settings-frontend-locked.php:46
+msgid "Upgrade to Asset CleanUp Pro"
+msgstr "Mise à niveau vers Asset CleanUp Pro"
+
+#: classes/OwnAssets.php:2152
+msgid "This is worth disabling if you are NOT using the default WordPress comment system (e.g. you are using the website for business purposes, to showcase your products and you are not using it as a blog where people leave comments to your posts)."
+msgstr "Cela vaut la peine de désactiver si vous n’utilisez pas le système par défaut des commentaires WordPress  (par exemple, vous utilisez votre site Web à des fins commerciales, pour présenter vos produits et vous ne l’utilisez pas en tant que blog dans lequel les internautes laissent des commentaires)."
+
+#: classes/OwnAssets.php:2149 classes/OwnAssets.php:2154
+msgid "Confirm this action to enable the unloading or cancel to leave it loaded by default."
+msgstr "Confirmez cette action pour activer le déchargement ou annulez pour le laisser chargé par défaut."
+
+#: templates/meta-box-side-page-options.php:26
+msgid "Do not combine CSS files on this page"
+msgstr "Ne combinez pas les fichiers CSS sur cette page"
+
+#: templates/admin-page-child-settings-homepage.php:32
+msgid "Front page:"
+msgstr "Page d&rsquo;accueil"
+
+#: templates/_admin-page-settings-bulk-changes/_bulk-unloaded.php:143
+msgid "There are no site-wide unloaded scripts."
+msgstr "Il n’existe aucun script non chargé à l’échelle du site."
+
+#: lite/classes/Admin/UpgradeNotices.php:36
+msgid "Managing the loading of the styles &amp; scripts files for this <strong>%s</strong> taxonomy is %savailable in the Pro version%s"
+msgstr "Gestion du chargement des styles &amp; fichiers de script pour cette taxonomie <strong>%s</strong> sont %sdisponible dans la version Pro%s"
+
+#: templates/admin-page-assets-manager-manage-css-js.php:18
+#: templates/_admin-pages-assets-manager-critical-css/_common/classic/_primary-tabs.php:21
+msgid "Search"
+msgstr "Rechercher"
+
+#: templates/admin-page-assets-manager-manage-css-js.php:20
+#: templates/_admin-pages-assets-manager-critical-css/_common/classic/_primary-tabs.php:23
+msgid "Date"
+msgstr "Date"
+
+#: classes/Admin/Tools.php:1286
+msgid "All the settings were reset to their default values."
+msgstr "Tous les réglages ont été réinitialisés à leurs valeurs par défaut."
+
+#: templates/admin-page-child-settings-homepage.php:18
+msgid "As \"Manage in the Dashboard?\" is not enabled in \"%sSettings%s\", you can not manage the assets from the Dashboard."
+msgstr "Comme « Gérer dans le tableau de bord ? » n’est pas activé dans « %sRéglages%s », vous ne pouvez pas gérer les actifs à partir du tableau de bord."
+
+#: templates/admin-page-child-settings-homepage.php:49
+#: templates/_admin-pages-assets-manager-manage-css-js/_homepage.php:38
+msgid "To read more about creating a static front page in WordPress, %scheck the Codex%s."
+msgstr "Pour en savoir plus sur la création d’une page de garde statique dans WordPress,%sconsultez le Codex%s."
+
+#: templates/admin-page-child-settings-homepage.php:61
+#: templates/_admin-pages-assets-manager-manage-css-js/_homepage.php:74
+msgid "Changes will also apply to pages such as %s etc. in case the latest blog posts are paginated."
+msgstr "Les modifications s’appliqueront également à des pages telles que %s  etc. au cas où les derniers articles du blog seraient paginés."
+
+#: templates/meta-box-side-page-options.php:55
+msgid "Do not apply any CSS &amp; JavaScript settings (including preloading, \"async\", \"defer\" &amp; any unload rules) on this page"
+msgstr "Ne pas appliquer de CSS et réglages JavaScript (y compris le pré-chargement, « asynchrone », « différé » et toutes les règles de déchargement) sur cette page"
+
+#: lite/templates/settings-frontend-locked.php:17
+msgid "This is a <strong>WordPress Search Page</strong> and managing CSS &amp; JS (unload, defer, async, etc.) for this page type can be done in Asset CleanUp Pro."
+msgstr "C’est une <strong>page de recherche WordPress</strong> qui gère CSS et JS (décharger, defer, async, etc.) pour ce type de page peut être effectué dans Asset CleanUp Pro."
+
+#: lite/templates/settings-frontend-locked.php:20
+msgid "This is a <strong>404 (Not Found) Page</strong> and managing CSS &amp; JS (unload, defer, async, etc.) for this page type can be done in Asset CleanUp Pro."
+msgstr "Ceci est une <strong>page erreur 404</strong> et la gestion de CSS et JS (décharger, defer, async, etc.) pour ce type de page peut être effectué dans Asset CleanUp Pro."
+
+#: lite/templates/settings-frontend-locked.php:26
+msgid "This is a <strong>Category (Taxonomy) Page</strong> and managing CSS &amp; JS (unload, defer, async, etc.) for this page type can be done in Asset CleanUp Pro."
+msgstr "Ceci est une <strong>page Catégorie (Taxonomie)</strong> et la gestion des CSS et JS (décharger, defer, async, etc.) pour ce type de page peut être effectué dans Asset CleanUp Pro."
+
+#: lite/templates/settings-frontend-locked.php:29
+msgid "This is a <strong>WooCommerce Product Category (Taxonomy) Page</strong> and managing CSS &amp; JS (unload, defer, async, etc.) for this page type can be done in Asset CleanUp Pro."
+msgstr "C’est une <strong>page de catégorie de produits WooCommerce (taxonomie)</strong> qui gère le code CSS et JS (décharger, defer, async, etc.) pour ce type de page peut être effectué dans Asset CleanUp Pro."
+
+#: lite/templates/settings-frontend-locked.php:32
+msgid "This is a <strong>Date (Archive) Page</strong> and managing (unload, defer, async etc.) CSS &amp; JS for this page type can be done in Asset CleanUp Pro."
+msgstr "Il s’agit d’une <strong>page Date (archive)</strong> et gérée (décharger, defer, async, etc.) CSS et JS pour ce type de page peut être effectué dans Asset CleanUp Pro."
+
+#: lite/templates/settings-frontend-locked.php:38
+msgid "This is a <strong>Taxonomy Page</strong> and managing CSS &amp; JS (unload, defer, async, etc.) for this page type can be done in Asset CleanUp Pro."
+msgstr "Ceci est une <strong>page taxonomie</strong> et la gestion des CSS et JS (décharger, defer, async, etc.) pour ce type de page peut être effectué dans Asset CleanUp Pro."
+
+#: classes/Admin/SettingsAdmin.php:831
+msgid "The settings were successfully updated."
+msgstr "Les réglages ont bien été enregistrés."
+
+#: classes/Admin/MainAdmin.php:1920
+msgid "The website is in LIVE MODE as \"Test Mode\" is not enabled. All the plugin changes are visible for everyone: logged-in administrators and regular visitors."
+msgstr "Le site Web est en mode direct, car le « mode test » n’est pas activé. Toutes les modifications de l’extension sont visibles pour tous : administrateurs connectés et visiteurs habituels."
+
+#: templates/_top-area.php:23
+msgid "CSS &amp; JS Manager"
+msgstr "Gestionnaire CSS & JS"
+
+#: classes/Admin/MainAdmin.php:1919
+msgid "%s: \"LIVE MODE\" (test mode is not enabled, thus, all the plugin changes are visible for everyone: you, the logged-in administrator and the regular visitors)"
+msgstr "%s : « Mode en ligne » (le mode test n’est pas activé, ainsi, toutes les modifications de l’extension sont visibles pour tout le monde : vous, l’administrateur/administratrice connecté·e et les visiteurs/visiteuses)"
+
+#: classes/Admin/MainAdmin.php:1924
+msgid "NOTE: These \"%s: Page Speed Booster\" messages are only shown to you, the HTML comment is not visible for the regular visitor."
+msgstr "Remarque : les messages « %s : Page Speed ​​Booster » sont affichés uniquement à vous, le commentaire HTML n’est pas visible aux visiteurs/visiteuses habituels."
+
+#: classes/Admin/MainAdmin.php:1916
+msgid "%s: \"TEST MODE\" ENABLED (any settings or unloads will be visible ONLY to you, the logged-in administrator)"
+msgstr "%s : « Mode test » activé (tous les réglages ou déchargements seront visibles uniquement pour vous, l’administrateur/administratrice connecté·e)"
+
+#: classes/Admin/Plugin.php:332 classes/Menu.php:113 classes/Menu.php:114
+#: lite/templates/_admin-page-getting-started-areas/_lite-vs-pro.php:316
+msgid "Getting Started"
+msgstr "Premiers pas"
+
+#: lite/classes/Admin/PluginLite.php:38
+msgid "Thank you for using %s"
+msgstr "Merci d’utiliser %s"
+
+#: templates/admin-page-child-settings-homepage.php:61
+#: templates/_admin-pages-assets-manager-manage-css-js/_homepage.php:74
+msgid "Here you can unload files loaded on the home page. \"Front page displays\" (from \"Settings\" &#187; \"Reading\") is set to either \"Your latest posts\" (in \"Settings\" &#187; \"Reading\") OR a special layout (from a theme or plugin) was enabled."
+msgstr "Ici, vous pouvez décharger les fichiers chargés sur la page d’accueil. « Affichages de la page d’accueil » (depuis « Réglages > Lecture ») est réglé sur « Vos derniers messages » (dans « Réglages > Lecture ») OU une mise en page spéciale (d’un thème ou d’une extension) qui a été activé."
+
+#: templates/settings-frontend.php:80
+msgid "Unloading CSS/JS will also take effect for the pagination/sorting pages"
+msgstr "Le déchargement de CSS/JS prendra également effet pour les pages de pagination/tri"
+
+#: templates/_admin-page-settings-bulk-changes/_assets-positions.php:2
+#: templates/_common/bulk-changes/page.php:23
+msgid "Updated CSS/JS positions"
+msgstr "Mise à jour les positions CSS/JS"
+
+#: lite/templates/settings-frontend-locked.php:35
+msgid "This is a <strong>Tag (Archive) Page</strong> and managing CSS &amp; JS (unload, defer, async, etc.) for this page type can be done in Asset CleanUp Pro."
+msgstr "Il s’agit d’une <strong>page d’étiquette (archive)</strong> et de gestion des CSS et JS (décharger, defer, async, etc.) pour ce type de page peut être effectué dans Asset CleanUp Pro."
+
+#: lite/templates/settings-frontend-locked.php:23
+msgid "This is an <strong>Author Page</strong> and managing CSS &amp; JS (unload, defer, async, etc.) for this page type can be done in Asset CleanUp Pro."
+msgstr "Il s’agit d’une <strong>page d’auteur </strong> et gérant CSS et JS (décharger, defer, async, etc.) pour ce type de page peut être effectué dans Asset CleanUp Pro."
+
+#: classes/BulkChanges.php:243
+msgid "The selected styles/scripts were removed from the unload list for <strong><u>%s</u></strong> post type and they will now load in the pages/posts, unless you have other rules that would prevent them from loading."
+msgstr "Les styles/scripts sélectionnés ont été supprimés de la liste de déchargement pour le type de publication <strong><u>%s</u></strong> et ils seront désormais chargés dans les pages/publications, à moins que d’autres règles empêchent le chargement."
+
+#: lite/classes/Admin/PluginLite.php:42
+msgid "If you like it, please %s<strong>rate</strong> %s%s %s on WordPress.org to help me spread the word to the community."
+msgstr "Si vous l’aimez, veuillez %s <strong>noter</strong>%s%s %s sur WordPress.org pour m’aider à faire passer le mot à la communauté."
+
+#: templates/settings-frontend.php:74
+msgid "This area is shown only for the admin users and if \"Manage in the Front-end?\" was selected in the plugin's settings. Handles such as 'admin-bar' and 'wpassetcleanup-style' are not included as they are irrelevant since they are used by the plugin for this area."
+msgstr "Cette zone est affichée uniquement pour les utilisateurs administrateurs et si « Gérer sur l’interface publique » ? a été sélectionné dans les réglages de l’extension. Des poignées telles que « admin-bar » et « wpassetcleanup-style » ne sont pas incluses car elles ne sont pas pertinentes car elles sont utilisées par l’extension pour cette zone."
+
+#: templates/settings-frontend.php:80
+msgid "This a WooCommerce shop page ('product' type archive)."
+msgstr "Ceci est une page de boutique WooCommerce (archive de type « produit »)."
+
+#: classes/Update.php:47
+msgid "The homepage's settings were updated. Please make sure the homepage's cache is cleared (if you're using a caching plugin or a server-side caching solution) to immediately have the changes applied for every visitor."
+msgstr "Les réglages de la page d’accueil ont été mis à jour. Veuillez vous assurer que le cache de la page d’accueil est effacé (si vous utilisez une extension de mise en cache ou une solution de mise en cache côté serveur) pour que les modifications soient immédiatement appliquées à chaque visiteur."
+
+#: classes/BulkChanges.php:226
+msgid "The selected styles/scripts were removed from the global unload list and they will now load in the pages/posts, unless you have other rules that would prevent them from loading."
+msgstr "Les styles/scripts sélectionnés ont été supprimés de la liste de déchargement global et seront désormais chargés dans les pages/publications, à moins que vous ne disposiez d’autres règles qui les empêcheraient de se charger."
+
+#: classes/Admin/MainAdmin.php:1076
+msgid "The CSS/JS files will be available to manage once the post/page is published."
+msgstr "Les fichiers CSS/JS seront disponibles pour être gérer une fois que la publication/page sera publiée."
+
+#: classes/AdminBar.php:876 templates/_top-area.php:103
+msgid "Clear CSS/JS Files Cache"
+msgstr "Effacer le cache des fichiers CSS/JS"
+
+#: classes/OwnAssets.php:2147
+msgid "In some cases, due to old jQuery code triggered from plugins or the theme, unloading this migration library could cause those scripts not to function anymore and break some of the front-end functionality."
+msgstr "Dans certains cas, en raison de l’ancien code jQuery déclenché à partir de l’extension ou du thème, le déchargement de cette bibliothèque de migration peut empêcher ces scripts de fonctionner et paralyser certaines fonctionnalités de l’interface publique."
+
+#: classes/OwnAssets.php:2148
+msgid "If you are not sure about whether activating this option is right or not, it is better to leave it as it is (to be loaded by default) and consult with a developer."
+msgstr "Si vous ne savez pas si l’activation de cette option est correcte ou non, il est préférable de la laisser telle quelle (charger par défaut) et de consulter un⋅e développeur/développeuse."
+
+#: classes/OwnAssets.php:2153
+msgid "If you are not sure about whether activating this option is right or not, it is better to leave it as it is (to be loaded by default)."
+msgstr "Si vous ne savez pas si l’activation de cette option est correcte ou non, il est préférable de la laisser telle quelle (charger par défaut)."
+
+#: classes/OwnAssets.php:2158
+msgid "Are you sure you want to reset the settings to their default values?"
+msgstr "Êtes-vous sûr de vouloir réinitialiser les réglages à leurs valeurs par défaut ?"
+
+#: classes/Admin/SettingsAdmin.php:817
+msgid "It looks like you have both \"Manage in the Dashboard?\" and \"Manage in the Front-end?\" inactive. The plugin still works fine and any assets you have selected for unload are not loaded. However, if you want to manage the assets in any page, you need to have at least one of the view options enabled."
+msgstr "Il semble que vous ayez les deux « Gérer dans le tableau de bord ? » et « Gérer dans l’interface publique ? » inactif. L’extension fonctionne toujours correctement et les ressources que vous avez sélectionnées pour le déchargement ne sont pas chargées. Toutefois, si vous souhaitez gérer les actifs dans une page, vous devez activer au moins l’une des options d’affichage."
+
+#: classes/OwnAssets.php:2183
+msgid "Are you sure you want to reset everything (settings, unloads, load exceptions etc.) to the same point it was when you first activated the plugin?"
+msgstr "Êtes-vous sûr de vouloir tout réinitialiser (réglages, déchargements, exceptions de chargement, etc.) au même endroit que lorsque vous avez activé l’extension pour la première fois ?"
+
+#: classes/OwnAssets.php:2160 classes/OwnAssets.php:2165
+msgid "Please confirm to continue or \"Cancel\" to abort it"
+msgstr "Veuillez confirmer pour continuer ou « Annuler » pour abandonner"
+
+#: templates/settings-frontend.php:87
+msgid "Although this page is detected as the home page, its URL is not the same as the one from \"General Settings\" &#187; \"Site Address (URL)\" and the WooCommerce plugin is not active anymore. This could be the \"Shop\" page that is no longer active."
+msgstr "Bien que cette page soit détectée comme page d’accueil, son URL n’est pas la même que celle de « Réglages généraux » &#187; « Adresse du site (URL) » et l’extension WooCommerce n’est plus actif. Cela pourrait être la page « Boutique » qui n’est plus active."
+
+#: templates/_admin-page-settings-bulk-changes/_bulk-unloaded.php:106
+msgid "There are no site-wide unloaded styles."
+msgstr "Il n’y a pas de styles non chargés à l’échelle du site."
+
+#: templates/_common/asset-manager/meta-box-loaded.php:34
+msgid "Consider using \"Direct\" method. If that doesn't work either, use the \"Manage in the Front-end\" option (which should always work in any instance) and submit a ticket regarding the problem you're having. Here's the output received by the call:"
+msgstr "Pensez à utiliser la méthode « directe ». Si cela ne fonctionne pas non plus, utilisez l’option « Gérer dans le frontal » (qui devrait toujours fonctionner dans tous les cas) et envoyez un ticket concernant le problème que vous rencontrez. Voici la sortie reçue par l’appel :"
+
+#: templates/_common/asset-manager/meta-box-loaded.php:33
+msgid "Since the server (from its IP) is making the call, it will not \"behave\" in the same way as the \"Direct\" method, which could bypass for instance any authentication request (you might use a staging website that is protected by login credentials)."
+msgstr "Étant donné que le serveur (à partir de son adresse IP) passe l’appel, il ne se « comportera » pas de la même manière que la méthode « Direct », ce qui pourrait ignorer, par exemple, toute demande d’authentification (vous pouvez utiliser un site de test protégé par des identifiants de connexion)."
+
+#: templates/settings-frontend.php:52
+msgid "This could cause some issues with Asset CleanUp retrieving an outdated (cached) asset list below."
+msgstr "Cela pourrait entraîner des problèmes lorsque Asset CleanUp récupère une liste d’actifs obsolète (mise en cache) ci-dessous."
+
+#: templates/_admin-page-settings-bulk-changes/_bulk-unloaded.php:21
+msgid "Click to upgrade!"
+msgstr "Cliquez pour mettre à niveau !"
+
+#: lite/classes/AdminBarLite.php:42
+msgid "Support Forum"
+msgstr "Forum de support"
+
+#: classes/Admin/Plugin.php:333 classes/Admin/Tools.php:1365
+#: classes/AdminBar.php:869 classes/Menu.php:121 classes/Menu.php:122
+#: templates/admin-page-getting-started.php:546
+#: templates/admin-page-tools.php:481
+#: templates/_admin-page-settings-plugin-areas/_plugin-usage-settings/_visibility.php:102
+#: templates/_top-area.php:17
+msgid "Settings"
+msgstr "Réglages"
+
+#: classes/Menu.php:171 classes/Menu.php:172 templates/_top-area.php:41
+msgid "Tools"
+msgstr "Outils"
+
+#: classes/Menu.php:181 classes/Menu.php:182 templates/_top-area.php:46
+msgid "License"
+msgstr "Licence"
+
+#: classes/Menu.php:191 classes/Menu.php:192 templates/_top-area.php:51
+msgid "Help"
+msgstr "Aide"
+
+#: templates/_common/asset-manager/assets-top-area.php:69
+msgid "Direct"
+msgstr "Direct"
+
+#: classes/Admin/CriticalCssAdmin.php:1566
+#: classes/Admin/CriticalCssAdmin.php:1567
+#: classes/Admin/DatabaseStorageMap.php:67
+#: classes/Admin/DatabaseStorageMap.php:80 classes/Admin/OverviewByPage.php:77
+#: classes/OptimiseAssets/FontPreloadScanner.php:3526
+#: templates/admin-page-assets-manager-manage-css-js.php:10
+#: templates/_admin-page-overview-areas/_page-options.php:135
+#: templates/_admin-pages-assets-manager-critical-css/_common/classic/_primary-tabs.php:13
+#: templates/_admin-pages-assets-manager-critical-css/_common/compact/_applies-to.php:26
+#: templates/_admin-pages-assets-manager-critical-css/_common/compact/_context-selector.php:35
+msgid "Homepage"
+msgstr "Page d’accueil"
+
+#: templates/admin-page-tools.php:25
+msgid "Reset"
+msgstr "Réinitialiser"
+
+#: templates/admin-page-tools.php:20
+msgid "System Info"
+msgstr "Information système"
+
+#: templates/meta-box-loaded-assets/_asset-single-row/_asset-single-row-source.php:124
+#: templates/_common/asset-manager/asset-row-hardcoded-source.php:51
+msgid "Source:"
+msgstr "Source :"
+
+#: templates/_common/asset-manager/asset-row.php:122
+msgid "Version:"
+msgstr "Version :"
+
+#: templates/_common/asset-manager/asset-row-position.php:21
+msgid "Position:"
+msgstr "Position :"
+
+#: templates/_common/asset-manager/asset-row.php:127
+msgid "File Size:"
+msgstr "Taille du fichier :"
+
+#: templates/meta-box-loaded-assets/view-default.php:32
+msgid "Styles (.css files)"
+msgstr "Styles (fichiers .css)"
+
+#: templates/meta-box-loaded-assets/view-default.php:33
+msgid "Scripts (.js files)"
+msgstr "Scripts (fichiers .js)"
+
+#. Plugin URI of the plugin
+#: wpacu.php
+msgid "https://wordpress.org/plugins/wp-asset-clean-up/"
+msgstr "https://wordpress.org/plugins/wp-asset-clean-up/"
+
+#: templates/admin-page-license.php:20
+msgid "To unlock all features and get premium support, you can %supgrade to the Pro version%s."
+msgstr "Pour déverrouiller toutes les fonctionnalités et obtenir un support premium, vous devez %spasser à la version Pro%s."
+
+#: classes/AssetsManager.php:845
+msgid "Unload on this page"
+msgstr "Décharger sur cette page"
+
+#: templates/_common/asset-manager/unload-post-type.php:132
+msgid "Keep bulk rule"
+msgstr "Supprimer la règle groupée"
+
+#: templates/_common/asset-manager/unload-post-type.php:141
+msgid "Remove bulk rule"
+msgstr "Supprimer la règle groupée"
+
+#: templates/meta-box-loaded-assets/_asset-single-row/_asset-single-row-extra-inline.php:32
+msgid "Inline styling associated with the handle:"
+msgstr "Style en ligne associé à la poignée :"
+
+#: templates/admin-page-settings-plugin.php:37
+msgid "Disable XML-RPC"
+msgstr "Désactiver XML-RPC"
+
+#: wpacu.php:204
+msgid "%1$s requires %2$s PHP version installed. You have %3$s."
+msgstr "%1$s nécessite %2$s  la version PHP est installée. Vous avez %3$s."
+
+#: lite/templates/_admin-page-getting-started-areas/_lite-vs-pro.php:96
+#: lite/templates/_admin-page-getting-started-areas/_lite-vs-pro.php:114
+#: lite/templates/_admin-page-getting-started-areas/_lite-vs-pro.php:274
+#: templates/_common/settings/assets-management.php:515
+#: templates/_common/settings/assets-management.php:523
+#: templates/_common/settings/assets-management.php:532
+msgid "Expanded"
+msgstr "Étendue"
+
+#: templates/_admin-page-settings-plugin-areas/_disable-xml-rpc-protocol.php:129
+#: templates/_admin-page-settings-plugin-areas/_plugin-usage-settings/_accessibility.php:48
+#: templates/_common/settings/assets-management.php:154
+#: templates/_common/settings/assets-management.php:232
+#: templates/_common/settings/assets-management.php:531
+#: templates/_common/settings/assets-management.php:540
+#: templates/_common/settings/optimize-css.php:387
+#: templates/_common/settings/optimize-css.php:527
+#: templates/_common/settings/optimize-js.php:367
+msgid "Default"
+msgstr "Par défaut"
+
+#: templates/_common/asset-manager/assets-top-area.php:23
+msgid "Please select the styles &amp; scripts that are %sNOT NEEDED%s from the list below. Not sure which ones to unload? %s Use \"Test Mode\" (to make the changes apply only to you), while you are going through the trial &amp; error process."
+msgstr "Veuillez sélectionner les styles et les scripts qui sont %sINUTILES%s dans la liste ci-dessous. Vous ne savez pas lesquels décharger ? %s Utilisez le « Mode test » (pour que les modifications ne concernent que vous), pendant que vous procéder au processus d’essai-erreur."
+
+#: lite/classes/Admin/UpgradeNotices.php:31
+msgid "CSS &amp; JavaScript Load Manager"
+msgstr "Gestionnaire de chargement CSS et JavaScript"
+
+#: templates/meta-box-loaded-assets/view-default.php:95
+msgid "It looks like there are no public .css files loaded or the ones visible do not follow <a href=\"https://codex.wordpress.org/Function_Reference/wp_enqueue_style\">the WordPress way of enqueuing styles</a>."
+msgstr "Il semble qu’aucun fichier .css public ne soit chargé ou que les fichiers visibles ne suivent pas la <a href=\"https://codex.wordpress.org/Function_Reference/wp_enqueue_style\">méthode de mise en file d’attente par WordPress </a>."
+
+#: templates/meta-box-loaded-assets/_asset-single-row/_asset-single-row-handle-deps.php:16
+msgid "\"Child\" of one \"parent\" CSS file:"
+msgstr "Fichier CSS « enfant » du « parent » :"
+
+#: templates/meta-box-loaded-assets/_asset-single-row/_asset-single-row-handle-deps.php:25
+msgid "\"Child\" of one \"parent\" JS file:"
+msgstr "Fichier « enfant » du « parent » :"
+
+#: templates/meta-box-loaded-assets/_asset-single-row/_asset-single-row-handle-deps.php:26
+msgid "\"Child\" of %s JS \"parent\" files:"
+msgstr "Fichiers JS « enfant » de %s « parent » :"
+
+#: templates/admin-page-license.php:14
+msgid "You're using the lite version of %s (v%s), so no license key is needed. You'll receive automatic notifications whenever a new version is available for download."
+msgstr "Vous utilisez la version Lite de %s (v%s). Aucune clé de licence est nécessaire. Vous recevrez des notifications automatiques chaque fois qu’une nouvelle version est disponible au téléchargement."
+
+#: templates/admin-page-license.php:27
+msgid "If you already purchased the Pro version and you don't know how to activate it, %sfollow the steps from the \"Help\" section%s."
+msgstr "Si vous avez déjà acheté la version Pro et que vous ne savez pas comment l’activer, %s suivez les étapes de la section « Aide » %s."
+
+#: templates/admin-page-child-settings-homepage.php:69
+#: templates/_admin-pages-assets-manager-manage-css-js/_homepage.php:146
+#: templates/_admin-pages-assets-manager-manage-css-js/_singular-page.php:147
+msgid "If you believe fetching the page takes too long and the assets should have loaded by now, I suggest you go to \"Settings\", make sure \"Manage in front-end\" is checked and then %smanage the assets in the front-end%s."
+msgstr "Si vous pensez que récupérer la page prend trop de temps et que les ressources auraient déjà dû être chargées, allez dans « Réglages », assurez-vous que « Gérer en amont » est coché, puis %sgérer les ressources en frontal%s."
+
+#: wpacu.php:209
+msgid "If your website is compatible with PHP 7+ (e.g. you can check with your developers or contact the hosting company), it's strongly recommended to upgrade to a newer PHP version for a better performance."
+msgstr "Si votre site est compatible avec PHP 7+ (vous pouvez par exemple contacter vos développeurs/développeuses ou contacter la société d’hébergement), il est vivement recommandé de procéder à une mise à niveau pour obtenir de meilleures performances."
+
+#: templates/admin-page-tools.php:117
+msgid "You believe you have applied some changes (such as unloading the wrong CSS / JavaScript file(s)) that broke the website and you need a quick fix to make it work the way it used to. Note that for this option, you can also enable \"Test Mode\" from the plugin's settings which will only apply the changes to you (logged-in administrator), while the regular visitors will view the website as if %s is deactivated."
+msgstr "Vous pensez que vous avez appliqué certaines modifications (telles que le déchargement des fichiers CSS/JavaScript incorrects) qui ont cassé le site et vous avez besoin d’un correctif rapide pour le faire fonctionner comme avant. Notez que pour cette option, vous pouvez également activer le « Mode test » à partir des réglages de l’extension qui n’appliqueront qu’à vous (administrateur/administratrice connecté·e) les modifications, tandis que les visiteurs/visiteuses traditionnels verront le site comme si %s était désactivé."
+
+#. Description of the plugin
+#: wpacu.php
+msgid "Unload Chosen Scripts & Styles from Posts/Pages to reduce HTTP Requests, Combine/Minify CSS/JS files"
+msgstr "Déchargez les scripts et les styles choisis des publications/pages pour réduire les requêtes HTTP, concaténez/minifiez les fichiers CSS/JS"
+
+#: templates/meta-box.php:58
+msgid "In order to manage the CSS/JS files here, you need to have \"Manage in the Dashboard?\" enabled within the plugin's settings (\"Plugin Usage Preferences\" tab)."
+msgstr "Afin de gérer les fichiers CSS/JS ici, vous devez avoir activé « Gérer dans le tableau de bord ? » dans les réglages de l’extension (onglet « Préférences d’utilisation de l’extension »)."
+
+#: classes/Admin/SettingsAdmin.php:1220
+msgid "Grouped by tag position: &lt;head&gt; &amp; &lt;body&gt;"
+msgstr "Regroupés par position de balise : &lt;head&gt; &amp; &lt;body&gt;"
+
+#: templates/meta-box-loaded-assets/_asset-single-row/_asset-single-row-extra-inline.php:101
+msgid "Inline JavaScript code associated with the handle:"
+msgstr "Code JavaScript en ligne associé dans la poignée :"
+
+#: templates/_common/asset-manager/asset-row-handle.php:14
+msgid "Handle:"
+msgstr "Poignée :"
+
+#: templates/meta-box.php:61
+msgid "The styles and scripts will be available for unload once this post/page is <strong>public</strong> and <strong>publish</strong>ed as the whole page needs to be scanned for all the loaded assets."
+msgstr "Les styles et les scripts pourront être déchargés une fois que cet article/cette page sera <strong>public</strong> et <strong>publié</strong>, car toute la page doit être analysée pour tous les éléments chargés."
+
+#: templates/_common/asset-manager/asset-row-handle.php:41
+msgid "Not sure if needed or not? In this case, it's better to leave it loaded to avoid breaking the website."
+msgstr "Pas sûr si nécessaire ou pas ? Dans ce cas, il est préférable de le laisser chargé pour éviter de casser le site Web."
+
+#: templates/_common/asset-manager/assets-top-area.php:41
+msgid "Assets that are marked with %s are part of WordPress core files. Be careful if you decide to unload them! If you are not sure what to do, just leave them loaded by default and consult with a developer."
+msgstr "Les actifs marqués avec %s font partie des fichiers principaux de WordPress. Faites attention si vous décidez de les décharger ! Si vous ne savez pas quoi faire, laissez-les simplement chargés par défaut et consultez un développeur."
+
+#: templates/meta-box-loaded-assets/view-by-location.php:289
+msgid "There are no CSS/JS loaded from this location."
+msgstr "Il n’y a pas de CSS/JS chargé depuis cet emplacement."
+
+#: templates/meta-box-loaded-assets/view-default.php:99
+msgid "It looks like there are no public .js files loaded or the ones visible do not follow <a href=\"https://codex.wordpress.org/Function_Reference/wp_enqueue_script\">the WordPress way of enqueuing scripts</a>."
+msgstr "Il semble qu’aucun fichier .js public ne soit chargé ou que les fichiers visibles ne suivent pas <a href=\"https://codex.wordpress.org/Function_Reference/wp_enqueue_script\"> de la même manière que WordPress pour mettre les scripts en file d’attente</a>."
+
+#: templates/meta-box.php:63
+msgid "If this post/page was meanwhile published (after you saw the above notice), just reload this edit page and you should see the list of CSS/JS files loaded in the page."
+msgstr "Si cette publication/page a été publié entre-temps (après que vous ayez vu la notification ci-dessus), il vous suffit de recharger cette page d’édition pour afficher la liste des fichiers CSS/JS chargés dans la page."
+
+#: templates/meta-box-loaded-assets/_asset-single-row/_asset-single-row-handle-deps.php:17
+msgid "\"Child\" of %s CSS \"parent\" files:"
+msgstr "Fichiers CSS « enfant » de %s « parent » :"
+
+#: classes/Menu.php:148 classes/Menu.php:149
+#: templates/_admin-page-settings-bulk-changes/_pro-feature-preview.php:6
+msgid "Bulk Changes"
+msgstr "Modifications en masse"
+
+#: classes/Admin/SettingsAdmin.php:1219
+msgid "Grouped by location (themes, plugins, core &amp; external)"
+msgstr "Regroupé par emplacement (thème, extensions, cœur et externe)"
+
+#: templates/meta-box-loaded-assets/_asset-single-row/_asset-single-row-extra-inline.php:35
+msgid "Show / Hide"
+msgstr "Afficher/masquer"
+
+#. Plugin Name of the plugin
+#: wpacu.php
+msgid "Asset CleanUp: Page Speed Booster"
+msgstr "Asset CleanUp : accélérateur de vitesse de pages"
+
+#: templates/admin-page-settings-plugin.php:26
+msgid "Plugin Usage Preferences"
+msgstr "Préférences de l’extension"
+
+#: templates/admin-page-plugins-manager.php:52
+#: templates/admin-page-plugins-manager.php:61
+#: templates/_admin-page-overview-areas/_page-options.php:57
+#: templates/_admin-page-overview-areas/_page-options.php:198
+#: templates/_admin-page-tools-storage.php:13
+#: templates/_common/settings/optimize-css.php:490
+#: templates/_common/settings/optimize-js.php:319
+msgid "Read more"
+msgstr "Lire la suite"
+
+#: lite/classes/Admin/PluginLite.php:24 lite/classes/MenuLite.php:97
+#: lite/classes/MenuLite.php:98 templates/_top-area.php:57
+msgid "Go Pro"
+msgstr "Passer en version pro"
+
+#: lite/templates/_admin-page-getting-started-areas/_lite-vs-pro.php:105
+#: templates/admin-page-settings-plugin.php:27
+#: templates/_admin-page-settings-plugin-areas/_test-mode.php:68
+msgid "Test Mode"
+msgstr "Mode test"

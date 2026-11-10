@@ -1,0 +1,22 @@
+{
+  "name": "be/woocommerce-pdf-invoices-premium",
+  "description": "Premium extension for Invoices for WooCommerce.",
+  "keywords": ["wordpress", "woocommerce", "pdf", "invoice"],
+  "homepage": "https://wcpdfinvoices.com",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "Bas Elbers",
+      "email": "support@wcpdfinvoices.com"
+    }
+  ],
+  "autoload": {
+    "classmap": [
+      "includes/"
+    ],
+    "files": [
+      "includes/functions.php"
+    ]
+  }
+}

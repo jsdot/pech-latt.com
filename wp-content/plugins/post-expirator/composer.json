@@ -1,0 +1,74 @@
+{
+    "name": "publishpress/publishpress-future",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "description": "",
+    "authors": [
+        {
+            "name": "PublishPress",
+            "email": "help@publishpress.com",
+            "homepage": "https://publishpress.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Aaron Axelsen",
+            "homepage": "http://postexpirator.tuxdocs.net/"
+        }
+    ],
+    "config": {
+        "preferred-install": {
+            "*": "dist"
+        },
+        "allow-plugins": {
+            "publishpress/dev-workspace": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "phpstan/extension-installer": true,
+            "automattic/jetpack-autoloader": true,
+            "php-http/discovery": true,
+            "composer/installers": true
+        },
+        "process-timeout": 0
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "publishpress/dev-workspace": "dev-cursor/release-runner"
+    },
+    "extra": {
+        "plugin-slug": "post-expirator",
+        "plugin-name": "publishpress-future",
+        "plugin-folder": "post-expirator",
+        "version-constant": "PUBLISHPRESS_FUTURE_VERSION",
+        "plugin-lang-domain": "post-expirator",
+        "plugin-github-repo": "publishpress/publishpress-future",
+        "plugin-composer-package": "publishpress/publishpress-future",
+        "test-suites": ["unit", "integration", "e2e"]
+    },
+    "scripts": {
+        "check:all": [
+            "@check:php",
+            "@lint:php",
+            "@lint:phpcs"
+        ],
+        "lint:phpmd": "vendor/publishpress/dev-workspace/scripts/run.sh phpmd src,legacy,post-expirator.php,services.php ansi phpmd.ruleset.xml",
+        "lint:phpmd:ci": "vendor/publishpress/dev-workspace/scripts/run.sh phpmd src,legacy,post-expirator.php,services.php github phpmd.ruleset.xml",
+        "lint:phpmd:text": "vendor/publishpress/dev-workspace/scripts/run.sh phpmd src,legacy,post-expirator.php,services.php text phpmd.ruleset.xml",
+        "test": [
+            "@test:unit",
+            "@test:integration",
+            "@test:e2e"
+        ],
+        "test:unit": "bash tests/bin/run-codecept-suite.sh Unit UNIT_WORKERS",
+        "test:integration": "bash tests/bin/run-integration-tests.sh",
+        "test:e2e": "npm run test:e2e",
+        "test:e2e:headed": "npm run test:e2e:headed",
+        "sync:pro": [
+            "@pack:dir",
+            "rsync -a --delete dist/post-expirator/ ../publishpress-future-pro/lib/vendor/publishpress/publishpress-future/"
+        ]
+    }
+}

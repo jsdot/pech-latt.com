@@ -1,0 +1,8 @@
+[04-Nov-2026 14:44:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/sc4egpf8307/pech-latt.com/app/wp-content/themes/twentytwentyfive/functions.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/sc4egpf8307/pech-latt.com/app/wp-content/themes/twentytwentyfive/functions.php on line 24
+[09-Nov-2026 08:43:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/sc4egpf8307/pech-latt.com/app/wp-content/themes/twentytwentyfive/functions.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/sc4egpf8307/pech-latt.com/app/wp-content/themes/twentytwentyfive/functions.php on line 24

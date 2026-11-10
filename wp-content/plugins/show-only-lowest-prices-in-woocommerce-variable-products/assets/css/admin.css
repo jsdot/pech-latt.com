@@ -1,0 +1,184 @@
+/**
+ * Admin styles for AyudaWP Lowest Prices plugin
+ *
+ * Uses standard WordPress admin styling. No custom colors or gradients.
+ *
+ * @package AyudaWP_Lowest_Prices
+ */
+
+/* ==========================================================================
+   Page layout (main + sidebar)
+   ========================================================================== */
+
+.ayudawp-content {
+	display: flex;
+	gap: 20px;
+	margin-top: 20px;
+}
+
+.ayudawp-main {
+	flex: 1;
+	min-width: 0;
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	padding: 0 20px;
+	align-self: flex-start;
+}
+
+.ayudawp-sidebar {
+	width: 280px;
+	flex-shrink: 0;
+}
+
+/* ==========================================================================
+   Promotional widgets — Sidebar layout (vertical)
+   ========================================================================== */
+
+:root {
+	--ayudawp-lp-brand: #0073aa;
+}
+
+.ayudawp-lp-sidebar-widget {
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	padding: 15px;
+	margin-bottom: 20px;
+}
+
+.ayudawp-lp-sidebar-widget h3 {
+	margin-top: 0;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #eee;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.ayudawp-lp-sidebar-widget p {
+	margin: 0 0 15px;
+	color: #50575e;
+	font-size: 13px;
+	line-height: 1.5;
+}
+
+/* Promo widget dashicon */
+.ayudawp-lp-promo-widget > .dashicons {
+	font-size: 24px;
+	width: 24px;
+	height: 24px;
+	color: var(--ayudawp-lp-brand, #0073aa);
+	margin-bottom: 10px;
+}
+
+/* Full-width buttons inside promo widgets.
+   WordPress styles .button inside .wp-core-ui with (0,3,0) specificity, so the
+   three own classes are needed to win without touching core classes. */
+.ayudawp-lp-sidebar-widget.ayudawp-lp-promo-widget .button {
+	display: block;
+	text-align: center;
+	margin-top: 5px;
+	width: 100%;
+	white-space: normal;
+	height: auto;
+	min-height: auto;
+	line-height: 1.4;
+	padding: 6px 12px;
+}
+
+/* ==========================================================================
+   Price history plugin notice
+   ========================================================================== */
+
+.ayudawp-lp-notice {
+	margin: 15px 0 0;
+}
+
+/* ==========================================================================
+   Live preview of the price format
+   ========================================================================== */
+
+.ayudawp-lp-preview {
+	background: #f6f7f7;
+	border: 1px solid #dcdcde;
+	padding: 12px 15px;
+	margin: 20px 0;
+	max-width: 40em;
+}
+
+/* Follows the scroll so the options further down can be judged against it.
+   Only above the breakpoint where WordPress unpins the admin bar, since below
+   it the box would cover the field being edited. */
+@media screen and (min-width: 783px) {
+	.ayudawp-lp-preview {
+		position: sticky;
+		top: 42px;
+		z-index: 1;
+	}
+}
+
+.ayudawp-lp-preview-title {
+	margin: 0 0 8px;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 11px;
+	letter-spacing: 0.05em;
+	color: #50575e;
+}
+
+.ayudawp-lp-preview-list {
+	margin: 0;
+	list-style: none;
+}
+
+.ayudawp-lp-preview-list li {
+	margin: 0 0 6px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 4px 10px;
+	align-items: baseline;
+}
+
+.ayudawp-lp-preview-case {
+	color: #50575e;
+	font-size: 12px;
+	min-width: 15em;
+}
+
+.ayudawp-lp-preview-price {
+	font-size: 15px;
+}
+
+/* The badge ships without front end styles on purpose, so the preview gives it
+   the minimum needed to read as a badge here. */
+.ayudawp-lp-preview-price .ayudawp-discount-badge {
+	background: #d63638;
+	color: #fff;
+	border-radius: 2px;
+	padding: 1px 6px;
+	font-size: 11px;
+	font-weight: 600;
+}
+
+.ayudawp-lp-preview .description {
+	margin: 8px 0 0;
+}
+
+@media (max-width: 782px) {
+	.ayudawp-lp-preview-case {
+		min-width: 100%;
+	}
+}
+
+/* ==========================================================================
+   Responsive
+   ========================================================================== */
+
+@media (max-width: 960px) {
+	.ayudawp-content {
+		flex-direction: column;
+	}
+
+	.ayudawp-sidebar {
+		width: 100%;
+	}
+}

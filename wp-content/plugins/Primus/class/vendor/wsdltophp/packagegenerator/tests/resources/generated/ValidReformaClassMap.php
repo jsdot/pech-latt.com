@@ -1,0 +1,107 @@
+<?php
+
+declare(strict_types=1);
+/**
+ * Class which returns the class map definition
+ * @package Api
+ */
+class ApiClassMap
+{
+    /**
+     * Returns the mapping between the WSDL Structs and generated Structs' classes
+     * This array is sent to the \SoapClient when calling the WS
+     * @return string[]
+     */
+    final public static function get(): array
+    {
+        return [
+            'RequestState' => '\\StructType\\ApiRequestState',
+            'SetRequestForSubmitInnStatus' => '\\StructType\\ApiSetRequestForSubmitInnStatus',
+            'FiasAddress' => '\\StructType\\ApiFiasAddress',
+            'FullAddress' => '\\StructType\\ApiFullAddress',
+            'HouseInfo' => '\\StructType\\ApiHouseInfo',
+            'Facade' => '\\StructType\\ApiFacade',
+            'Roof' => '\\StructType\\ApiRoof',
+            'Basement' => '\\StructType\\ApiBasement',
+            'CommonSpace' => '\\StructType\\ApiCommonSpace',
+            'Chute' => '\\StructType\\ApiChute',
+            'HeatingSystem' => '\\StructType\\ApiHeatingSystem',
+            'HotWaterSystem' => '\\StructType\\ApiHotWaterSystem',
+            'ColdWaterSystem' => '\\StructType\\ApiColdWaterSystem',
+            'SewerageSystem' => '\\StructType\\ApiSewerageSystem',
+            'ElectricitySystem' => '\\StructType\\ApiElectricitySystem',
+            'GasSystem' => '\\StructType\\ApiGasSystem',
+            'Lift' => '\\StructType\\ApiLift',
+            'ManagementContract' => '\\StructType\\ApiManagementContract',
+            'Provider' => '\\StructType\\ApiProvider',
+            'Finance' => '\\StructType\\ApiFinance',
+            'HouseProfileData' => '\\StructType\\ApiHouseProfileData',
+            'FileInfo' => '\\StructType\\ApiFileInfo',
+            'GetHouseProfileResponse' => '\\StructType\\ApiGetHouseProfileResponse',
+            'HouseCadastralNumber' => '\\StructType\\ApiHouseCadastralNumber',
+            'HouseFacade' => '\\StructType\\ApiHouseFacade',
+            'HouseRoof' => '\\StructType\\ApiHouseRoof',
+            'HouseAdditionalEquipment' => '\\StructType\\ApiHouseAdditionalEquipment',
+            'HouseMeteringDevice' => '\\StructType\\ApiHouseMeteringDevice',
+            'HouseLift' => '\\StructType\\ApiHouseLift',
+            'HouseManagementContract' => '\\StructType\\ApiHouseManagementContract',
+            'HouseServiceReportVolume' => '\\StructType\\ApiHouseServiceReportVolume',
+            'HouseServiceReport' => '\\StructType\\ApiHouseServiceReport',
+            'HouseService' => '\\StructType\\ApiHouseService',
+            'HouseCommunalServiceCost' => '\\StructType\\ApiHouseCommunalServiceCost',
+            'HouseCommunalServiceNormativeAct' => '\\StructType\\ApiHouseCommunalServiceNormativeAct',
+            'HouseCommunalServiceVolumesReport' => '\\StructType\\ApiHouseCommunalServiceVolumesReport',
+            'HouseCommunalService' => '\\StructType\\ApiHouseCommunalService',
+            'HouseOverhaul' => '\\StructType\\ApiHouseOverhaul',
+            'HouseCommonMeeting' => '\\StructType\\ApiHouseCommonMeeting',
+            'HouseCommonPropertyRent' => '\\StructType\\ApiHouseCommonPropertyRent',
+            'HouseCommonProperty' => '\\StructType\\ApiHouseCommonProperty',
+            'HouseReportCommon' => '\\StructType\\ApiHouseReportCommon',
+            'HouseReportCommunalService' => '\\StructType\\ApiHouseReportCommunalService',
+            'HouseReportClaimsToConsumers' => '\\StructType\\ApiHouseReportClaimsToConsumers',
+            'HouseReportQualityOfWorkClaims' => '\\StructType\\ApiHouseReportQualityOfWorkClaims',
+            'HouseReport' => '\\StructType\\ApiHouseReport',
+            'HouseAlarmFailure' => '\\StructType\\ApiHouseAlarmFailure',
+            'HouseAlarm' => '\\StructType\\ApiHouseAlarm',
+            'HouseProfileData988' => '\\StructType\\ApiHouseProfileData988',
+            'GetHouseProfile988Response' => '\\StructType\\ApiGetHouseProfile988Response',
+            'GetHouseProfileSFResponse' => '\\StructType\\ApiGetHouseProfileSFResponse',
+            'GetHouseProfileSF988Response' => '\\StructType\\ApiGetHouseProfileSF988Response',
+            'HouseData' => '\\StructType\\ApiHouseData',
+            'NewCompanyProfileData' => '\\StructType\\ApiNewCompanyProfileData',
+            'CountDismissed' => '\\StructType\\ApiCountDismissed',
+            'CountHousesUnderMngReportDate' => '\\StructType\\ApiCountHousesUnderMngReportDate',
+            'CountHousesUnderMngStartPeriod' => '\\StructType\\ApiCountHousesUnderMngStartPeriod',
+            'SumSqHousesUnderMngReportDate' => '\\StructType\\ApiSumSqHousesUnderMngReportDate',
+            'SumSqHousesUnderMngStartPeriod' => '\\StructType\\ApiSumSqHousesUnderMngStartPeriod',
+            'AvgTimeServiceMkd' => '\\StructType\\ApiAvgTimeServiceMkd',
+            'IncomeOfMng' => '\\StructType\\ApiIncomeOfMng',
+            'IncomeOfUsage' => '\\StructType\\ApiIncomeOfUsage',
+            'IncomeOfKu' => '\\StructType\\ApiIncomeOfKu',
+            'SpendingOfMng' => '\\StructType\\ApiSpendingOfMng',
+            'ClaimsByContractsMng' => '\\StructType\\ApiClaimsByContractsMng',
+            'ClaimsByRso' => '\\StructType\\ApiClaimsByRso',
+            'DebtForMng' => '\\StructType\\ApiDebtForMng',
+            'DebtOwnersForKu' => '\\StructType\\ApiDebtOwnersForKu',
+            'DebtUoForKu' => '\\StructType\\ApiDebtUoForKu',
+            'ChargedForMng' => '\\StructType\\ApiChargedForMng',
+            'ChargedForResources' => '\\StructType\\ApiChargedForResources',
+            'SpendingRepair' => '\\StructType\\ApiSpendingRepair',
+            'SpendingBeauty' => '\\StructType\\ApiSpendingBeauty',
+            'SpendingRepairInvests' => '\\StructType\\ApiSpendingRepairInvests',
+            'PayedKuByStatements' => '\\StructType\\ApiPayedKuByStatements',
+            'PayedKuByNeeds' => '\\StructType\\ApiPayedKuByNeeds',
+            'CompanyProfileData' => '\\StructType\\ApiCompanyProfileData',
+            'GetCompanyProfileResponse' => '\\StructType\\ApiGetCompanyProfileResponse',
+            'Disturbance' => '\\StructType\\ApiDisturbance',
+            'License' => '\\StructType\\ApiLicense',
+            'CompanyProfileData988' => '\\StructType\\ApiCompanyProfileData988',
+            'GetCompanyProfile988Response' => '\\StructType\\ApiGetCompanyProfile988Response',
+            'GetCompanyProfileSFResponse' => '\\StructType\\ApiGetCompanyProfileSFResponse',
+            'GetCompanyProfileSF988Response' => '\\StructType\\ApiGetCompanyProfileSF988Response',
+            'ReportingPeriod' => '\\StructType\\ApiReportingPeriod',
+            'FileObject' => '\\StructType\\ApiFileObject',
+            'ErrorDetails' => '\\StructType\\ApiErrorDetails',
+        ];
+    }
+}

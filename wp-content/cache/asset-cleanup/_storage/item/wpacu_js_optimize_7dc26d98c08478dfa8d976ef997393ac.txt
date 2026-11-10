@@ -1,0 +1,3 @@
+/wp-content/plugins/woocommerce-tm-final-price/assets/js/tc-final-price.js
+/wp-content/cache/asset-cleanup/js/item/woocommerce-tm-final-price__assets__js__tc-final-price-js-v71e5e52ddd1fb14c11240960a0bc3d7ae3018a2e.js
+1726216105

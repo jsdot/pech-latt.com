@@ -1,0 +1,699 @@
+2024-06-10 14:41:18 - Le client existe déjà pour l'email : marc.ptk123456@gmail.com
+2024-06-10 14:41:18 - Options primus_url et primus_wsdl_setting récupérées.
+2024-06-10 14:41:18 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-06-10 14:41:18 - Fonction create appelée avec numOrder=1113044 et idClientPrimus=
+2024-06-10 14:41:18 - Options SOAP configurées.
+2024-06-10 14:41:18 - Client SOAP initialisé.
+2024-06-10 14:41:18 - Ligne ajoutée : {"line_LineNo":715305319,"line_Type":"Article","line_No":"","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-06-10 14:41:18 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"3.67","service_SurFacture":false,"service_Ventilation":""}
+2024-06-10 14:41:18 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"10","service_SurFacture":false,"service_Ventilation":""}
+2024-06-10 14:41:19 - Commande créée avec succès.
+2024-06-10 14:42:56 - Le client existe déjà pour l'email : marc.ptk123456@gmail.com
+2024-06-10 14:42:56 - Options primus_url et primus_wsdl_setting récupérées.
+2024-06-10 14:42:56 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-06-10 14:42:56 - Fonction create appelée avec numOrder=1113044 et idClientPrimus=
+2024-06-10 14:42:56 - Options SOAP configurées.
+2024-06-10 14:42:57 - Client SOAP initialisé.
+2024-06-10 14:42:57 - Ligne ajoutée : {"line_LineNo":1132253319,"line_Type":"Article","line_No":"","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-06-10 14:42:57 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"3.67","service_SurFacture":false,"service_Ventilation":""}
+2024-06-10 14:42:57 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"10","service_SurFacture":false,"service_Ventilation":""}
+2024-06-10 14:42:57 - Commande créée avec succès.
+2024-06-10 15:00:14 - Le client existe déjà pour l'email : marc.ptk123456@gmail.com
+2024-06-10 15:00:14 - Options primus_url et primus_wsdl_setting récupérées.
+2024-06-10 15:00:14 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-06-10 15:00:14 - Fonction create appelée avec numOrder=1113044 et idClientPrimus=
+2024-06-10 15:00:14 - Options SOAP configurées.
+2024-06-10 15:00:15 - Client SOAP initialisé.
+2024-06-10 15:00:15 - Ligne ajoutée : {"line_LineNo":2036214705,"line_Type":"Article","line_No":"","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-06-10 15:00:15 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"3.67","service_SurFacture":false,"service_Ventilation":""}
+2024-06-10 15:00:15 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"10","service_SurFacture":false,"service_Ventilation":""}
+2024-06-10 15:00:15 - Commande créée avec succès.
+2024-06-10 15:04:24 - Options de connexion SOAP initialisées.
+2024-06-10 15:04:24 - Données client initialisées pour l'appel SOAP.
+2024-06-10 15:04:24 - Service client initialisé.
+2024-06-10 15:04:24 - Appel du service client effectué.
+2024-06-10 15:04:24 - Nouveau client créé
+2024-06-10 15:04:24 - Options primus_url et primus_wsdl_setting récupérées.
+2024-06-10 15:04:24 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-06-10 15:04:24 - Fonction create appelée avec numOrder=1113045 et idClientPrimus=CLI00260
+2024-06-10 15:04:24 - Options SOAP configurées.
+2024-06-10 15:04:25 - Client SOAP initialisé.
+2024-06-10 15:04:25 - Ligne ajoutée : {"line_LineNo":1075076904,"line_Type":"Article","line_No":"","line_Location":"ZWMS","line_Qty":5,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"17.00","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-06-10 15:04:25 - Ligne ajoutée : {"line_LineNo":830918550,"line_Type":"Article","line_No":"","line_Location":"ZWMS","line_Qty":2,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22.00","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-06-10 15:04:25 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"21.5","service_SurFacture":false,"service_Ventilation":""}
+2024-06-10 15:04:25 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0","service_SurFacture":false,"service_Ventilation":""}
+2024-06-10 15:04:25 - Commande créée avec succès.
+2024-06-10 15:45:02 - Le client existe déjà pour l'email : marc.ptk123456222@gmail.com
+2024-06-10 15:45:02 - Référence de ce produit : SKU_NON_TROUVE
+2024-06-10 15:45:02 - Référence de ce produit : SKU_NON_TROUVE
+2024-06-10 15:45:02 - Options primus_url et primus_wsdl_setting récupérées.
+2024-06-10 15:45:02 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-06-10 15:45:02 - Fonction create appelée avec numOrder=1113045 et idClientPrimus=CLI00260
+2024-06-10 15:45:02 - Options SOAP configurées.
+2024-06-10 15:45:02 - Client SOAP initialisé.
+2024-06-10 15:45:02 - Ligne ajoutée : {"line_LineNo":206828300,"line_Type":"Article","line_No":"SKU_NON_TROUVE","line_Location":"ZWMS","line_Qty":5,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"17.00","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-06-10 15:45:02 - Ligne ajoutée : {"line_LineNo":1018029827,"line_Type":"Article","line_No":"SKU_NON_TROUVE","line_Location":"ZWMS","line_Qty":2,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22.00","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-06-10 15:45:02 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"21.5","service_SurFacture":false,"service_Ventilation":""}
+2024-06-10 15:45:02 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0","service_SurFacture":false,"service_Ventilation":""}
+2024-06-10 15:45:03 - Commande créée avec succès.
+2024-06-10 15:48:52 - Le client existe déjà pour l'email : marc.ptk123456222@gmail.com
+2024-06-10 15:48:52 - Référence de ce produit : SKU_NON_TROUVE
+2024-06-10 15:48:52 - Options primus_url et primus_wsdl_setting récupérées.
+2024-06-10 15:48:52 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-06-10 15:48:52 - Fonction create appelée avec numOrder=1113046 et idClientPrimus=CLI00260
+2024-06-10 15:48:52 - Options SOAP configurées.
+2024-06-10 15:48:52 - Client SOAP initialisé.
+2024-06-10 15:48:52 - Ligne ajoutée : {"line_LineNo":712113888,"line_Type":"Article","line_No":"SKU_NON_TROUVE","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22.00","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-06-10 15:48:52 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"3.67","service_SurFacture":false,"service_Ventilation":""}
+2024-06-10 15:48:52 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"10","service_SurFacture":false,"service_Ventilation":""}
+2024-06-10 15:48:52 - Commande créée avec succès.
+2024-06-10 15:55:24 - Le client existe déjà pour l'email : marc.ptk123456222@gmail.com
+2024-06-10 15:55:24 - Référence de ce produit : SKU_NON_TROUVE
+2024-06-10 15:55:24 - Options primus_url et primus_wsdl_setting récupérées.
+2024-06-10 15:55:24 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-06-10 15:55:24 - Fonction create appelée avec numOrder=1113046 et idClientPrimus=CLI00260
+2024-06-10 15:55:24 - Options SOAP configurées.
+2024-06-10 15:55:25 - Client SOAP initialisé.
+2024-06-10 15:55:25 - Ligne ajoutée : {"line_LineNo":525732596,"line_Type":"Article","line_No":"SKU_NON_TROUVE","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22.00","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-06-10 15:55:25 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"3.67","service_SurFacture":false,"service_Ventilation":""}
+2024-06-10 15:55:25 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"10","service_SurFacture":false,"service_Ventilation":""}
+2024-06-10 15:55:25 - Commande créée avec succès.
+2024-06-10 15:57:20 - Le client existe déjà pour l'email : marc.ptk123456222@gmail.com
+2024-06-10 16:03:27 - Le client existe déjà pour l'email : marc.ptk123456222@gmail.com
+2024-06-10 16:03:51 - Le client existe déjà pour l'email : marc.ptk123456222@gmail.com
+2024-06-10 16:10:36 - Le client existe déjà pour l'email : marc.ptk123456222@gmail.com
+2024-06-10 16:10:36 - Référence de ce produit : PFCPL853019B75C06C00
+2024-06-10 16:10:36 - Options primus_url et primus_wsdl_setting récupérées.
+2024-06-10 16:10:36 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-06-10 16:10:36 - Fonction create appelée avec numOrder=1113046 et idClientPrimus=CLI00260
+2024-06-10 16:10:36 - Options SOAP configurées.
+2024-06-10 16:10:36 - Client SOAP initialisé.
+2024-06-10 16:10:36 - Ligne ajoutée : {"line_LineNo":186782841,"line_Type":"Article","line_No":"PFCPL853019B75C06C00","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22.00","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-06-10 16:10:36 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"3.67","service_SurFacture":false,"service_Ventilation":""}
+2024-06-10 16:10:36 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"10","service_SurFacture":false,"service_Ventilation":""}
+2024-06-10 16:10:37 - Commande créée avec succès.
+2024-06-11 12:12:12 - Options de connexion SOAP initialisées.
+2024-06-11 12:12:12 - Données client initialisées pour l'appel SOAP.
+2024-06-11 12:12:13 - Service client initialisé.
+2024-06-11 12:12:13 - Appel du service client effectué.
+2024-06-11 12:12:13 - Nouveau client créé
+2024-06-11 12:12:13 - Référence de ce produit : PFNSG851018B75C06C00
+2024-06-11 12:12:13 - Référence de ce produit : PFNSG851018B75C06C00
+2024-06-11 12:12:13 - Options primus_url et primus_wsdl_setting récupérées.
+2024-06-11 12:12:13 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-06-11 12:12:13 - Fonction create appelée avec numOrder=1113049 et idClientPrimus=CLI00261
+2024-06-11 12:12:13 - Options SOAP configurées.
+2024-06-11 12:12:13 - Client SOAP initialisé.
+2024-06-11 12:12:13 - Ligne ajoutée : {"line_LineNo":866365043,"line_Type":"Article","line_No":"PFNSG851018B75C06C00","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22.00","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-06-11 12:12:13 - Ligne ajoutée : {"line_LineNo":803692894,"line_Type":"Article","line_No":"PFNSG851018B75C06C00","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22.00","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-06-11 12:12:13 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"7.33","service_SurFacture":false,"service_Ventilation":""}
+2024-06-11 12:12:13 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0","service_SurFacture":false,"service_Ventilation":""}
+2024-06-11 12:12:14 - Commande créée avec succès.
+2024-06-11 12:14:01 - Le client existe déjà pour l'email : marc.ptktest14h11@gmail.com
+2024-06-11 12:14:01 - Référence de ce produit : PFNSG851018B75C06C00
+2024-06-11 12:14:01 - Référence de ce produit : PFNSG851018B75C06C00
+2024-06-11 12:14:01 - Options primus_url et primus_wsdl_setting récupérées.
+2024-06-11 12:14:01 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-06-11 12:14:01 - Fonction create appelée avec numOrder=1113049 et idClientPrimus=CLI00261
+2024-06-11 12:14:01 - Options SOAP configurées.
+2024-06-11 12:14:01 - Client SOAP initialisé.
+2024-06-11 12:14:01 - Ligne ajoutée : {"line_LineNo":151653759,"line_Type":"Article","line_No":"PFNSG851018B75C06C00","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22.00","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-06-11 12:14:01 - Ligne ajoutée : {"line_LineNo":61871468,"line_Type":"Article","line_No":"PFNSG851018B75C06C00","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22.00","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-06-11 12:14:01 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"7.33","service_SurFacture":false,"service_Ventilation":""}
+2024-06-11 12:14:01 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0","service_SurFacture":false,"service_Ventilation":""}
+2024-06-11 12:14:01 - Commande créée avec succès.
+2024-06-11 12:14:57 - Le client existe déjà pour l'email : marc.ptktest14h11@gmail.com
+2024-06-11 12:14:57 - Référence de ce produit : PFNSG851018B75C06C00
+2024-06-11 12:14:57 - Référence de ce produit : PFNSG851018B75C06C00
+2024-06-11 12:14:57 - Options primus_url et primus_wsdl_setting récupérées.
+2024-06-11 12:14:57 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-06-11 12:14:57 - Fonction create appelée avec numOrder=1113049 et idClientPrimus=CLI00261
+2024-06-11 12:14:57 - Options SOAP configurées.
+2024-06-11 12:14:58 - Client SOAP initialisé.
+2024-06-11 12:14:58 - Ligne ajoutée : {"line_LineNo":696211904,"line_Type":"Article","line_No":"PFNSG851018B75C06C00","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22.00","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-06-11 12:14:58 - Ligne ajoutée : {"line_LineNo":1397627162,"line_Type":"Article","line_No":"PFNSG851018B75C06C00","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22.00","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-06-11 12:14:58 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"7.33","service_SurFacture":false,"service_Ventilation":""}
+2024-06-11 12:14:58 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0","service_SurFacture":false,"service_Ventilation":""}
+2024-06-11 12:14:58 - Commande créée avec succès.
+2024-06-11 12:20:00 - Le client existe déjà pour l'email : marc.ptktest14h11@gmail.com
+2024-06-11 12:20:00 - Référence de ce produit : SKU_NON_TROUVE
+2024-06-11 12:20:00 - Référence de ce produit : SKU_NON_TROUVE
+2024-06-11 12:20:00 - Options primus_url et primus_wsdl_setting récupérées.
+2024-06-11 12:20:00 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-06-11 12:20:00 - Fonction create appelée avec numOrder=1113049 et idClientPrimus=CLI00261
+2024-06-11 12:20:00 - Options SOAP configurées.
+2024-06-11 12:20:00 - Client SOAP initialisé.
+2024-06-11 12:20:00 - Ligne ajoutée : {"line_LineNo":378830731,"line_Type":"Article","line_No":"SKU_NON_TROUVE","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22.00","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-06-11 12:20:00 - Ligne ajoutée : {"line_LineNo":1620309922,"line_Type":"Article","line_No":"SKU_NON_TROUVE","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22.00","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-06-11 12:20:00 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"7.33","service_SurFacture":false,"service_Ventilation":""}
+2024-06-11 12:20:00 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0","service_SurFacture":false,"service_Ventilation":""}
+2024-06-11 12:20:00 - Commande créée avec succès.
+2024-06-11 12:21:10 - Le client existe déjà pour l'email : marc.ptktest14h11@gmail.com
+2024-06-11 12:28:13 - Le client existe déjà pour l'email : marc.ptktest14h11@gmail.com
+2024-06-11 12:28:13 - Référence de ce produit : SKU_NON_TROUVE
+2024-06-11 12:28:13 - Référence de ce produit : SKU_NON_TROUVE
+2024-06-11 12:28:13 - Options primus_url et primus_wsdl_setting récupérées.
+2024-06-11 12:28:13 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-06-11 12:28:13 - Fonction create appelée avec numOrder=1113049 et idClientPrimus=CLI00261
+2024-06-11 12:28:13 - Options SOAP configurées.
+2024-06-11 12:28:13 - Client SOAP initialisé.
+2024-06-11 12:28:13 - Ligne ajoutée : {"line_LineNo":1291388317,"line_Type":"Article","line_No":"SKU_NON_TROUVE","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22.00","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-06-11 12:28:13 - Ligne ajoutée : {"line_LineNo":1011575693,"line_Type":"Article","line_No":"SKU_NON_TROUVE","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22.00","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-06-11 12:28:13 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"7.33","service_SurFacture":false,"service_Ventilation":""}
+2024-06-11 12:28:13 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0","service_SurFacture":false,"service_Ventilation":""}
+2024-06-11 12:28:14 - Commande créée avec succès.
+2024-06-11 12:35:25 - Le client existe déjà pour l'email : marc.ptktest14h11@gmail.com
+2024-06-11 12:35:25 - Référence de ce produit : PFCPL851022B75C06C00
+2024-06-11 12:35:25 - Référence de ce produit : PFNSG851018B75C06C00
+2024-06-11 12:35:25 - Options primus_url et primus_wsdl_setting récupérées.
+2024-06-11 12:35:25 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-06-11 12:35:25 - Fonction create appelée avec numOrder=1113049 et idClientPrimus=CLI00261
+2024-06-11 12:35:25 - Options SOAP configurées.
+2024-06-11 12:35:26 - Client SOAP initialisé.
+2024-06-11 12:35:26 - Ligne ajoutée : {"line_LineNo":1542655159,"line_Type":"Article","line_No":"PFCPL851022B75C06C00","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22.00","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-06-11 12:35:26 - Ligne ajoutée : {"line_LineNo":1766704667,"line_Type":"Article","line_No":"PFNSG851018B75C06C00","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22.00","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-06-11 12:35:26 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"7.33","service_SurFacture":false,"service_Ventilation":""}
+2024-06-11 12:35:26 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0","service_SurFacture":false,"service_Ventilation":""}
+2024-06-11 12:35:26 - Commande créée avec succès.
+2024-06-11 12:42:12 - Le client existe déjà pour l'email : marc.ptktest14h11@gmail.com
+2024-06-11 12:42:12 - Référence du produit : PFCPL851022B75C06C00
+2024-06-11 12:42:12 - Référence du produit : PFNSG851018B75C06C00
+2024-06-11 12:42:12 - Options primus_url et primus_wsdl_setting récupérées.
+2024-06-11 12:42:12 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-06-11 12:42:12 - Fonction create appelée avec numOrder=1113049 et idClientPrimus=CLI00261
+2024-06-11 12:42:12 - Options SOAP configurées.
+2024-06-11 12:42:12 - Client SOAP initialisé.
+2024-06-11 12:42:42 - Le client existe déjà pour l'email : marc.ptktest14h11@gmail.com
+2024-06-11 12:42:42 - Référence du produit : PFCPL851022B75C06C00
+2024-06-11 12:42:42 - Référence du produit : PFNSG851018B75C06C00
+2024-06-11 12:42:42 - Options primus_url et primus_wsdl_setting récupérées.
+2024-06-11 12:42:42 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-06-11 12:42:42 - Fonction create appelée avec numOrder=1113049 et idClientPrimus=CLI00261
+2024-06-11 12:42:42 - Options SOAP configurées.
+2024-06-11 12:42:42 - Client SOAP initialisé.
+2024-06-11 12:42:42 - Ligne ajoutée : {"line_LineNo":1281786845,"line_Type":"Article","line_No":"PFCPL851022B75C06C00","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22.00","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-06-11 12:42:42 - Ligne ajoutée : {"line_LineNo":1155550610,"line_Type":"Article","line_No":"PFNSG851018B75C06C00","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22.00","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-06-11 12:42:42 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"7.33","service_SurFacture":false,"service_Ventilation":""}
+2024-06-11 12:42:42 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0","service_SurFacture":false,"service_Ventilation":""}
+2024-06-11 12:42:43 - Commande créée avec succès.
+2024-06-11 12:45:35 - Le client existe déjà pour l'email : marc.ptktest14h11@gmail.com
+2024-06-11 12:45:35 - Référence du produit : PFCPL851022B75C06C00
+2024-06-11 12:45:35 - Référence du produit : PFNSG851018B75C06C00
+2024-06-11 12:45:35 - Options primus_url et primus_wsdl_setting récupérées.
+2024-06-11 12:45:35 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-06-11 12:45:35 - Fonction create appelée avec numOrder=1113049 et idClientPrimus=CLI00261
+2024-06-11 12:45:35 - Options SOAP configurées.
+2024-06-11 12:45:35 - Client SOAP initialisé.
+2024-06-11 12:45:35 - Ligne ajoutée : {"line_LineNo":1347345315,"line_Type":"Article","line_No":"PFCPL851022B75C06C00","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22.00","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-06-11 12:45:35 - Ligne ajoutée : {"line_LineNo":1452289077,"line_Type":"Article","line_No":"PFNSG851018B75C06C00","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22.00","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-06-11 12:45:35 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"7.33","service_SurFacture":false,"service_Ventilation":""}
+2024-06-11 12:45:35 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0","service_SurFacture":false,"service_Ventilation":""}
+2024-06-11 12:45:35 - Échec de la création de la commande sur l'ERP.
+2024-06-11 13:29:54 - Le client existe déjà pour l'email : marc.ptktest14h11@gmail.com
+2024-06-11 13:29:54 - Référence du produit : PFCPL851022B75C06C00
+2024-06-11 13:29:54 - Référence du produit : PFNSG851018B75C06C00
+2024-06-11 13:29:54 - Options primus_url et primus_wsdl_setting récupérées.
+2024-06-11 13:29:54 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-06-11 13:29:54 - Fonction create appelée avec numOrder=1113049 et idClientPrimus=CLI00261
+2024-06-11 13:29:54 - Options SOAP configurées.
+2024-06-11 13:29:54 - Client SOAP initialisé.
+2024-06-11 13:29:54 - Ligne ajoutée : {"line_LineNo":822508776,"line_Type":"Article","line_No":"PFCPL851022B75C06C00","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22.00","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-06-11 13:29:54 - Ligne ajoutée : {"line_LineNo":601323746,"line_Type":"Article","line_No":"PFNSG851018B75C06C00","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22.00","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-06-11 13:29:54 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"7.33","service_SurFacture":false,"service_Ventilation":""}
+2024-06-11 13:29:54 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0","service_SurFacture":false,"service_Ventilation":""}
+2024-06-11 13:29:55 - Échec de la création de la commande sur l'ERP.
+2024-06-11 13:36:25 - Le client existe déjà pour l'email : marc.ptktest14h11@gmail.com
+2024-06-11 13:36:25 - Référence du produit : PFCPL851022B75C06C00
+2024-06-11 13:36:25 - Référence du produit : PFNSG851018B75C06C00
+2024-06-11 13:36:25 - Options primus_url et primus_wsdl_setting récupérées.
+2024-06-11 13:36:25 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-06-11 13:36:25 - Fonction create appelée avec numOrder=1113049 et idClientPrimus=CLI00261
+2024-06-11 13:36:25 - Options SOAP configurées.
+2024-06-11 13:36:25 - Client SOAP initialisé.
+2024-06-11 13:36:25 - Ligne ajoutée : {"line_LineNo":1119582056,"line_Type":"Article","line_No":"PFCPL851022B75C06C00","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22.00","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-06-11 13:36:25 - Ligne ajoutée : {"line_LineNo":841582778,"line_Type":"Article","line_No":"PFNSG851018B75C06C00","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22.00","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-06-11 13:36:25 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"7.33","service_SurFacture":false,"service_Ventilation":""}
+2024-06-11 13:36:25 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0","service_SurFacture":false,"service_Ventilation":""}
+2024-06-11 13:36:25 - Échec de la création de la commande sur l'ERP.
+2024-06-11 13:39:58 - Options de connexion SOAP initialisées.
+2024-06-11 13:39:58 - Données client initialisées pour l'appel SOAP.
+2024-06-11 13:39:58 - Service client initialisé.
+2024-06-11 13:39:58 - Appel du service client effectué.
+2024-06-11 13:39:58 - Nouveau client créé
+2024-06-11 13:39:58 - Référence du produit : PFCPL851022B75C06C00
+2024-06-11 13:39:58 - Référence du produit : PFNSG851018B75C06C00
+2024-06-11 13:39:58 - Options primus_url et primus_wsdl_setting récupérées.
+2024-06-11 13:39:58 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-06-11 13:39:58 - Fonction create appelée avec numOrder=1113050 et idClientPrimus=CLI00262
+2024-06-11 13:39:58 - Options SOAP configurées.
+2024-06-11 13:39:59 - Client SOAP initialisé.
+2024-06-11 13:39:59 - Ligne ajoutée : {"line_LineNo":1662626036,"line_Type":"Article","line_No":"PFCPL851022B75C06C00","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22.00","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-06-11 13:39:59 - Ligne ajoutée : {"line_LineNo":1594237118,"line_Type":"Article","line_No":"PFNSG851018B75C06C00","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22.00","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-06-11 13:39:59 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"7.33","service_SurFacture":false,"service_Ventilation":""}
+2024-06-11 13:39:59 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0","service_SurFacture":false,"service_Ventilation":""}
+2024-06-11 13:39:59 - Échec de la création de la commande sur l'ERP.
+2024-06-11 13:44:16 - Le client existe déjà pour l'email : marc.ptktest15h39@gmail.com
+2024-06-11 13:44:16 - Référence du produit : PFCPL851022B75C06C00
+2024-06-11 13:44:16 - Référence du produit : PFNSG851018B75C06C00
+2024-06-11 13:44:16 - Options primus_url et primus_wsdl_setting récupérées.
+2024-06-11 13:44:16 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-06-11 13:44:16 - Fonction create appelée avec numOrder=1113050 et idClientPrimus=CLI00262
+2024-06-11 13:44:16 - Options SOAP configurées.
+2024-06-11 13:44:17 - Client SOAP initialisé.
+2024-06-11 13:44:17 - Ligne ajoutée : {"line_LineNo":637008486,"line_Type":"Article","line_No":"PFCPL851022B75C06C00","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22.00","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-06-11 13:44:17 - Ligne ajoutée : {"line_LineNo":477704133,"line_Type":"Article","line_No":"PFNSG851018B75C06C00","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22.00","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-06-11 13:44:17 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"7.33","service_SurFacture":false,"service_Ventilation":""}
+2024-06-11 13:44:17 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0","service_SurFacture":false,"service_Ventilation":""}
+2024-06-11 13:44:17 - Commande créée avec succès.
+2024-06-11 13:47:19 - Le client existe déjà pour l'email : marc.ptktest15h39@gmail.com
+2024-06-11 13:47:19 - Référence du produit : PFCPL851022B75C06C00
+2024-06-11 13:47:19 - Référence du produit : PFNSG851018B75C06C00
+2024-06-11 13:47:19 - Options primus_url et primus_wsdl_setting récupérées.
+2024-06-11 13:47:19 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-06-11 13:47:19 - Fonction create appelée avec numOrder=1113050 et idClientPrimus=CLI00262
+2024-06-11 13:47:19 - Options SOAP configurées.
+2024-06-11 13:47:19 - Client SOAP initialisé.
+2024-06-11 13:47:19 - Ligne ajoutée : {"line_LineNo":728880318,"line_Type":"Article","line_No":"PFCPL851022B75C06C00","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22.00","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-06-11 13:47:19 - Ligne ajoutée : {"line_LineNo":1994887119,"line_Type":"Article","line_No":"PFNSG851018B75C06C00","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22.00","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-06-11 13:47:19 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"7.33","service_SurFacture":false,"service_Ventilation":""}
+2024-06-11 13:47:19 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0","service_SurFacture":false,"service_Ventilation":""}
+2024-06-11 13:47:19 - Commande créée avec succès.
+2024-06-11 13:50:47 - Le client existe déjà pour l'email : marc.ptktest15h39@gmail.com
+2024-06-11 13:50:47 - Référence du produit : PFCPL851022B75C06C00
+2024-06-11 13:50:47 - Référence du produit : PFNSG851018B75C06C00
+2024-06-11 13:50:47 - Options primus_url et primus_wsdl_setting récupérées.
+2024-06-11 13:50:47 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-06-11 13:50:47 - Fonction create appelée avec numOrder=1113050 et idClientPrimus=CLI00262
+2024-06-11 13:50:47 - Options SOAP configurées.
+2024-06-11 13:50:48 - Client SOAP initialisé.
+2024-06-11 13:50:48 - Ligne ajoutée : {"line_LineNo":338870259,"line_Type":"Article","line_No":"PFCPL851022B75C06C00","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22.00","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-06-11 13:50:48 - Ligne ajoutée : {"line_LineNo":1061068636,"line_Type":"Article","line_No":"PFNSG851018B75C06C00","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22.00","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-06-11 13:50:48 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"7.33","service_SurFacture":false,"service_Ventilation":""}
+2024-06-11 13:50:48 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0","service_SurFacture":false,"service_Ventilation":""}
+2024-06-11 13:50:48 - Commande créée avec succès.
+2024-06-11 13:51:29 - Le client existe déjà pour l'email : marc.ptktest15h39@gmail.com
+2024-06-11 13:51:29 - Référence du produit : PFCPL851022B75C06C00
+2024-06-11 13:51:29 - Référence du produit : PFNSG851018B75C06C00
+2024-06-11 13:51:29 - Options primus_url et primus_wsdl_setting récupérées.
+2024-06-11 13:51:29 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-06-11 13:51:29 - Fonction create appelée avec numOrder=1113050 et idClientPrimus=CLI00262
+2024-06-11 13:51:29 - Options SOAP configurées.
+2024-06-11 13:51:29 - Client SOAP initialisé.
+2024-06-11 13:51:29 - Ligne ajoutée : {"line_LineNo":799083095,"line_Type":"Article","line_No":"PFCPL851022B75C06C00","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22.00","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-06-11 13:51:29 - Ligne ajoutée : {"line_LineNo":2051774836,"line_Type":"Article","line_No":"PFNSG851018B75C06C00","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22.00","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-06-11 13:51:29 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"7.33","service_SurFacture":false,"service_Ventilation":""}
+2024-06-11 13:51:29 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0","service_SurFacture":false,"service_Ventilation":""}
+2024-06-11 13:51:29 - Commande créée avec succès.
+2024-06-11 13:53:48 - Le client existe déjà pour l'email : marc.ptktest15h39@gmail.com
+2024-06-11 13:53:48 - Référence du produit : PFCPL851022B75C06C00
+2024-06-11 13:53:48 - Référence du produit : PFNSG851018B75C06C00
+2024-06-11 13:53:48 - Options primus_url et primus_wsdl_setting récupérées.
+2024-06-11 13:53:48 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-06-11 13:53:48 - Fonction create appelée avec numOrder=1113050 et idClientPrimus=CLI00262
+2024-06-11 13:53:48 - Options SOAP configurées.
+2024-06-11 13:53:49 - Client SOAP initialisé.
+2024-06-11 13:53:49 - Ligne ajoutée : {"line_LineNo":1247916050,"line_Type":"Article","line_No":"PFCPL851022B75C06C00","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22.00","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-06-11 13:53:49 - Ligne ajoutée : {"line_LineNo":2140909906,"line_Type":"Article","line_No":"PFNSG851018B75C06C00","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22.00","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-06-11 13:53:49 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"7.33","service_SurFacture":false,"service_Ventilation":""}
+2024-06-11 13:53:49 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0","service_SurFacture":false,"service_Ventilation":""}
+2024-06-11 13:53:49 - Commande créée avec succès.
+2024-06-11 14:05:46 - Le client existe déjà pour l'email : marc.ptktest15h39@gmail.com
+2024-06-11 14:05:46 - Référence du produit : PFCPL851022B75C06C00
+2024-06-11 14:05:46 - Référence du produit : PFCPL852022B75C06C00
+2024-06-11 14:05:46 - Options primus_url et primus_wsdl_setting récupérées.
+2024-06-11 14:05:46 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-06-11 14:05:46 - Fonction create appelée avec numOrder=1113051 et idClientPrimus=CLI00262
+2024-06-11 14:05:46 - Options SOAP configurées.
+2024-06-11 14:05:46 - Client SOAP initialisé.
+2024-06-11 14:05:46 - Ligne ajoutée : {"line_LineNo":823432834,"line_Type":"Article","line_No":"PFCPL851022B75C06C00","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22.00","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-06-11 14:05:46 - Ligne ajoutée : {"line_LineNo":488702220,"line_Type":"Article","line_No":"PFCPL852022B75C06C00","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22.00","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-06-11 14:05:46 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"7.33","service_SurFacture":false,"service_Ventilation":""}
+2024-06-11 14:05:46 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0","service_SurFacture":false,"service_Ventilation":""}
+2024-06-11 14:05:47 - Commande créée avec succès.
+2024-06-11 14:30:19 - Le client existe déjà pour l'email : marc.ptktest15h39@gmail.com
+2024-06-11 14:30:19 - Référence du produit : PFCPL851022B75C06C00
+2024-06-11 14:30:19 - Référence du produit : PFCPL852022B75C06C00
+2024-06-11 14:30:19 - Options primus_url et primus_wsdl_setting récupérées.
+2024-06-11 14:30:19 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-06-11 14:30:19 - Fonction create appelée avec numOrder=1113051 et idClientPrimus=CLI00262
+2024-06-11 14:30:19 - Options SOAP configurées.
+2024-06-11 14:30:19 - Client SOAP initialisé.
+2024-06-11 14:30:19 - Ligne ajoutée : {"line_LineNo":1809278098,"line_Type":"Article","line_No":"PFCPL851022B75C06C00","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-06-11 14:30:19 - Ligne ajoutée : {"line_LineNo":2084485694,"line_Type":"Article","line_No":"PFCPL852022B75C06C00","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-06-11 14:30:19 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"7.33","service_SurFacture":false,"service_Ventilation":""}
+2024-06-11 14:30:19 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0","service_SurFacture":false,"service_Ventilation":""}
+2024-06-11 14:30:19 - Commande créée avec succès.
+2024-06-11 14:30:56 - Le client existe déjà pour l'email : marc.ptktest15h39@gmail.com
+2024-06-11 14:30:56 - Référence du produit : PFCPL851022B75C06C00
+2024-06-11 14:30:56 - Référence du produit : PFCPL852022B75C06C00
+2024-06-11 14:30:56 - Options primus_url et primus_wsdl_setting récupérées.
+2024-06-11 14:30:56 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-06-11 14:30:56 - Fonction create appelée avec numOrder=1113051 et idClientPrimus=CLI00262
+2024-06-11 14:30:56 - Options SOAP configurées.
+2024-06-11 14:30:56 - Client SOAP initialisé.
+2024-06-11 14:30:56 - Ligne ajoutée : {"line_LineNo":713930153,"line_Type":"Article","line_No":"PFCPL851022B75C06C00","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-06-11 14:30:56 - Ligne ajoutée : {"line_LineNo":848047224,"line_Type":"Article","line_No":"PFCPL852022B75C06C00","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-06-11 14:30:56 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"7.33","service_SurFacture":false,"service_Ventilation":""}
+2024-06-11 14:30:56 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0","service_SurFacture":false,"service_Ventilation":""}
+2024-06-11 14:30:57 - Commande créée avec succès.
+2024-06-16 13:02:35 - Options de connexion SOAP initialisées.
+2024-06-16 13:02:35 - Données client initialisées pour l'appel SOAP.
+2024-06-16 13:02:35 - Service client initialisé.
+2024-06-16 13:02:36 - Appel du service client effectué.
+2024-06-16 13:02:36 - Nouveau client créé
+2024-06-16 13:02:36 - Référence du produit : PFCPL852122B75C06C00
+2024-06-16 13:02:36 - Options primus_url et primus_wsdl_setting récupérées.
+2024-06-16 13:02:36 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-06-16 13:02:36 - Fonction create appelée avec numOrder=1113067 et idClientPrimus=CLI00265
+2024-06-16 13:02:36 - Options SOAP configurées.
+2024-06-16 13:02:36 - Client SOAP initialisé.
+2024-06-16 13:02:36 - Ligne ajoutée : {"line_LineNo":961264591,"line_Type":"Article","line_No":"PFCPL852122B75C06C00","line_Location":"ZWMS","line_Qty":6,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"30","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-06-16 13:02:36 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"30","service_SurFacture":false,"service_Ventilation":""}
+2024-06-16 13:02:36 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0","service_SurFacture":false,"service_Ventilation":""}
+2024-06-16 13:02:36 - Commande créée avec succès.
+2024-06-18 14:50:12 - Options de connexion SOAP initialisées.
+2024-06-18 14:50:12 - Données client initialisées pour l'appel SOAP.
+2024-06-18 14:50:12 - Service client initialisé.
+2024-06-18 14:50:13 - Appel du service client effectué.
+2024-06-18 14:50:13 - Nouveau client créé
+2024-06-18 14:50:13 - ERREUR PAS DE SKU sur l'article : 1113095
+2024-06-18 14:50:13 - Référence du produit : SKU_NON_TROUVE
+2024-06-18 14:50:13 - Options primus_url et primus_wsdl_setting récupérées.
+2024-06-18 14:50:13 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-06-18 14:50:13 - Fonction create appelée avec numOrder=1113097 et idClientPrimus=CLI00266
+2024-06-18 14:50:13 - Options SOAP configurées.
+2024-06-18 14:50:13 - Client SOAP initialisé.
+2024-06-18 14:50:13 - Ligne ajoutée : {"line_LineNo":1386472095,"line_Type":"Article","line_No":"SKU_NON_TROUVE","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"1","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-06-18 14:50:13 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0.17","service_SurFacture":false,"service_Ventilation":""}
+2024-06-18 14:50:13 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0","service_SurFacture":false,"service_Ventilation":""}
+2024-06-18 14:50:13 - Commande créée avec succès.
+2024-06-19 13:24:22 - Le client existe déjà pour l'email : digital@1703factory.com
+2024-06-19 13:24:22 - ERREUR PAS DE SKU sur l'article : 1113095
+2024-06-19 13:24:22 - Référence du produit : SKU_NON_TROUVE
+2024-06-19 13:24:22 - Options primus_url et primus_wsdl_setting récupérées.
+2024-06-19 13:24:22 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-06-19 13:24:22 - Fonction create appelée avec numOrder=1113180 et idClientPrimus=CLI00266
+2024-06-19 13:24:22 - Options SOAP configurées.
+2024-06-19 13:24:23 - Client SOAP initialisé.
+2024-06-19 13:24:23 - Ligne ajoutée : {"line_LineNo":697697001,"line_Type":"Article","line_No":"SKU_NON_TROUVE","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"1","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-06-19 13:24:23 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0.17","service_SurFacture":false,"service_Ventilation":""}
+2024-06-19 13:24:23 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0","service_SurFacture":false,"service_Ventilation":""}
+2024-06-19 13:24:23 - Commande créée avec succès.
+2024-06-19 16:11:47 - Le client existe déjà pour l'email : digital@1703factory.com
+2024-06-19 16:11:47 - ERREUR PAS DE SKU sur l'article : 1113095
+2024-06-19 16:11:47 - Référence du produit : SKU_NON_TROUVE
+2024-06-19 16:11:47 - Options primus_url et primus_wsdl_setting récupérées.
+2024-06-19 16:11:47 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-06-19 16:11:47 - Fonction create appelée avec numOrder=1113180 et idClientPrimus=CLI00266
+2024-06-19 16:11:47 - Options SOAP configurées.
+2024-06-19 16:11:47 - Client SOAP initialisé.
+2024-06-19 16:11:47 - Ligne ajoutée : {"line_LineNo":1683922315,"line_Type":"Article","line_No":"SKU_NON_TROUVE","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"1","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-06-19 16:11:47 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0.17","service_SurFacture":false,"service_Ventilation":""}
+2024-06-19 16:11:47 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0","service_SurFacture":false,"service_Ventilation":""}
+2024-06-19 16:11:48 - Commande créée avec succès.
+2024-06-24 13:38:40 - Options de connexion SOAP initialisées.
+2024-06-24 13:38:40 - Données client initialisées pour l'appel SOAP.
+2024-06-24 13:38:41 - Service client initialisé.
+2024-06-24 13:38:41 - Appel du service client effectué.
+2024-06-24 13:38:41 - Nouveau client créé
+2024-06-24 13:38:41 - Référence du produit : PFCPL856022C75C06C00
+2024-06-24 13:38:41 - Options primus_url et primus_wsdl_setting récupérées.
+2024-06-24 13:38:41 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-06-24 13:38:41 - Fonction create appelée avec numOrder=1113223 et idClientPrimus=CLI00268
+2024-06-24 13:38:41 - Options SOAP configurées.
+2024-06-24 13:38:41 - Client SOAP initialisé.
+2024-06-24 13:38:41 - Ligne ajoutée : {"line_LineNo":589172587,"line_Type":"Article","line_No":"PFCPL856022C75C06C00","line_Location":"ZWMS","line_Qty":6,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-06-24 13:38:41 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"22","service_SurFacture":false,"service_Ventilation":""}
+2024-06-24 13:38:41 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0","service_SurFacture":false,"service_Ventilation":""}
+2024-06-24 13:38:42 - Commande créée avec succès.
+2024-09-22 12:19:26 - Options de connexion SOAP initialisées.
+2024-09-22 12:19:26 - Données client initialisées pour l'appel SOAP.
+2024-09-22 12:19:27 - Service client initialisé.
+2024-09-22 12:19:27 - Appel du service client effectué.
+2024-09-22 12:19:27 - Nouveau client créé
+2024-09-22 12:19:27 - Référence du produit : PFCPL852122B75C06C00
+2024-09-22 12:19:27 - Options primus_url et primus_wsdl_setting récupérées.
+2024-09-22 12:19:27 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-09-22 12:19:27 - Fonction create appelée avec numOrder=1113642 et idClientPrimus=CLI00281
+2024-09-22 12:19:27 - Options SOAP configurées.
+2024-09-22 12:19:28 - Client SOAP initialisé.
+2024-09-22 12:19:28 - Ligne ajoutée : {"line_LineNo":1152001687,"line_Type":"Article","line_No":"PFCPL852122B75C06C00","line_Location":"ZWMS","line_Qty":6,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"30","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-09-22 12:19:28 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"30","service_SurFacture":false,"service_Ventilation":""}
+2024-09-22 12:19:28 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0","service_SurFacture":false,"service_Ventilation":""}
+2024-09-22 12:19:28 - Commande créée avec succès.
+2024-10-08 16:50:02 - Options de connexion SOAP initialisées.
+2024-10-08 16:50:02 - Données client initialisées pour l'appel SOAP.
+2024-10-08 16:50:02 - Service client initialisé.
+2024-10-08 16:50:02 - Appel du service client effectué.
+2024-10-08 16:50:02 - Nouveau client créé
+2024-10-08 16:50:02 - Référence du produit : PFCPL853019B75C06C00
+2024-10-08 16:50:02 - Référence du produit : PFCPL860023B75C06C00-1
+2024-10-08 16:50:02 - Référence du produit : PFCPL860023B75C06C00
+2024-10-08 16:50:02 - Référence du produit : PFCPL851022B75C06C00
+2024-10-08 16:50:02 - Référence du produit : PFCPL852022B75C06C00
+2024-10-08 16:50:02 - Référence du produit : PFCPL856022C75C06C00
+2024-10-08 16:50:02 - Options primus_url et primus_wsdl_setting récupérées.
+2024-10-08 16:50:02 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-10-08 16:50:02 - Fonction create appelée avec numOrder=1114080 et idClientPrimus=CLI00285
+2024-10-08 16:50:02 - Options SOAP configurées.
+2024-10-08 16:50:03 - Client SOAP initialisé.
+2024-10-08 16:50:03 - Ligne ajoutée : {"line_LineNo":1172060268,"line_Type":"Article","line_No":"PFCPL853019B75C06C00","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-10-08 16:50:03 - Ligne ajoutée : {"line_LineNo":1273464399,"line_Type":"Article","line_No":"PFCPL860023B75C06C00-1","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"17","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-10-08 16:50:03 - Ligne ajoutée : {"line_LineNo":919365635,"line_Type":"Article","line_No":"PFCPL860023B75C06C00","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"14","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-10-08 16:50:03 - Ligne ajoutée : {"line_LineNo":1438860678,"line_Type":"Article","line_No":"PFCPL851022B75C06C00","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-10-08 16:50:03 - Ligne ajoutée : {"line_LineNo":638409370,"line_Type":"Article","line_No":"PFCPL852022B75C06C00","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-10-08 16:50:03 - Ligne ajoutée : {"line_LineNo":758505934,"line_Type":"Article","line_No":"PFCPL856022C75C06C00","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-10-08 16:50:03 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"19.83","service_SurFacture":false,"service_Ventilation":""}
+2024-10-08 16:50:03 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0","service_SurFacture":false,"service_Ventilation":""}
+2024-10-08 16:50:03 - Commande créée avec succès.
+2024-10-08 16:50:51 - Le client existe déjà pour l'email : Lulucano@free.fr
+2024-10-08 16:50:51 - Référence du produit : PFCPL853019B75C06C00
+2024-10-08 16:50:51 - Référence du produit : PFCPL860023B75C06C00-1
+2024-10-08 16:50:51 - Référence du produit : PFCPL860023B75C06C00
+2024-10-08 16:50:51 - Référence du produit : PFCPL851022B75C06C00
+2024-10-08 16:50:51 - Référence du produit : PFCPL852022B75C06C00
+2024-10-08 16:50:51 - Référence du produit : PFCPL856022C75C06C00
+2024-10-08 16:50:51 - Options primus_url et primus_wsdl_setting récupérées.
+2024-10-08 16:50:51 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-10-08 16:50:51 - Fonction create appelée avec numOrder=1114080 et idClientPrimus=CLI00285
+2024-10-08 16:50:51 - Options SOAP configurées.
+2024-10-08 16:50:51 - Client SOAP initialisé.
+2024-10-08 16:50:51 - Ligne ajoutée : {"line_LineNo":472128732,"line_Type":"Article","line_No":"PFCPL853019B75C06C00","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-10-08 16:50:51 - Ligne ajoutée : {"line_LineNo":218356627,"line_Type":"Article","line_No":"PFCPL860023B75C06C00-1","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"17","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-10-08 16:50:51 - Ligne ajoutée : {"line_LineNo":1989852614,"line_Type":"Article","line_No":"PFCPL860023B75C06C00","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"14","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-10-08 16:50:51 - Ligne ajoutée : {"line_LineNo":2090613806,"line_Type":"Article","line_No":"PFCPL851022B75C06C00","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-10-08 16:50:51 - Ligne ajoutée : {"line_LineNo":939788200,"line_Type":"Article","line_No":"PFCPL852022B75C06C00","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-10-08 16:50:51 - Ligne ajoutée : {"line_LineNo":614494936,"line_Type":"Article","line_No":"PFCPL856022C75C06C00","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-10-08 16:50:51 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"19.83","service_SurFacture":false,"service_Ventilation":""}
+2024-10-08 16:50:51 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0","service_SurFacture":false,"service_Ventilation":""}
+2024-10-08 16:50:52 - Commande créée avec succès.
+2024-10-13 16:21:54 - Options de connexion SOAP initialisées.
+2024-10-13 16:21:54 - Données client initialisées pour l'appel SOAP.
+2024-10-13 16:21:55 - Service client initialisé.
+2024-10-13 16:21:55 - Appel du service client effectué.
+2024-10-13 16:21:55 - Nouveau client créé
+2024-10-13 16:21:55 - Référence du produit : PFCPL852022B75C06C00
+2024-10-13 16:21:55 - Options primus_url et primus_wsdl_setting récupérées.
+2024-10-13 16:21:55 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-10-13 16:21:55 - Fonction create appelée avec numOrder=1114105 et idClientPrimus=CLI00286
+2024-10-13 16:21:55 - Options SOAP configurées.
+2024-10-13 16:21:55 - Client SOAP initialisé.
+2024-10-13 16:21:55 - Ligne ajoutée : {"line_LineNo":1574006621,"line_Type":"Article","line_No":"PFCPL852022B75C06C00","line_Location":"ZWMS","line_Qty":12,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-10-13 16:21:55 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"44","service_SurFacture":false,"service_Ventilation":""}
+2024-10-13 16:21:55 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0","service_SurFacture":false,"service_Ventilation":""}
+2024-10-13 16:21:56 - Commande créée avec succès.
+2024-12-03 14:07:11 - Le client existe déjà pour l'email : digital@1703factory.com
+2024-12-03 14:07:11 - ERREUR PAS DE SKU sur l'article : 1113095
+2024-12-03 14:07:11 - Référence du produit : SKU_NON_TROUVE
+2024-12-03 14:07:11 - Options primus_url et primus_wsdl_setting récupérées.
+2024-12-03 14:07:11 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-12-03 14:07:11 - Fonction create appelée avec numOrder=1114329 et idClientPrimus=CLI00266
+2024-12-03 14:07:11 - Options SOAP configurées.
+2024-12-03 14:07:12 - Client SOAP initialisé.
+2024-12-03 14:07:12 - Ligne ajoutée : {"line_LineNo":1661909199,"line_Type":"Article","line_No":"SKU_NON_TROUVE","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"1","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-12-03 14:07:12 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0.15","service_SurFacture":false,"service_Ventilation":""}
+2024-12-03 14:07:12 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0","service_SurFacture":false,"service_Ventilation":""}
+2024-12-03 14:07:12 - Commande créée avec succès.
+2024-12-03 14:37:46 - Le client existe déjà pour l'email : digital@1703factory.com
+2024-12-03 14:37:46 - ERREUR PAS DE SKU sur l'article : 1113095
+2024-12-03 14:37:46 - Référence du produit : SKU_NON_TROUVE
+2024-12-03 14:37:46 - Options primus_url et primus_wsdl_setting récupérées.
+2024-12-03 14:37:46 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-12-03 14:37:46 - Fonction create appelée avec numOrder=1114329 et idClientPrimus=CLI00266
+2024-12-03 14:37:46 - Options SOAP configurées.
+2024-12-03 14:37:47 - Client SOAP initialisé.
+2024-12-03 14:37:47 - Ligne ajoutée : {"line_LineNo":1940719287,"line_Type":"Article","line_No":"SKU_NON_TROUVE","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"1","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-12-03 14:37:47 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0.15","service_SurFacture":false,"service_Ventilation":""}
+2024-12-03 14:37:47 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0","service_SurFacture":false,"service_Ventilation":""}
+2024-12-03 14:37:47 - Commande créée avec succès.
+2024-12-03 14:38:00 - Le client existe déjà pour l'email : digital@1703factory.com
+2024-12-03 14:38:00 - ERREUR PAS DE SKU sur l'article : 1113095
+2024-12-03 14:38:00 - Référence du produit : SKU_NON_TROUVE
+2024-12-03 14:38:00 - Options primus_url et primus_wsdl_setting récupérées.
+2024-12-03 14:38:00 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-12-03 14:38:00 - Fonction create appelée avec numOrder=1114329 et idClientPrimus=CLI00266
+2024-12-03 14:38:00 - Options SOAP configurées.
+2024-12-03 14:38:00 - Client SOAP initialisé.
+2024-12-03 14:38:00 - Ligne ajoutée : {"line_LineNo":864741242,"line_Type":"Article","line_No":"SKU_NON_TROUVE","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"1","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-12-03 14:38:00 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0.15","service_SurFacture":false,"service_Ventilation":""}
+2024-12-03 14:38:00 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0","service_SurFacture":false,"service_Ventilation":""}
+2024-12-03 14:38:00 - Commande créée avec succès.
+2024-12-03 14:40:05 - Le client existe déjà pour l'email : digital@1703factory.com
+2024-12-03 14:40:05 - ERREUR PAS DE SKU sur l'article : 1113095
+2024-12-03 14:40:05 - Référence du produit : SKU_NON_TROUVE
+2024-12-03 14:40:05 - Options primus_url et primus_wsdl_setting récupérées.
+2024-12-03 14:40:05 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-12-03 14:40:05 - Fonction create appelée avec numOrder=1114329 et idClientPrimus=CLI00266
+2024-12-03 14:40:05 - Options SOAP configurées.
+2024-12-03 14:40:06 - Client SOAP initialisé.
+2024-12-03 14:40:06 - Ligne ajoutée : {"line_LineNo":1590494357,"line_Type":"Article","line_No":"SKU_NON_TROUVE","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"1","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-12-03 14:40:06 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0.15","service_SurFacture":false,"service_Ventilation":""}
+2024-12-03 14:40:06 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0","service_SurFacture":false,"service_Ventilation":""}
+2024-12-03 14:40:06 - Commande créée avec succès.
+2024-12-03 17:55:26 - Le client existe déjà pour l'email : digital@1703factory.com
+2024-12-03 17:55:26 - ERREUR PAS DE SKU sur l'article : 1113095
+2024-12-03 17:55:26 - Référence du produit : SKU_NON_TROUVE
+2024-12-03 17:55:26 - Options primus_url et primus_wsdl_setting récupérées.
+2024-12-03 17:55:26 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-12-03 17:55:26 - Fonction create appelée avec numOrder=1114329 et idClientPrimus=CLI00266
+2024-12-03 17:55:26 - Options SOAP configurées.
+2024-12-03 17:55:27 - Client SOAP initialisé.
+2024-12-03 17:55:27 - Ligne ajoutée : {"line_LineNo":1681573479,"line_Type":"Article","line_No":"SKU_NON_TROUVE","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"1","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-12-03 17:55:27 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0.15","service_SurFacture":false,"service_Ventilation":""}
+2024-12-03 17:55:27 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0","service_SurFacture":false,"service_Ventilation":""}
+2024-12-03 17:55:27 - Commande créée avec succès.
+2024-12-04 09:27:37 - Le client existe déjà pour l'email : digital@1703factory.com
+2024-12-04 09:27:37 - ERREUR PAS DE SKU sur l'article : 1113095
+2024-12-04 09:27:37 - Référence du produit : SKU_NON_TROUVE
+2024-12-04 09:27:37 - Options primus_url et primus_wsdl_setting récupérées.
+2024-12-04 09:27:37 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-12-04 09:27:37 - Fonction create appelée avec numOrder=1114329 et idClientPrimus=CLI00266
+2024-12-04 09:27:37 - Options SOAP configurées.
+2024-12-04 09:27:38 - Client SOAP initialisé.
+2024-12-04 09:27:38 - Ligne ajoutée : {"line_LineNo":584738139,"line_Type":"Article","line_No":"SKU_NON_TROUVE","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"1","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-12-04 09:27:38 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0.15","service_SurFacture":false,"service_Ventilation":""}
+2024-12-04 09:27:38 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0","service_SurFacture":false,"service_Ventilation":""}
+2024-12-04 09:27:38 - Commande créée avec succès.
+2024-12-04 09:28:11 - Le client existe déjà pour l'email : digital@1703factory.com
+2024-12-04 09:28:11 - ERREUR PAS DE SKU sur l'article : 1113095
+2024-12-04 09:28:11 - Référence du produit : SKU_NON_TROUVE
+2024-12-04 09:28:11 - Options primus_url et primus_wsdl_setting récupérées.
+2024-12-04 09:28:11 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-12-04 09:28:11 - Fonction create appelée avec numOrder=1114329 et idClientPrimus=CLI00266
+2024-12-04 09:28:11 - Options SOAP configurées.
+2024-12-04 09:28:12 - Client SOAP initialisé.
+2024-12-04 09:28:12 - Ligne ajoutée : {"line_LineNo":1851014757,"line_Type":"Article","line_No":"SKU_NON_TROUVE","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"1","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-12-04 09:28:12 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0.15","service_SurFacture":false,"service_Ventilation":""}
+2024-12-04 09:28:12 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0","service_SurFacture":false,"service_Ventilation":""}
+2024-12-04 09:28:12 - Commande créée avec succès.
+2024-12-04 09:28:33 - Le client existe déjà pour l'email : digital@1703factory.com
+2024-12-04 09:28:33 - ERREUR PAS DE SKU sur l'article : 1113095
+2024-12-04 09:28:33 - Référence du produit : SKU_NON_TROUVE
+2024-12-04 09:28:33 - Options primus_url et primus_wsdl_setting récupérées.
+2024-12-04 09:28:33 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-12-04 09:28:33 - Fonction create appelée avec numOrder=1114329 et idClientPrimus=CLI00266
+2024-12-04 09:28:33 - Options SOAP configurées.
+2024-12-04 09:28:33 - Client SOAP initialisé.
+2024-12-04 09:28:33 - Ligne ajoutée : {"line_LineNo":680189040,"line_Type":"Article","line_No":"SKU_NON_TROUVE","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"1","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-12-04 09:28:33 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0.15","service_SurFacture":false,"service_Ventilation":""}
+2024-12-04 09:28:33 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0","service_SurFacture":false,"service_Ventilation":""}
+2024-12-04 09:28:34 - Commande créée avec succès.
+2024-12-04 09:31:29 - Le client existe déjà pour l'email : digital@1703factory.com
+2024-12-04 09:31:29 - ERREUR PAS DE SKU sur l'article : 1113095
+2024-12-04 09:31:29 - Référence du produit : SKU_NON_TROUVE
+2024-12-04 09:31:29 - Options primus_url et primus_wsdl_setting récupérées.
+2024-12-04 09:31:29 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-12-04 09:31:29 - Fonction create appelée avec numOrder=1114329 et idClientPrimus=CLI00266
+2024-12-04 09:31:29 - Options SOAP configurées.
+2024-12-04 09:31:29 - Client SOAP initialisé.
+2024-12-04 09:31:29 - Ligne ajoutée : {"line_LineNo":36647196,"line_Type":"Article","line_No":"SKU_NON_TROUVE","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"1","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-12-04 09:31:29 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0.15","service_SurFacture":false,"service_Ventilation":""}
+2024-12-04 09:31:29 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0","service_SurFacture":false,"service_Ventilation":""}
+2024-12-04 09:31:29 - Commande créée avec succès.
+2024-12-04 23:29:21 - Le client existe déjà pour l'email : digital@1703factory.com
+2024-12-04 23:29:21 - ERREUR PAS DE SKU sur l'article : 1113095
+2024-12-04 23:29:21 - Référence du produit : SKU_NON_TROUVE
+2024-12-04 23:29:21 - Options primus_url et primus_wsdl_setting récupérées.
+2024-12-04 23:29:21 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-12-04 23:29:21 - Fonction create appelée avec numOrder=1114329 et idClientPrimus=CLI00266
+2024-12-04 23:29:21 - Options SOAP configurées.
+2024-12-04 23:29:22 - Client SOAP initialisé.
+2024-12-04 23:29:22 - Ligne ajoutée : {"line_LineNo":278732651,"line_Type":"Article","line_No":"SKU_NON_TROUVE","line_Location":"ZWMS","line_Qty":1,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"1","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-12-04 23:29:22 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0.15","service_SurFacture":false,"service_Ventilation":""}
+2024-12-04 23:29:22 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0","service_SurFacture":false,"service_Ventilation":""}
+2024-12-04 23:29:22 - Commande créée avec succès.
+2024-12-13 12:55:34 - Le client existe déjà pour l'email : latapyal@gmail.com
+2024-12-13 12:55:34 - Référence du produit : PFCPL852122B75C06C00
+2024-12-13 12:55:34 - Options primus_url et primus_wsdl_setting récupérées.
+2024-12-13 12:55:34 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-12-13 12:55:34 - Fonction create appelée avec numOrder=1114370 et idClientPrimus=CLI00265
+2024-12-13 12:55:34 - Options SOAP configurées.
+2024-12-13 12:55:34 - Client SOAP initialisé.
+2024-12-13 12:55:34 - Ligne ajoutée : {"line_LineNo":1973381109,"line_Type":"Article","line_No":"PFCPL852122B75C06C00","line_Location":"ZWMS","line_Qty":6,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"30","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-12-13 12:55:34 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"27","service_SurFacture":false,"service_Ventilation":""}
+2024-12-13 12:55:34 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0","service_SurFacture":false,"service_Ventilation":""}
+2024-12-13 12:55:35 - Commande créée avec succès.
+2024-12-13 13:12:18 - Le client existe déjà pour l'email : latapyal@gmail.com
+2024-12-13 13:12:18 - Référence du produit : PFCPL852122B75C06C00
+2024-12-13 13:12:18 - Options primus_url et primus_wsdl_setting récupérées.
+2024-12-13 13:12:18 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-12-13 13:12:18 - Fonction create appelée avec numOrder=1114371 et idClientPrimus=CLI00265
+2024-12-13 13:12:18 - Options SOAP configurées.
+2024-12-13 13:12:18 - Client SOAP initialisé.
+2024-12-13 13:12:18 - Ligne ajoutée : {"line_LineNo":1780656043,"line_Type":"Article","line_No":"PFCPL852122B75C06C00","line_Location":"ZWMS","line_Qty":6,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"30","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-12-13 13:12:18 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"27","service_SurFacture":false,"service_Ventilation":""}
+2024-12-13 13:12:18 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0","service_SurFacture":false,"service_Ventilation":""}
+2024-12-13 13:12:19 - Commande créée avec succès.
+2024-12-14 20:58:09 - Options de connexion SOAP initialisées.
+2024-12-14 20:58:09 - Données client initialisées pour l'appel SOAP.
+2024-12-14 20:58:10 - Service client initialisé.
+2024-12-14 20:58:10 - Appel du service client effectué.
+2024-12-14 20:58:10 - Nouveau client créé
+2024-12-14 20:58:10 - Référence du produit : PFCPL855022B75C06C00
+2024-12-14 20:58:10 - Options primus_url et primus_wsdl_setting récupérées.
+2024-12-14 20:58:10 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-12-14 20:58:10 - Fonction create appelée avec numOrder=1114372 et idClientPrimus=CLI00295
+2024-12-14 20:58:10 - Options SOAP configurées.
+2024-12-14 20:58:11 - Client SOAP initialisé.
+2024-12-14 20:58:11 - Ligne ajoutée : {"line_LineNo":579669767,"line_Type":"Article","line_No":"PFCPL855022B75C06C00","line_Location":"ZWMS","line_Qty":6,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"22","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-12-14 20:58:11 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"19.8","service_SurFacture":false,"service_Ventilation":""}
+2024-12-14 20:58:11 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0","service_SurFacture":false,"service_Ventilation":""}
+2024-12-14 20:58:11 - Commande créée avec succès.
+2024-12-16 08:51:49 - Options de connexion SOAP initialisées.
+2024-12-16 08:51:49 - Données client initialisées pour l'appel SOAP.
+2024-12-16 08:51:49 - Service client initialisé.
+2024-12-16 08:51:49 - Appel du service client effectué.
+2024-12-16 08:51:49 - Nouveau client créé
+2024-12-16 08:51:49 - Référence du produit : PFCPL860023B75C06C00-1
+2024-12-16 08:51:49 - Options primus_url et primus_wsdl_setting récupérées.
+2024-12-16 08:51:49 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2024-12-16 08:51:49 - Fonction create appelée avec numOrder=1114373 et idClientPrimus=CLI00298
+2024-12-16 08:51:49 - Options SOAP configurées.
+2024-12-16 08:51:50 - Client SOAP initialisé.
+2024-12-16 08:51:50 - Ligne ajoutée : {"line_LineNo":1533110195,"line_Type":"Article","line_No":"PFCPL860023B75C06C00-1","line_Location":"ZWMS","line_Qty":24,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"17","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2024-12-16 08:51:50 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"68","service_SurFacture":false,"service_Ventilation":""}
+2024-12-16 08:51:50 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0","service_SurFacture":false,"service_Ventilation":""}
+2024-12-16 08:51:50 - Commande créée avec succès.
+2025-01-22 19:55:32 - Options de connexion SOAP initialisées.
+2025-01-22 19:55:32 - Données client initialisées pour l'appel SOAP.
+2025-01-22 19:55:32 - Service client initialisé.
+2025-01-22 19:55:33 - Appel du service client effectué.
+2025-01-22 19:55:33 - Nouveau client créé
+2025-01-22 19:55:33 - Référence du produit : PFCPL860023B75C06C00
+2025-01-22 19:55:33 - Options primus_url et primus_wsdl_setting récupérées.
+2025-01-22 19:55:33 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2025-01-22 19:55:33 - Fonction create appelée avec numOrder=1114404 et idClientPrimus=CLI00303
+2025-01-22 19:55:33 - Options SOAP configurées.
+2025-01-22 19:55:33 - Client SOAP initialisé.
+2025-01-22 19:55:33 - Ligne ajoutée : {"line_LineNo":1988656838,"line_Type":"Article","line_No":"PFCPL860023B75C06C00","line_Location":"ZWMS","line_Qty":6,"line_QtyGratuite":0,"line_NatureGratuite":"","line_OutstandingQty":0,"line_QtyShipped":0,"line_QtyInvoiced":0,"line_UnitPrice":"14","line_VATPercent":0,"line_Operation":"","line_SousOperation":"","invoiceLine":0,"amountLine":0,"amountTTC":0}
+2025-01-22 19:55:33 - Service ajouté : {"service_Cle":"","service_Libelle":"TVA","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"14","service_SurFacture":false,"service_Ventilation":""}
+2025-01-22 19:55:33 - Service ajouté : {"service_Cle":"","service_Libelle":"Frais de port","service_Type":["Autres"],"service_Sens":[""],"service_Rang":0,"service_OrdreCalcul":0,"service_Valeur":0,"service_ModeCalcul":"","service_BaseCalcul":"","service_Montant":"0","service_SurFacture":false,"service_Ventilation":""}
+2025-01-22 19:55:34 - Commande créée avec succès.
+2025-02-18 12:56:14 - Le client existe déjà pour l'email : ostreng11@gmail.com
+2025-02-18 12:56:14 - Référence du produit : PFCPL852122B75C06C00
+2025-02-18 12:56:14 - Options primus_url et primus_wsdl_setting récupérées.
+2025-02-18 12:56:14 - Paramètres WSDL configurés : URL=https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente, LOGIN=WS_EXTERNE
+2025-02-18 12:56:14 - Fonction create appelée avec numOrder=1114461 et idClientPrimus=CLI00298
+2025-02-18 12:56:14 - Options SOAP configurées.
+2025-02-18 12:57:14 - Erreur lors de l'exécution de la commande WooCommerce : SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente' : failed to load external entity "https://46.218.46.141:7063/PRIMUS_WS_EXTERNE/WS/CHATEAU%20PECH%20LATT/Codeunit/WS_IN_Vente"
+

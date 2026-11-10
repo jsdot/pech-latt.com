@@ -1,0 +1,83 @@
+<?php
+
+declare(strict_types=1);
+
+namespace StructType;
+
+use InvalidArgumentException;
+use WsdlToPhp\PackageBase\AbstractStructBase;
+
+/**
+ * This class stands for S001_Lecture_Stock_Result StructType
+ * @subpackage Structs
+ */
+class S001_Lecture_Stock_Result extends AbstractStructBase
+{
+    /**
+     * The wSReturnError
+     * Meta information extracted from the WSDL
+     * - maxOccurs: 1
+     * - minOccurs: 1
+     * @var \StructType\RootWSReturnError
+     */
+    protected \StructType\RootWSReturnError $wSReturnError;
+    /**
+     * The wSStockArticle
+     * Meta information extracted from the WSDL
+     * - maxOccurs: 1
+     * - minOccurs: 1
+     * @var \StructType\RootWSStockArticle
+     */
+    protected \StructType\RootWSStockArticle $wSStockArticle;
+    /**
+     * Constructor method for S001_Lecture_Stock_Result
+     * @uses S001_Lecture_Stock_Result::setWSReturnError()
+     * @uses S001_Lecture_Stock_Result::setWSStockArticle()
+     * @param \StructType\RootWSReturnError $wSReturnError
+     * @param \StructType\RootWSStockArticle $wSStockArticle
+     */
+    public function __construct(\StructType\RootWSReturnError $wSReturnError, \StructType\RootWSStockArticle $wSStockArticle)
+    {
+        $this
+            ->setWSReturnError($wSReturnError)
+            ->setWSStockArticle($wSStockArticle);
+    }
+    /**
+     * Get wSReturnError value
+     * @return \StructType\RootWSReturnError
+     */
+    public function getWSReturnError(): \StructType\RootWSReturnError
+    {
+        return $this->wSReturnError;
+    }
+    /**
+     * Set wSReturnError value
+     * @param \StructType\RootWSReturnError $wSReturnError
+     * @return \StructType\S001_Lecture_Stock_Result
+     */
+    public function setWSReturnError(\StructType\RootWSReturnError $wSReturnError): self
+    {
+        $this->wSReturnError = $wSReturnError;
+        
+        return $this;
+    }
+    /**
+     * Get wSStockArticle value
+     * @return \StructType\RootWSStockArticle
+     */
+    public function getWSStockArticle(): \StructType\RootWSStockArticle
+    {
+        return $this->wSStockArticle;
+    }
+    /**
+     * Set wSStockArticle value
+     * @param \StructType\RootWSStockArticle $wSStockArticle
+     * @return \StructType\S001_Lecture_Stock_Result
+     */
+    public function setWSStockArticle(\StructType\RootWSStockArticle $wSStockArticle): self
+    {
+        $this->wSStockArticle = $wSStockArticle;
+        
+        return $this;
+    }
+}

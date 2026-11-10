@@ -1,0 +1,41 @@
+.elementor-990461 .elementor-element.elementor-element-f010f36{margin-top:100px;margin-bottom:0px;padding:0em 2em 0em 2em;}.elementor-990461 .elementor-element.elementor-element-f9d7c5d > .elementor-widget-container{margin:30px 0px 0px 0px;}.elementor-990461 .elementor-element.elementor-element-f9d7c5d{text-align:center;}.elementor-990461 .elementor-element.elementor-element-f9d7c5d .elementor-heading-title{font-family:var( --e-global-typography-vamtam_h1-font-family ), Sans-serif;font-size:var( --e-global-typography-vamtam_h1-font-size );font-weight:var( --e-global-typography-vamtam_h1-font-weight );text-transform:var( --e-global-typography-vamtam_h1-text-transform );line-height:var( --e-global-typography-vamtam_h1-line-height );}.elementor-990461 .elementor-element.elementor-element-a8fa0bd > .elementor-widget-container{margin:00px 0px 20px 0px;}.elementor-990461 .elementor-element.elementor-element-a8fa0bd{text-align:center;}.elementor-990461 .elementor-element.elementor-element-a8fa0bd .elementor-heading-title{font-family:var( --e-global-typography-vamtam_h2-font-family ), Sans-serif;font-size:var( --e-global-typography-vamtam_h2-font-size );font-weight:var( --e-global-typography-vamtam_h2-font-weight );text-transform:var( --e-global-typography-vamtam_h2-text-transform );font-style:var( --e-global-typography-vamtam_h2-font-style );line-height:var( --e-global-typography-vamtam_h2-line-height );letter-spacing:var( --e-global-typography-vamtam_h2-letter-spacing );}.elementor-990461 .elementor-element.elementor-element-8cfcf64 > .elementor-widget-container{margin:-2em 0em 2em 0em;}.elementor-990461 .elementor-element.elementor-element-8cfcf64.elementor-wc-products  ul.products{grid-column-gap:25px;grid-row-gap:40px;}.elementor-990461 .elementor-element.elementor-element-8cfcf64.elementor-wc-products ul.products li.product .woocommerce-loop-product__title, .elementor-990461 .elementor-element.elementor-element-8cfcf64.elementor-wc-products ul.products li.product .woocommerce-loop-category__title{font-family:"Abeezee", Sans-serif;font-size:15px;}.elementor-990461 .elementor-element.elementor-element-8cfcf64.elementor-wc-products ul.products li.product .button{color:#000000;background-color:#DAD5D1;font-family:"Abeezee", Sans-serif;font-size:15px;font-weight:700;}.elementor-990461 .elementor-element.elementor-element-8cfcf64.elementor-wc-products ul.products li.product span.onsale{display:block;}.elementor-990461 .elementor-element.elementor-element-c0c6de1{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--padding-top:0em;--padding-bottom:0em;--padding-left:2em;--padding-right:2em;}.elementor-990461 .elementor-element.elementor-element-8715172 > .elementor-widget-container{margin:0px 0px 20px 0px;}.elementor-990461 .elementor-element.elementor-element-8715172{font-family:"Abeezee", Sans-serif;font-size:14px;}body.elementor-page-990461:not(.elementor-motion-effects-element-type-background), body.elementor-page-990461 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#FFFFFF;}:root{--page-title-display:none;}@media(max-width:1024px){.elementor-990461 .elementor-element.elementor-element-f9d7c5d .elementor-heading-title{font-size:var( --e-global-typography-vamtam_h1-font-size );line-height:var( --e-global-typography-vamtam_h1-line-height );}.elementor-990461 .elementor-element.elementor-element-a8fa0bd .elementor-heading-title{font-size:var( --e-global-typography-vamtam_h2-font-size );line-height:var( --e-global-typography-vamtam_h2-line-height );letter-spacing:var( --e-global-typography-vamtam_h2-letter-spacing );}.elementor-990461 .elementor-element.elementor-element-8cfcf64.elementor-wc-products  ul.products{grid-column-gap:20px;grid-row-gap:40px;}}@media(max-width:767px){.elementor-990461 .elementor-element.elementor-element-f9d7c5d .elementor-heading-title{font-size:var( --e-global-typography-vamtam_h1-font-size );line-height:var( --e-global-typography-vamtam_h1-line-height );}.elementor-990461 .elementor-element.elementor-element-a8fa0bd .elementor-heading-title{font-size:var( --e-global-typography-vamtam_h2-font-size );line-height:var( --e-global-typography-vamtam_h2-line-height );letter-spacing:var( --e-global-typography-vamtam_h2-letter-spacing );}.elementor-990461 .elementor-element.elementor-element-8cfcf64.elementor-wc-products  ul.products{grid-column-gap:20px;grid-row-gap:40px;}.elementor-990461 .elementor-element.elementor-element-8715172 > .elementor-widget-container{margin:0px 0px 0px 0px;}}/* Start custom CSS for shortcode, class: .elementor-element-b2286ad */.yith-wcan-filters .yith-wcan-filter .yith-wcan-dropdown{width: 300px;}
+
+.yith-wcan-filters .yith-wcan-filter{display: inline-block !important;}
+
+.yith-wcan-filters {
+text-align: center;}
+
+.yith-wcan-filters .yith-wcan-filter .yith-wcan-dropdown .dropdown-wrapper .search-field-container{display: none;}
+
+li.filter-item.select.active{display: none;}
+
+.yith-wcan-filters .yith-wcan-filter .filter-title {
+font-family: 'Blair itc bold'; letter-spacing: 1px;
+    font-size: 14px; text-transform:uppercase; color:black;}
+    
+    .yith-wcan-filters .yith-wcan-filter .yith-wcan-dropdown .dropdown-label{font-size: 14px;text-transform: uppercase;font-family: 'Blair itc bold';}
+    
+    .yith-wcan-filters .yith-wcan-filter .filter-items .filter-item > a, .yith-wcan-filters .yith-wcan-filter .filter-items .filter-item > label > a{font-family:  'Blair REGULAR'; text-transform:uppercase;font-family:16px;}
+    
+    .yith-wcan-filters .yith-wcan-filter .yith-wcan-dropdown.open{border-color:#D7D7D7; box-shadow: none;}
+    
+    
+    .yith-wcan-filters .yith-wcan-filter .yith-wcan-dropdown .dropdown-wrapper{box-shadow: none; border:1px solid #D7D7D7;}
+    
+.yith-wcan-filters .yith-wcan-filter .yith-wcan-dropdown .dropdown-wrapper .matching-items li > a{font-family: 'BLAIR ITC';
+    font-size: 14px;
+    color: black !important;
+}
+
+
+.elementor-kit-6 button, .elementor-kit-6 input[type="button"], .elementor-kit-6 input[type="submit"], .elementor-kit-6 .elementor-button{font-size: 14px;}/* End custom CSS */
+/* Start custom CSS for woocommerce-products, class: .elementor-element-8cfcf64 */.cross-sells ul.products.vamtam-wc li.product .vamtam-product-cats, .elementor-wc-products ul.products.vamtam-wc li.product .vamtam-product-cats{display: none !important;}
+
+:not(.vamtam-limited-layout).woocommerce ul.products li.product:not(.product-category):hover>a img:not([class*=elementor-animation]){transform: scale(1) !important;}
+
+:not(.vamtam-limited-layout).woocommerce ul.products li.product:not(.product-category) .vamtam-product-content{padding-bottom:10px !important;}
+
+.woocommerce ul.products li.product .price{display: none;}
+
+
+:not(.vamtam-limited-layout).woocommerce ul.products li.product:not(.product-category) .woocommerce-loop-product__link{height:85% !important;}/* End custom CSS */

@@ -1,0 +1,1224 @@
+# Copyright (C) 2026 CURCY - Multi Currency for WooCommerce
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: CURCY - Multi Currency for WooCommerce 2.2.20.1.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woo-multi-currency/\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-11-05 06:37+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: audit-fix-i18n.php\n"
+"X-Domain: woo-multi-currency\n"
+#: admin/admin.php:44
+msgid " to set default currency."
+msgstr ""
+
+#: admin/order.php:221
+msgid "(includes %s)"
+msgstr ""
+
+#: plugins/woo_discount_rules.php:86
+msgid "<strong>Multi Currency for WooCommerce and Woo Discount Rules compatibility issue</strong>: To make the two plugins work properly, please go to <a href=\"%s\">Woo Discount Rules/Settings/Third party plugin conflict fixes & options</a> and check the \"No\" checkbox next to \"Do you have custom prices set using another plugin or custom code?\""
+msgstr ""
+
+#: admin/settings.php:660
+msgid "API will help detect customer country code base on IP address."
+msgstr ""
+
+#: admin/settings.php:1569
+msgid "Accept lower bound"
+msgstr ""
+
+#: admin/settings.php:381
+msgid "Action"
+msgstr ""
+
+#: admin/settings.php:707
+msgid "Actions"
+msgstr ""
+
+#: admin/settings.php:1377
+msgid "Active currency background color"
+msgstr ""
+
+#: admin/settings.php:1366
+msgid "Active currency text color"
+msgstr ""
+
+#: admin/settings.php:517
+msgid "Add Currency"
+msgstr ""
+
+#: admin/settings.php:332
+msgid "Add loading layer when loading price via AJAX"
+msgstr ""
+
+#: admin/settings.php:824
+msgid "Add query param to URL to switch currency based on language while using cache plugin that prevents currency from changing based on language"
+msgstr ""
+
+#: admin/settings.php:817
+msgid "Add query params"
+msgstr ""
+
+#: admin/settings.php:942
+msgid "Adjust which pages will appear using WP's conditional tags."
+msgstr ""
+
+#: admin/reports.php:400
+msgid "All currencies"
+msgstr ""
+
+#: admin/settings.php:855
+msgid "All product fields of Multi Currency for WooCommerce will be copied. When you switch language, Currency will change. "
+msgstr ""
+
+#: admin/system.php:65
+msgid "Allow URL Open"
+msgstr ""
+
+#: admin/settings.php:785
+msgid "Allow currency widget change currency"
+msgstr ""
+
+#: admin/settings.php:574
+msgid "Approximate Price"
+msgstr ""
+
+#: admin/settings.php:596
+msgid "Approximate price's label"
+msgstr ""
+
+#: admin/settings.php:609
+msgid "Approximate price's position"
+msgstr ""
+
+#: frontend/price.php:328
+msgid "Approximately"
+msgstr ""
+
+#: admin/settings.php:1313
+msgid "Archive position"
+msgstr ""
+
+#: admin/settings.php:562
+msgid "Auto Detect"
+msgstr ""
+
+#: admin/settings.php:1597
+msgid "Auto Update Exchange Rate"
+msgstr ""
+
+#: admin/settings.php:571
+msgid "Auto select currency"
+msgstr ""
+
+#: admin/settings.php:1176
+#: admin/settings.php:1355
+msgid "Background color"
+msgstr ""
+
+#: admin/order.php:115
+msgid "Base on Currency"
+msgstr ""
+
+#: admin/settings.php:1241
+msgid "Below add to cart (Premium)"
+msgstr ""
+
+#: admin/settings.php:1240
+msgid "Below excerpt"
+msgstr ""
+
+#: admin/settings.php:1242
+msgid "Below meta (Premium)"
+msgstr ""
+
+#: admin/settings.php:1238
+msgid "Below price"
+msgstr ""
+
+#: admin/settings.php:1243
+msgid "Below sharing (Premium)"
+msgstr ""
+
+#: admin/settings.php:1236
+msgid "Below title"
+msgstr ""
+
+#: admin/settings.php:590
+msgid "Besides product price, if you want to show approximate price for cart elements on cart/checkout page, please select them here"
+msgstr ""
+
+#: plugins/woocommerce_bookings.php:114
+msgid "Booking cost"
+msgstr ""
+
+#: admin/settings.php:338
+msgid "Bot currency"
+msgstr ""
+
+#: includes/blocks/index.js:190
+msgid "Bottom"
+msgstr ""
+
+#: admin/settings.php:1028
+msgid "By default, currencies bar will expand on hovering. Enable this option if you want them to only expand when clicking on."
+msgstr ""
+
+#: admin/settings.php:1258
+msgid "By default, dropdown currency selector will expand on hovering. Enable this option if you want them to only expand when clicking on."
+msgstr ""
+
+#: admin/settings.php:1409
+msgid "CSS"
+msgstr ""
+
+#: admin/settings.php:915
+msgid "Cart page"
+msgstr ""
+
+#: plugins/woo-wallet.php:102
+msgid "Cashback"
+msgstr ""
+
+#: admin/settings.php:1499
+msgid "Change currency follow"
+msgstr ""
+
+#: admin/settings.php:1506
+msgid "Change currency when customer change billing or shipping address."
+msgstr ""
+
+#: frontend/widgets/widget-selector.php:20
+msgid "Change display currency on shop page. Widget of Multi Currency for WooCommerce by VillaTheme"
+msgstr ""
+
+#: admin/settings.php:1452
+msgid "Change the currency in cart page to a check out currency."
+msgstr ""
+
+#: admin/settings.php:198
+msgid "Checkout"
+msgstr ""
+
+#: admin/settings.php:1459
+msgid "Checkout currency"
+msgstr ""
+
+#: admin/settings.php:898
+msgid "Checkout page"
+msgstr ""
+
+#: admin/settings.php:1021
+msgid "Click to expand currencies bar"
+msgstr ""
+
+#: admin/settings.php:1251
+msgid "Click to expand currency selector"
+msgstr ""
+
+#: admin/settings.php:932
+msgid "Conditional Tags"
+msgstr ""
+
+#: includes/blocks/index.js:146
+msgid "Configure the block settings to see the preview"
+msgstr ""
+
+#: admin/settings.php:706
+msgid "Countries"
+msgstr ""
+
+#: admin/settings.php:876
+msgid "Currencies Bar"
+msgstr ""
+
+#: admin/order.php:109
+#: admin/settings.php:375
+#: admin/settings.php:705
+msgid "Currency"
+msgstr ""
+
+#: admin/settings.php:1208
+msgid "Currency Code + Name (Premium)"
+msgstr ""
+
+#: admin/order.php:33
+#: admin/order.php:42
+msgid "Currency Information"
+msgstr ""
+
+#: admin/settings.php:364
+msgid "Currency Options"
+msgstr ""
+
+#: admin/settings.php:1193
+msgid "Currency Price Switcher"
+msgstr ""
+
+#: admin/order.php:121
+msgid "Currency Rate"
+msgstr ""
+
+#: frontend/widgets/widget-selector.php:19
+#: includes/blocks/index.js:63
+#: includes/blocks/index.js:144
+msgid "Currency Selector"
+msgstr ""
+
+#: includes/blocks/index.js:158
+msgid "Currency Selector Settings"
+msgstr ""
+
+#: admin/settings.php:1207
+msgid "Currency Symbol (Premium)"
+msgstr ""
+
+#: admin/settings.php:684
+msgid "Currency by Country"
+msgstr ""
+
+#: admin/settings.php:1474
+msgid "Currency by Payment method"
+msgstr ""
+
+#: admin/settings.php:1154
+msgid "Currency name background"
+msgstr ""
+
+#: admin/settings.php:1264
+msgid "Currency price collate"
+msgstr ""
+
+#: admin/order.php:63
+#: admin/order.php:137
+msgid "Currency: "
+msgstr ""
+
+#: admin/settings.php:1388
+msgid "Custom"
+msgstr ""
+
+#: admin/settings.php:1644
+msgid "Custom Email"
+msgstr ""
+
+#: admin/settings.php:380
+msgid "Custom symbol"
+msgstr ""
+
+#: admin/settings.php:547
+msgid "Custom symbol: You can set custom symbol for each currency in your list and how to it will be displayed (used when you have many currency have same symbol). Leave it empty to used default symbol. Example: if you set US$ for US dolar, system will display US$100 instead of $100 like default. Or you can use with pramater #PRICE# to display price in special format, example: if you set US #PRICE# $, system will display: US 100 $."
+msgstr ""
+
+#: admin/settings.php:263
+msgid "Data storage method"
+msgstr ""
+
+#: admin/admin.php:238
+#: frontend/price.php:586
+msgid "Decimals of %1$s must be at least %2$d. Please update the Number of Decimals."
+msgstr ""
+
+#: admin/settings.php:373
+#: admin/settings.php:1129
+#: includes/data.php:791
+#: includes/elementor/widget.php:61
+msgid "Default"
+msgstr ""
+
+#: admin/settings.php:201
+msgid "Design"
+msgstr ""
+
+#: admin/settings.php:1004
+msgid "Desktop"
+msgstr ""
+
+#: includes/blocks/index.js:187
+msgid "Direction"
+msgstr ""
+
+#: admin/settings.php:1071
+msgid "Disable Collapse"
+msgstr ""
+
+#: admin/settings.php:1210
+msgid "Display a currency switcher under product price in single product pages."
+msgstr ""
+
+#: admin/settings.php:1545
+msgid "Display currencies both in the store pages and checkout page if they are different at the checkout page. This option and Fixed price option don't work together."
+msgstr ""
+
+#: includes/blocks/index.js:64
+msgid "Display currency selector for WooCommerce Multi Currency"
+msgstr ""
+
+#: admin/settings.php:1538
+msgid "Display multi currencies"
+msgstr ""
+
+#: admin/settings.php:1271
+msgid "Display product price collated with other currency and display settings (layout, title, position)."
+msgstr ""
+
+#: admin/settings.php:1085
+msgid "Distance from the sidebar center to the screen top corner. Use % to use proportional screen size or px to use pixels."
+msgstr ""
+
+#: admin/settings.php:250
+msgid "Don't use exchange rate"
+msgstr ""
+
+#: admin/settings.php:217
+#: admin/settings.php:840
+#: admin/settings.php:882
+#: admin/settings.php:1428
+#: admin/settings.php:1557
+msgid "Enable"
+msgstr ""
+
+#: admin/settings.php:1444
+msgid "Enable Cart Page"
+msgstr ""
+
+#: admin/settings.php:1013
+msgid "Enable Collapse"
+msgstr ""
+
+#: admin/settings.php:301
+msgid "Enable this if you are using a caching plugin(WP Super cache, W3 total cache, WP rocket, ...) and currency does not remain after being switched by customers in the frontend"
+msgstr ""
+
+#: admin/settings.php:1404
+msgid "Enable this if you want rel=\"nofollow\" to be added to currency switcher buttons"
+msgstr ""
+
+#: admin/settings.php:283
+msgid "Enable this option if you don't want to add \"?wmc-currency={currency}\" to url of currency switcher buttons."
+msgstr ""
+
+#: admin/settings.php:1481
+msgid "Enable this option to change the currency immediately at the checkout order detail when the customer selects a payment gateway, instead of after clicking the 'place order' button."
+msgstr ""
+
+#: admin/settings.php:1072
+msgid "Enable this option to expand the currencies bar."
+msgstr ""
+
+#: admin/settings.php:926
+msgid "Enable to hide Currencies Bar on Cart page."
+msgstr ""
+
+#: admin/settings.php:909
+msgid "Enable to hide Currencies Bar on Checkout page."
+msgstr ""
+
+#: admin/cryptocurrency.php:27
+msgid "Ethereum"
+msgstr ""
+
+#: includes/data.php:613
+msgid "European Union"
+msgstr ""
+
+#: admin/settings.php:1617
+msgid "Exchange rate resources."
+msgstr ""
+
+#: admin/settings.php:1605
+msgid "Exchange will be updated automatically."
+msgstr ""
+
+#: admin/settings.php:1043
+msgid "Expand button background"
+msgstr ""
+
+#: admin/settings.php:1033
+msgid "Expand button color"
+msgstr ""
+
+#: admin/settings.php:1053
+msgid "Expand button opacity"
+msgstr ""
+
+#: admin/settings.php:656
+msgid "External"
+msgstr ""
+
+#: admin/settings.php:669
+msgid "External geo api key"
+msgstr ""
+
+#: admin/settings.php:1610
+msgid "Finance API"
+msgstr ""
+
+#: admin/settings.php:233
+msgid "Fixed Price"
+msgstr ""
+
+#: admin/settings.php:351
+msgid "Fixed Structure currency"
+msgstr ""
+
+#: admin/settings.php:358
+#: admin/settings.php:1119
+msgid "Fixed currency in schema structure data."
+msgstr ""
+
+#: admin/settings.php:1133
+#: admin/settings.php:1202
+msgid "Flag"
+msgstr ""
+
+#: includes/data.php:802
+msgid "Flag + Country + Currency + Symbol"
+msgstr ""
+
+#: admin/settings.php:1204
+msgid "Flag + Currency Code"
+msgstr ""
+
+#: admin/settings.php:1135
+msgid "Flag + Currency code"
+msgstr ""
+
+#: admin/settings.php:1137
+msgid "Flag + Currency symbol"
+msgstr ""
+
+#: admin/settings.php:1206
+msgid "Flag + Price"
+msgstr ""
+
+#: admin/settings.php:1329
+msgid "Flag Custom"
+msgstr ""
+
+#: includes/blocks/index.js:174
+msgid "Flag Size"
+msgstr ""
+
+#: frontend/widgets/widget-selector.php:71
+#: includes/elementor/widget.php:79
+msgid "Flag size"
+msgstr ""
+
+#: frontend/price.php:129
+msgid "Free"
+msgstr ""
+
+#: plugins/woo-product-bundle.php:113
+#: plugins/woo-product-bundle.php:144
+msgid "From"
+msgstr ""
+
+#: frontend/price.php:124
+msgid "From: %s"
+msgstr ""
+
+#: admin/settings.php:192
+#: includes/elementor/widget.php:49
+msgid "General"
+msgstr ""
+
+#: admin/settings.php:647
+msgid "Geo API"
+msgstr ""
+
+#: admin/settings.php:753
+msgid "Get country by currency"
+msgstr ""
+
+#: admin/settings.php:676
+msgid "Go to"
+msgstr ""
+
+#: admin/settings.php:374
+msgid "Hidden"
+msgstr ""
+
+#: admin/settings.php:433
+#: admin/settings.php:434
+msgid "Hidden currencies on widget, shortcode and sidebar"
+msgstr ""
+
+#: includes/data.php:799
+#: includes/elementor/widget.php:69
+msgid "Horizontal Currency Slide"
+msgstr ""
+
+#: includes/data.php:798
+#: includes/elementor/widget.php:68
+msgid "Horizontal Currency Symbols"
+msgstr ""
+
+#: admin/settings.php:1165
+msgid "Hover color"
+msgstr ""
+
+#: admin/settings.php:1651
+msgid "If empty, notification will sent to "
+msgstr ""
+
+#: admin/settings.php:257
+msgid "If enabled, products without fixed prices are not automatically converted by the exchange rate"
+msgstr ""
+
+#: admin/settings.php:657
+msgid "Inherited from server (Premium)"
+msgstr ""
+
+#: admin/settings.php:621
+msgid "Initial currency"
+msgstr ""
+
+#: admin/settings.php:572
+msgid "Initial currency (Premium)"
+msgstr ""
+
+#: admin/settings.php:472
+msgid "It is fixed rate. Eg: (Original rate)1.62 + 0.1(Exchange fee rate) = 1.72(End rate)"
+msgstr ""
+
+#: admin/settings.php:575
+msgid "Language Polylang (Premium)"
+msgstr ""
+
+#: admin/settings.php:773
+#: admin/settings.php:805
+#: admin/settings.php:861
+msgid "Language switcher"
+msgstr ""
+
+#: frontend/widgets/widget-selector.php:77
+msgid "Large"
+msgstr ""
+
+#: frontend/widgets/widget-selector.php:61
+#: includes/blocks/index.js:162
+msgid "Layout"
+msgstr ""
+
+#: plugins/catna.php:97
+msgid "Leave blank to not limit that"
+msgstr ""
+
+#: admin/settings.php:978
+msgid "Left"
+msgstr ""
+
+#: admin/settings.php:453
+msgid "Left $99"
+msgstr ""
+
+#: admin/settings.php:457
+msgid "Left with space $ 99"
+msgstr ""
+
+#: frontend/widgets/widget-rates.php:19
+msgid "List Currency Rates"
+msgstr ""
+
+#: includes/data.php:797
+#: includes/elementor/widget.php:67
+msgid "List Flag + Currency Code"
+msgstr ""
+
+#: includes/data.php:795
+#: includes/elementor/widget.php:65
+msgid "List Flag Horizontal"
+msgstr ""
+
+#: includes/data.php:796
+#: includes/elementor/widget.php:66
+msgid "List Flag Vertical"
+msgstr ""
+
+#: includes/data.php:794
+#: includes/elementor/widget.php:64
+msgid "Listbox currency code"
+msgstr ""
+
+#: admin/cryptocurrency.php:26
+msgid "Litecoin"
+msgstr ""
+
+#: includes/blocks/index.js:134
+msgid "Loading preview..."
+msgstr ""
+
+#: admin/settings.php:321
+msgid "Loading price mask"
+msgstr ""
+
+#: admin/settings.php:195
+msgid "Location"
+msgstr ""
+
+#: admin/settings.php:1143
+msgid "Main color"
+msgstr ""
+
+#: admin/settings.php:1090
+msgid "Max height (px)"
+msgstr ""
+
+#: admin/settings.php:658
+msgid "MaxMind Geolocation (Premium)"
+msgstr ""
+
+#: plugins/catna.php:98
+msgid "Maximum price"
+msgstr ""
+
+#: admin/system.php:60
+msgid "Memory Limit"
+msgstr ""
+
+#: plugins/catna.php:86
+msgid "Minimum acceptable price"
+msgstr ""
+
+#: plugins/catna.php:87
+msgid "Minimum price"
+msgstr ""
+
+#: admin/settings.php:1064
+msgid "Mobile"
+msgstr ""
+
+#: admin/admin.php:280
+#: admin/product.php:76
+#: includes/elementor/widget.php:34
+msgid "Multi Currency"
+msgstr ""
+
+#: admin/admin.php:280
+#: plugins/visual_composer.php:31
+#: plugins/visual_composer.php:46
+#: plugins/visual_composer.php:61
+#: plugins/visual_composer.php:76
+#: plugins/visual_composer.php:91
+#: plugins/visual_composer.php:105
+#: plugins/visual_composer.php:120
+msgid "Multi Currency for WooCommerce"
+msgstr ""
+
+#: admin/settings.php:187
+msgid "Multi Currency for WooCommerce Settings"
+msgstr ""
+
+#: admin/admin.php:44
+msgid "Multi Currency for WooCommerce setting page"
+msgstr ""
+
+#: admin/settings.php:437
+#: admin/settings.php:569
+msgid "No"
+msgstr ""
+
+#: frontend/cache.php:83
+msgid "Nonce invalid"
+msgstr ""
+
+#: admin/settings.php:1200
+msgid "Not Show"
+msgstr ""
+
+#: admin/settings.php:379
+msgid "Number of Decimals"
+msgstr ""
+
+#: admin/settings.php:270
+msgid "On certain servers, some storage methods may cause the selected currency to reset to the default after selection. If this occurs, try using a different storage method."
+msgstr ""
+
+#: plugins/woocommerce_wholesale_prices.php:96
+#: plugins/woocommerce_wholesale_prices.php:178
+msgid "Only applies to users with the role of %1$s"
+msgstr ""
+
+#: admin/settings.php:1519
+msgid "Only change currency when customer changes shipping country field (if disabled, when customer is not set \"shipping to a different address\", get shipping country by billing country)"
+msgstr ""
+
+#: admin/settings.php:1512
+msgid "Only get shipping address"
+msgstr ""
+
+#: admin/settings.php:695
+msgid "Only working with AUTO SELECT CURRENCY feature. Currency will be selected base on country."
+msgstr ""
+
+#: admin/system.php:55
+msgid "PHP Max Input Vars"
+msgstr ""
+
+#: admin/system.php:51
+msgid "PHP Time Limit"
+msgstr ""
+
+#: admin/settings.php:1438
+msgid "Pay in many currencies"
+msgstr ""
+
+#: admin/settings.php:1468
+msgid "Payment method depend on Payment Gateway. If Payment Gateway is not support currency, customer can not checkout with currency. Example: Paypal is not support IDR, Customer can not checkout IDR by Paypal."
+msgstr ""
+
+#: includes/data.php:792
+#: includes/elementor/widget.php:62
+msgid "Plain Horizontal"
+msgstr ""
+
+#: includes/data.php:793
+#: includes/elementor/widget.php:63
+msgid "Plain Vertical"
+msgstr ""
+
+#: plugins/woo-wallet.php:260
+msgid "Please <a href=\"%1$s\">log in</a> to avail %2$s cashback from this order."
+msgstr ""
+
+#: frontend/widgets/widget-rates.php:54
+#: frontend/widgets/widget-selector.php:55
+msgid "Please enter your title"
+msgstr ""
+
+#: admin/settings.php:721
+msgid "Please select countries"
+msgstr ""
+
+#: frontend/shortcode.php:81
+msgid "Please select your currency"
+msgstr ""
+
+#: admin/settings.php:799
+msgid "Polylang"
+msgstr ""
+
+#: admin/settings.php:376
+#: admin/settings.php:963
+msgid "Position"
+msgstr ""
+
+#: admin/settings.php:1245
+msgid "Position of currency switcher in single product pages, it may be affected by the theme or product template"
+msgstr ""
+
+#: admin/settings.php:1277
+msgid "Price collate layout"
+msgstr ""
+
+#: admin/settings.php:204
+msgid "Price format"
+msgstr ""
+
+#: admin/settings.php:1580
+msgid "Price format rules"
+msgstr ""
+
+#: admin/settings.php:1187
+msgid "Product currency selector"
+msgstr ""
+
+#: admin/settings.php:378
+msgid "Rate + Exchange Fee"
+msgstr ""
+
+#: admin/settings.php:1622
+msgid "Rate Decimals"
+msgstr ""
+
+#: admin/product.php:152
+#: plugins/yith_product_bundles.php:37
+msgid "Regular Price"
+msgstr ""
+
+#: admin/product.php:199
+msgid "Regular Price:"
+msgstr ""
+
+#: admin/settings.php:308
+msgid "Reload filter price"
+msgstr ""
+
+#: admin/settings.php:502
+#: admin/settings.php:503
+msgid "Remove"
+msgstr ""
+
+#: admin/settings.php:744
+msgid "Remove All"
+msgstr ""
+
+#: admin/settings.php:315
+msgid "Reset price filter when loading via AJAX"
+msgstr ""
+
+#: admin/settings.php:994
+msgid "Right"
+msgstr ""
+
+#: admin/settings.php:455
+msgid "Right 99$"
+msgstr ""
+
+#: admin/settings.php:459
+msgid "Right with space 99 $"
+msgstr ""
+
+#: admin/product.php:160
+#: plugins/yith_product_bundles.php:44
+msgid "Sale Price"
+msgstr ""
+
+#: admin/product.php:206
+msgid "Sale Price:"
+msgstr ""
+
+#: admin/settings.php:1661
+msgid "Save"
+msgstr ""
+
+#: admin/settings.php:741
+msgid "Select all"
+msgstr ""
+
+#: includes/elementor/widget.php:57
+msgid "Select switcher layout"
+msgstr ""
+
+#: admin/settings.php:345
+msgid "Select the currency that you want to show to Bots(web crawler tools) when they crawl your site. If not set, Bots will be treated like normal visitors which means that the auto-detect currency(if enabled) will also apply to them."
+msgstr ""
+
+#: admin/settings.php:1632
+msgid "Send Email"
+msgstr ""
+
+#: admin/settings.php:1639
+msgid "Send email to admin when exchange rate is updated."
+msgstr ""
+
+#: admin/system.php:77
+msgid "Session path"
+msgstr ""
+
+#: admin/product.php:83
+msgid "Set regular prices"
+msgstr ""
+
+#: admin/product.php:84
+msgid "Set sale prices"
+msgstr ""
+
+#: admin/settings.php:244
+msgid "Set up product price in each currency manually, this price will overwrite the calculated price."
+msgstr ""
+
+#: admin/admin.php:251
+msgid "Settings"
+msgstr ""
+
+#: admin/settings.php:1339
+msgid "Shortcode"
+msgstr ""
+
+#: admin/settings.php:583
+msgid "Show Approximate price for"
+msgstr ""
+
+#: frontend/widgets/widget-rates.php:20
+msgid "Show list currency exchange rates of Multi Currency for WooCommerce by VillaTheme"
+msgstr ""
+
+#: admin/settings.php:1112
+msgid "Sidebar layout"
+msgstr ""
+
+#: admin/settings.php:1015
+msgid "Sidebar will collapse if you have many currencies."
+msgstr ""
+
+#: admin/settings.php:1301
+msgid "Single product position"
+msgstr ""
+
+#: frontend/widgets/widget-selector.php:76
+msgid "Small"
+msgstr ""
+
+#: admin/settings.php:1334
+msgid "Some countries use the same currency. You can choice flag correctly. Each line is the flag. Structure [currency_code,country_code]. Example: EUR,ES"
+msgstr ""
+
+#: admin/settings.php:1124
+msgid "Style"
+msgstr ""
+
+#: admin/settings.php:276
+msgid "Switch Currency by JS"
+msgstr ""
+
+#: admin/settings.php:640
+msgid "Switch currency by user address when user login"
+msgstr ""
+
+#: admin/settings.php:633
+msgid "Switch when user login"
+msgstr ""
+
+#: admin/settings.php:1228
+msgid "Switcher Position"
+msgstr ""
+
+#: admin/settings.php:1216
+msgid "Switcher layout"
+msgstr ""
+
+#: admin/settings.php:1131
+msgid "Symbol"
+msgstr ""
+
+#: admin/settings.php:1525
+msgid "Sync checkout currency"
+msgstr ""
+
+#: admin/system.php:21
+#: admin/system.php:124
+msgid "System Status"
+msgstr ""
+
+#: admin/settings.php:1100
+#: admin/settings.php:1344
+msgid "Text color"
+msgstr ""
+
+#: admin/admin.php:236
+#: frontend/price.php:582
+msgid "The %s exchange rate must be greater than 0. Please update the exchange rate."
+msgstr ""
+
+#: admin/admin.php:44
+msgid "The following options affect how prices are displayed on the frontend. Multi Currency for WooCommerce is working. Please go to "
+msgstr ""
+
+#: admin/settings.php:1563
+msgid "This option only works when input price same as output price (both include tax or exclude tax)"
+msgstr ""
+
+#: admin/settings.php:953
+#: admin/settings.php:1289
+#: plugins/visual_composer.php:39
+#: plugins/visual_composer.php:54
+#: plugins/visual_composer.php:69
+#: plugins/visual_composer.php:84
+#: plugins/visual_composer.php:99
+#: plugins/visual_composer.php:113
+#: plugins/visual_composer.php:128
+msgid "Title"
+msgstr ""
+
+#: frontend/widgets/widget-rates.php:53
+#: frontend/widgets/widget-selector.php:54
+msgid "Title:"
+msgstr ""
+
+#: admin/system.php:84
+msgid "To allow logging, make %1$s writable."
+msgstr ""
+
+#: includes/blocks/index.js:191
+msgid "Top"
+msgstr ""
+
+#: admin/settings.php:1078
+msgid "Top position"
+msgstr ""
+
+#: admin/settings.php:767
+msgid "TranslatePress - Multilingual"
+msgstr ""
+
+#: admin/settings.php:576
+msgid "TranslatePress Multilingual (Premium)"
+msgstr ""
+
+#: admin/settings.php:256
+#: admin/settings.php:269
+#: admin/settings.php:282
+#: admin/settings.php:314
+#: admin/settings.php:344
+#: admin/settings.php:357
+#: admin/settings.php:545
+#: admin/settings.php:589
+#: admin/settings.php:602
+#: admin/settings.php:615
+#: admin/settings.php:627
+#: admin/settings.php:639
+#: admin/settings.php:756
+#: admin/settings.php:779
+#: admin/settings.php:791
+#: admin/settings.php:811
+#: admin/settings.php:823
+#: admin/settings.php:853
+#: admin/settings.php:867
+#: admin/settings.php:1027
+#: admin/settings.php:1038
+#: admin/settings.php:1048
+#: admin/settings.php:1058
+#: admin/settings.php:1070
+#: admin/settings.php:1084
+#: admin/settings.php:1095
+#: admin/settings.php:1118
+#: admin/settings.php:1159
+#: admin/settings.php:1171
+#: admin/settings.php:1222
+#: admin/settings.php:1257
+#: admin/settings.php:1270
+#: admin/settings.php:1283
+#: admin/settings.php:1295
+#: admin/settings.php:1307
+#: admin/settings.php:1319
+#: admin/settings.php:1450
+#: admin/settings.php:1466
+#: admin/settings.php:1480
+#: admin/settings.php:1493
+#: admin/settings.php:1505
+#: admin/settings.php:1518
+#: admin/settings.php:1531
+#: admin/settings.php:1544
+#: admin/settings.php:1562
+#: admin/settings.php:1575
+#: admin/settings.php:1585
+#: admin/settings.php:1603
+#: admin/settings.php:1615
+#: admin/settings.php:1638
+#: admin/settings.php:1649
+msgid "Unlock This Feature"
+msgstr ""
+
+#: admin/settings.php:207
+msgid "Update"
+msgstr ""
+
+#: admin/settings.php:520
+msgid "Update All Rates"
+msgstr ""
+
+#: admin/settings.php:494
+#: admin/settings.php:495
+msgid "Update Rate"
+msgstr ""
+
+#: plugins/woo-wallet.php:257
+msgid "Upon placing this order a cashback of %s will be credited to your wallet."
+msgstr ""
+
+#: admin/settings.php:289
+msgid "Use cache plugin"
+msgstr ""
+
+#: admin/settings.php:1394
+msgid "Use rel=\"nofollow\""
+msgstr ""
+
+#: admin/settings.php:603
+msgid "Use {price} to display price in special format. Example: (~ {price})"
+msgstr ""
+
+#: includes/data.php:800
+#: includes/elementor/widget.php:70
+msgid "Vertical Currency Symbols"
+msgstr ""
+
+#: includes/data.php:801
+#: includes/elementor/widget.php:71
+msgid "Vertical Currency Symbols (circle)"
+msgstr ""
+
+#: admin/reports.php:420
+msgid "View in default currency"
+msgstr ""
+
+#: admin/settings.php:835
+msgid "WPML.org"
+msgstr ""
+
+#: admin/settings.php:1532
+msgid "When currency is switched on cart/checkout page by the \"Change currency follow\" option above, also switch currency of the whole current customer session"
+msgstr ""
+
+#: plugins/woocommerce_wholesale_prices.php:80
+#: plugins/woocommerce_wholesale_prices.php:162
+msgid "Wholesale Prices"
+msgstr ""
+
+#: admin/settings.php:1324
+msgid "Widget"
+msgstr ""
+
+#: admin/settings.php:1487
+msgid "Without reload checkout page"
+msgstr ""
+
+#: admin/settings.php:654
+#: plugins/visual_composer.php:35
+#: plugins/visual_composer.php:50
+#: plugins/visual_composer.php:65
+#: plugins/visual_composer.php:80
+#: plugins/visual_composer.php:95
+#: plugins/visual_composer.php:109
+#: plugins/visual_composer.php:124
+msgid "WooCommerce"
+msgstr ""
+
+#: admin/settings.php:439
+msgid "Yes"
+msgstr ""
+
+#: admin/settings.php:542
+msgid "You can add up to 2 currencies. To add unlimited currencies and access more settings, such as Flag, Exchange Fee Type, and Decimal Separator, please upgrade to the Pro version.."
+msgstr ""
+
+#: admin/system.php:89
+msgid "Your IP"
+msgstr ""
+
+#: admin/cryptocurrency.php:28
+msgid "Zimbabwe"
+msgstr ""
+
+#: admin/system.php:101
+msgid "[WooCommerce] Your GEO IP"
+msgstr ""
+
+#: admin/system.php:95
+msgid "[WooCommerce] Your IP"
+msgstr ""
+
+#: admin/system.php:107
+msgid "_SERVER system"
+msgstr ""
+
+#: admin/settings.php:678
+msgid "create account and paste API Key here to use."
+msgstr ""
+
+#: admin/settings.php:936
+msgid "eg: !is_page(array(34,98,73))"
+msgstr ""
+
+#: admin/settings.php:946
+msgid "more"
+msgstr ""
+
